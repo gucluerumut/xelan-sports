@@ -1,0 +1,39 @@
+name: TikTok Scraper
+
+on:
+  # Manual trigger
+  workflow_dispatch:
+  
+  # Weekly schedule - Every Monday at 09:00 UTC
+  schedule:
+    - cron: '0 9 * * 1'
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests firebase-admin
+      
+      - name: Run TikTok scraper
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          python scripts/scrape_tiktok.py
+      
+      - name: Upload results artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tiktok-results
+          path: tiktok_results.json
+          retention-days: 30

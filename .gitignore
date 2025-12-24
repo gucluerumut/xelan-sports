@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Firebase
+.firebase/
+service-account.json
+
+# Scraping temp files
+scrape_results.json
+tiktok_results.json
+
+# Data files
+*.rtf
