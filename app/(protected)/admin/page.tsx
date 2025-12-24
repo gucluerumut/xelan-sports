@@ -19,15 +19,18 @@ export default function AdminPage() {
     const [seeding, setSeeding] = useState(false);
     const [editingTeam, setEditingTeam] = useState<FirestoreTeam | null>(null);
     const [saving, setSaving] = useState(false);
+    const [selectedLeague, setSelectedLeague] = useState("Premier League");
 
-    // Load Premier League teams
+    const LEAGUES = ["Premier League", "La Liga", "Serie A", "Ligue 1", "Süper Lig"];
+
+    // Load teams when league changes
     useEffect(() => {
         loadTeams();
-    }, []);
+    }, [selectedLeague]);
 
     const loadTeams = async () => {
         setLoading(true);
-        const fetchedTeams = await getTeamsByLeague("Premier League");
+        const fetchedTeams = await getTeamsByLeague(selectedLeague);
         setTeams(fetchedTeams);
         setLoading(false);
     };
@@ -81,7 +84,7 @@ export default function AdminPage() {
                             <Settings className="h-8 w-8 text-blue-500" />
                             Admin Panel
                         </h1>
-                        <p className="text-gray-400">Premier League takım verilerini yönetin</p>
+                        <p className="text-gray-400">Tüm liglerdeki takım verilerini yönetin</p>
                     </div>
 
                     {teams.length === 0 && !loading && (
@@ -94,6 +97,29 @@ export default function AdminPage() {
                             {seeding ? "Yükleniyor..." : "Verileri Yükle"}
                         </button>
                     )}
+                </div>
+
+                {/* League Selector */}
+                <div className="mb-6">
+                    <label className="block text-sm font-medium text-gray-400 mb-2">
+                        Lig Seçin
+                    </label>
+                    <div className="flex gap-2 flex-wrap">
+                        {LEAGUES.map((league) => (
+                            <button
+                                key={league}
+                                onClick={() => setSelectedLeague(league)}
+                                className={cn(
+                                    "px-4 py-2 rounded-lg font-medium transition-all active:scale-95",
+                                    selectedLeague === league
+                                        ? "bg-blue-600 text-white"
+                                        : "bg-gray-800 text-gray-400 hover:bg-gray-700"
+                                )}
+                            >
+                                {league}
+                            </button>
+                        ))}
+                    </div>
                 </div>
 
                 {loading ? (

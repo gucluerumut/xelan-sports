@@ -202,7 +202,11 @@ def scrape_tiktok_requests(username: str) -> int:
         return 0
 
 def update_firestore(team_id: str, instagram: int, tiktok: int, db):
-    """Update team's social media followers in Firestore"""
+    """
+    Update team's social media followers in Firestore
+    Only updates platforms where scraping succeeded (followers > 0)
+    Preserves existing data for failed scrapes
+    """
     try:
         doc_ref = db.collection('teams').document(team_id)
         doc = doc_ref.get()
@@ -211,21 +215,27 @@ def update_firestore(team_id: str, instagram: int, tiktok: int, db):
             current_data = doc.to_dict()
             socials = current_data.get('socials', {})
             
-            # Update Instagram
+            # Only update Instagram if we got data (> 0)
             if instagram > 0:
                 if 'instagram' in socials:
                     socials['instagram']['followers'] = instagram
                 else:
                     socials['instagram'] = {'username': '', 'followers': instagram}
+            # If scraping failed but data exists, keep existing value
+            elif 'instagram' not in socials:
+                socials['instagram'] = {'username': '', 'followers': 0}
             
-            # Update TikTok
+            # Only update TikTok if we got data (> 0)
             if tiktok > 0:
                 if 'tiktok' in socials:
                     socials['tiktok']['followers'] = tiktok
                 else:
                     socials['tiktok'] = {'username': '', 'followers': tiktok}
+            # If scraping failed but data exists, keep existing value
+            elif 'tiktok' not in socials:
+                socials['tiktok'] = {'username': '', 'followers': 0}
             
-            # Recalculate total
+            # Recalculate total from all platforms
             total = (
                 socials.get('instagram', {}).get('followers', 0) +
                 socials.get('twitter', {}).get('followers', 0) +

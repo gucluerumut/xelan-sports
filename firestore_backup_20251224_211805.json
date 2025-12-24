@@ -1,0 +1,466 @@
+{
+  "backup_date": "2025-12-24T21:18:05.369591",
+  "total_teams": 20,
+  "teams": [
+    {
+      "league": "Premier League",
+      "totalFollowers": 55041958,
+      "id": "arsenal",
+      "socials": {
+        "tiktok": {
+          "username": "arsenal",
+          "followers": 11000000
+        },
+        "instagram": {
+          "username": "arsenal",
+          "followers": 31458542
+        },
+        "twitter": {
+          "username": "Arsenal",
+          "followers": 12583416
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T17:00:52.558000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
+      "name": "Arsenal"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 10739242,
+      "id": "aston-villa",
+      "socials": {
+        "tiktok": {
+          "username": "avfcofficial",
+          "followers": 4600000
+        },
+        "instagram": {
+          "username": "avlofficiel",
+          "followers": 4385173
+        },
+        "twitter": {
+          "username": "AVFCOfficial",
+          "followers": 1754069
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T17:00:54.161000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t7.png",
+      "name": "Aston Villa"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 2880000,
+      "id": "bournemouth",
+      "socials": {
+        "tiktok": {
+          "username": "afcb",
+          "followers": 1900000
+        },
+        "instagram": {
+          "username": "afcb",
+          "followers": 700000
+        },
+        "twitter": {
+          "username": "AFCBournemouth",
+          "followers": 280000
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T17:01:04.635000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t91.png",
+      "name": "AFC Bournemouth"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 3140000,
+      "id": "brentford",
+      "socials": {
+        "tiktok": {
+          "username": "brentfordfc",
+          "followers": 2300000
+        },
+        "instagram": {
+          "username": "brentfordfc",
+          "followers": 600000
+        },
+        "twitter": {
+          "username": "BrentfordFC",
+          "followers": 240000
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T17:01:02.626000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t94.png",
+      "name": "Brentford"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 5080000,
+      "id": "brighton",
+      "socials": {
+        "tiktok": {
+          "username": "officialbhafc",
+          "followers": 3400000
+        },
+        "instagram": {
+          "username": "officialbhafc",
+          "followers": 1200000
+        },
+        "twitter": {
+          "username": "OfficialBHAFC",
+          "followers": 480000
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T17:01:00.185000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+      "name": "Brighton & Hove Albion"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 83419020,
+      "id": "chelsea",
+      "socials": {
+        "tiktok": {
+          "username": "chelseafc",
+          "followers": 21600000
+        },
+        "instagram": {
+          "username": "chelseafc",
+          "followers": 44156443
+        },
+        "twitter": {
+          "username": "ChelseaFC",
+          "followers": 17662577
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T17:00:55.139000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+      "name": "Chelsea"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 3040000,
+      "id": "crystal-palace",
+      "socials": {
+        "tiktok": {
+          "username": "cpfc",
+          "followers": 1500000
+        },
+        "instagram": {
+          "username": "cpfc",
+          "followers": 1100000
+        },
+        "twitter": {
+          "username": "CPFC",
+          "followers": 440000
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T17:00:58.637000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t31.png",
+      "name": "Crystal Palace"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 9420000,
+      "id": "everton",
+      "socials": {
+        "tiktok": {
+          "username": "everton",
+          "followers": 4100000
+        },
+        "instagram": {
+          "username": "everton",
+          "followers": 3800000
+        },
+        "twitter": {
+          "username": "Everton",
+          "followers": 1520000
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T17:01:01.071000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t11.png",
+      "name": "Everton"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 2660000,
+      "id": "fulham",
+      "socials": {
+        "tiktok": {
+          "username": "fulhamfc",
+          "followers": 1400000
+        },
+        "instagram": {
+          "username": "fulhamfc",
+          "followers": 900000
+        },
+        "twitter": {
+          "username": "FulhamFC",
+          "followers": 360000
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T17:01:05.626000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t54.png",
+      "name": "Fulham"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 870600,
+      "id": "ipswich-town",
+      "socials": {
+        "tiktok": {
+          "username": "ipswichtown",
+          "followers": 450600
+        },
+        "instagram": {
+          "username": "ipswichtown",
+          "followers": 300000
+        },
+        "twitter": {
+          "username": "IpswichTown",
+          "followers": 120000
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T16:30:29.061000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t40.png",
+      "name": "Ipswich Town"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 15013888,
+      "id": "leicester-city",
+      "socials": {
+        "tiktok": {
+          "username": "lcfc",
+          "followers": 3700000
+        },
+        "instagram": {
+          "username": "lcfc",
+          "followers": 7813888
+        },
+        "twitter": {
+          "username": "LCFC",
+          "followers": 3500000
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T16:30:21.548000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t13.png",
+      "name": "Leicester City"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 96827801,
+      "id": "liverpool",
+      "socials": {
+        "tiktok": {
+          "username": "liverpoolfc",
+          "followers": 28100000
+        },
+        "instagram": {
+          "username": "liverpoolfc",
+          "followers": 49091287
+        },
+        "twitter": {
+          "username": "LFC",
+          "followers": 19636514
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T17:00:56.142000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t14.png",
+      "name": "Liverpool"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 112552997,
+      "id": "manchester-city",
+      "socials": {
+        "tiktok": {
+          "username": "mancity",
+          "followers": 33800000
+        },
+        "instagram": {
+          "username": "mancity",
+          "followers": 56252141
+        },
+        "twitter": {
+          "username": "ManCity",
+          "followers": 22500856
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T17:00:53.374000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
+      "name": "Manchester City"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 122570882,
+      "id": "manchester-united",
+      "socials": {
+        "tiktok": {
+          "username": "manutd",
+          "followers": 31000000
+        },
+        "instagram": {
+          "username": "manchesterunited",
+          "followers": 65407773
+        },
+        "twitter": {
+          "username": "ManUtd",
+          "followers": 26163109
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T17:00:57.484000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t1.png",
+      "name": "Manchester United"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 12212275,
+      "id": "newcastle-united",
+      "socials": {
+        "tiktok": {
+          "username": "nufc",
+          "followers": 7500000
+        },
+        "instagram": {
+          "username": "nuabornewest",
+          "followers": 3365911
+        },
+        "twitter": {
+          "username": "NUFC",
+          "followers": 1346364
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T17:01:01.845000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
+      "name": "Newcastle United"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 1400011,
+      "id": "nottingham-forest",
+      "socials": {
+        "tiktok": {
+          "username": "nffc",
+          "followers": 11
+        },
+        "instagram": {
+          "username": "naborneforest",
+          "followers": 1000000
+        },
+        "twitter": {
+          "username": "NFFC",
+          "followers": 400000
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T17:01:06.913000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t17.png",
+      "name": "Nottingham Forest"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 3200000,
+      "id": "southampton",
+      "socials": {
+        "tiktok": {
+          "username": "southamptonfc",
+          "followers": 1100000
+        },
+        "instagram": {
+          "username": "southamptonfc",
+          "followers": 1500000
+        },
+        "twitter": {
+          "username": "SouthamptonFC",
+          "followers": 600000
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T16:30:29.767000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t20.png",
+      "name": "Southampton"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 67651871,
+      "id": "tottenham-hotspur",
+      "socials": {
+        "tiktok": {
+          "username": "spursofficial",
+          "followers": 43100000
+        },
+        "instagram": {
+          "username": "spursofficial",
+          "followers": 17537051
+        },
+        "twitter": {
+          "username": "SpursOfficial",
+          "followers": 7014820
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T17:01:03.467000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t6.png",
+      "name": "Tottenham Hotspur"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 13272211,
+      "id": "west-ham-united",
+      "socials": {
+        "tiktok": {
+          "username": "westham",
+          "followers": 7000000
+        },
+        "instagram": {
+          "username": "westham",
+          "followers": 4480151
+        },
+        "twitter": {
+          "username": "WestHam",
+          "followers": 1792060
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T17:01:07.700000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t21.png",
+      "name": "West Ham United"
+    },
+    {
+      "league": "Premier League",
+      "totalFollowers": 6240000,
+      "id": "wolverhampton",
+      "socials": {
+        "tiktok": {
+          "username": "wolves",
+          "followers": 3300000
+        },
+        "instagram": {
+          "username": "wolves",
+          "followers": 2100000
+        },
+        "twitter": {
+          "username": "Wolves",
+          "followers": 840000
+        }
+      },
+      "country": "England",
+      "updatedAt": "2025-12-24T17:01:09.644000+00:00",
+      "logo": "https://resources.premierleague.com/premierleague/badges/50/t39.png",
+      "name": "Wolverhampton Wanderers"
+    }
+  ]
+}
