@@ -1,0 +1,78 @@
+{
+  "tested_at": "2025-12-24T20:26:34.569963",
+  "rapidapi_key_set": true,
+  "results": [
+    {
+      "name": "Manchester City",
+      "instagram": "mancity",
+      "twitter": "ManCity",
+      "platform": "Instagram",
+      "success": false,
+      "error": "Status 403",
+      "api": "Instagram Scraper Stable"
+    },
+    {
+      "name": "Manchester City",
+      "instagram": "mancity",
+      "twitter": "ManCity",
+      "platform": "Instagram",
+      "success": false,
+      "error": "Status 403",
+      "api": "Instagram Cheap & Fast"
+    },
+    {
+      "name": "Manchester City",
+      "instagram": "mancity",
+      "twitter": "ManCity",
+      "platform": "Twitter",
+      "success": false,
+      "error": "Status 403",
+      "api": "Twitter Official"
+    },
+    {
+      "name": "Manchester City",
+      "instagram": "mancity",
+      "twitter": "ManCity",
+      "platform": "Twitter",
+      "success": false,
+      "error": "Status 403",
+      "api": "Twitter AIO"
+    },
+    {
+      "name": "Liverpool",
+      "instagram": "liverpoolfc",
+      "twitter": "LFC",
+      "platform": "Instagram",
+      "success": false,
+      "error": "Status 403",
+      "api": "Instagram Scraper Stable"
+    },
+    {
+      "name": "Liverpool",
+      "instagram": "liverpoolfc",
+      "twitter": "LFC",
+      "platform": "Instagram",
+      "success": false,
+      "error": "Status 403",
+      "api": "Instagram Cheap & Fast"
+    },
+    {
+      "name": "Liverpool",
+      "instagram": "liverpoolfc",
+      "twitter": "LFC",
+      "platform": "Twitter",
+      "success": false,
+      "error": "Status 403",
+      "api": "Twitter Official"
+    },
+    {
+      "name": "Liverpool",
+      "instagram": "liverpoolfc",
+      "twitter": "LFC",
+      "platform": "Twitter",
+      "success": false,
+      "error": "Status 429",
+      "api": "Twitter AIO"
+    }
+  ]
+}

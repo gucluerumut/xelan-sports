@@ -1,0 +1,39 @@
+{
+  "tested_at": "2025-12-24T20:58:20.490564",
+  "results": [
+    {
+      "name": "Manchester City",
+      "instagram": "mancity",
+      "twitter": "ManCity",
+      "platform": "Instagram",
+      "success": true,
+      "followers": 56000000,
+      "source": "meta_tag_rounded"
+    },
+    {
+      "name": "Manchester City",
+      "instagram": "mancity",
+      "twitter": "ManCity",
+      "platform": "Twitter",
+      "success": false,
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://twitter.com/ManCity\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Liverpool",
+      "instagram": "liverpoolfc",
+      "twitter": "LFC",
+      "platform": "Instagram",
+      "success": true,
+      "followers": 49000000,
+      "source": "meta_tag_rounded"
+    },
+    {
+      "name": "Liverpool",
+      "instagram": "liverpoolfc",
+      "twitter": "LFC",
+      "platform": "Twitter",
+      "success": false,
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://twitter.com/LFC\", waiting until \"networkidle\"\n"
+    }
+  ]
+}

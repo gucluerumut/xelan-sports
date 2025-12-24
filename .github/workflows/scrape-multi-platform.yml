@@ -1,0 +1,36 @@
+name: Multi-Platform Scraper (Instagram + TikTok)
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'  # Every Monday at 09:00 UTC (12:00 TR)
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests firebase-admin playwright
+          playwright install chromium
+      
+      - name: Run multi-platform scraper
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: python scripts/scrape_multi_platform.py
+      
+      - name: Upload results artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: multi-platform-results
+          path: multi_platform_results.json
+          retention-days: 30
