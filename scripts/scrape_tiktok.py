@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Premier League TikTok Follower Scraper
-Updates Firestore with latest TikTok follower counts
+Multi-League TikTok Follower Scraper
+Updates Firestore with latest TikTok follower counts for all leagues
 """
 
 import requests
@@ -19,29 +19,115 @@ except ImportError:
     FIREBASE_AVAILABLE = False
     print("⚠️ firebase-admin not installed. Results will only be saved to JSON.")
 
-# All Premier League Teams with TikTok usernames
-PREMIER_LEAGUE_TEAMS = [
-    {"id": "manchester-city", "name": "Manchester City", "tiktok": "mancity"},
-    {"id": "manchester-united", "name": "Manchester United", "tiktok": "manutd"},
-    {"id": "liverpool", "name": "Liverpool", "tiktok": "liverpoolfc"},
-    {"id": "chelsea", "name": "Chelsea", "tiktok": "chelseafc"},
-    {"id": "tottenham-hotspur", "name": "Tottenham Hotspur", "tiktok": "spursofficial"},
-    {"id": "arsenal", "name": "Arsenal", "tiktok": "arsenal"},
-    {"id": "leicester-city", "name": "Leicester City", "tiktok": "lcfc"},
-    {"id": "west-ham-united", "name": "West Ham United", "tiktok": "westham"},
-    {"id": "newcastle-united", "name": "Newcastle United", "tiktok": "nufc"},
-    {"id": "aston-villa", "name": "Aston Villa", "tiktok": "avfcofficial"},
-    {"id": "everton", "name": "Everton", "tiktok": "everton"},
-    {"id": "brighton", "name": "Brighton & Hove Albion", "tiktok": "officialbhafc"},
-    {"id": "wolverhampton", "name": "Wolverhampton Wanderers", "tiktok": "wolves"},
-    {"id": "crystal-palace", "name": "Crystal Palace", "tiktok": "cpfc"},
-    {"id": "brentford", "name": "Brentford", "tiktok": "brentfordfc"},
-    {"id": "fulham", "name": "Fulham", "tiktok": "fulhamfc"},
-    {"id": "bournemouth", "name": "AFC Bournemouth", "tiktok": "afcb"},
-    {"id": "nottingham-forest", "name": "Nottingham Forest", "tiktok": "nffc"},
-    {"id": "ipswich-town", "name": "Ipswich Town", "tiktok": "ipswichtown"},
-    {"id": "southampton", "name": "Southampton", "tiktok": "southamptonfc"},
-]
+# All teams with TikTok usernames by league
+ALL_TEAMS = {
+    "Premier League": [
+        {"id": "arsenal", "name": "Arsenal", "tiktok": "arsenal"},
+        {"id": "manchester-city", "name": "Manchester City", "tiktok": "mancity"},
+        {"id": "aston-villa", "name": "Aston Villa", "tiktok": "avfcofficial"},
+        {"id": "chelsea", "name": "Chelsea", "tiktok": "chelseafc"},
+        {"id": "liverpool", "name": "Liverpool", "tiktok": "liverpoolfc"},
+        {"id": "sunderland", "name": "Sunderland", "tiktok": "sunderlandafc"},
+        {"id": "manchester-united", "name": "Manchester United", "tiktok": "manutd"},
+        {"id": "crystal-palace", "name": "Crystal Palace", "tiktok": "cpfc"},
+        {"id": "brighton", "name": "Brighton", "tiktok": "officialbhafc"},
+        {"id": "everton", "name": "Everton", "tiktok": "everton"},
+        {"id": "newcastle-united", "name": "Newcastle United", "tiktok": "nufc"},
+        {"id": "brentford", "name": "Brentford", "tiktok": "brentfordfc"},
+        {"id": "tottenham-hotspur", "name": "Tottenham Hotspur", "tiktok": "spursofficial"},
+        {"id": "bournemouth", "name": "AFC Bournemouth", "tiktok": "afcb"},
+        {"id": "fulham", "name": "Fulham", "tiktok": "fulhamfc"},
+        {"id": "leeds-united", "name": "Leeds United", "tiktok": "leedsunited"},
+        {"id": "nottingham-forest", "name": "Nottingham Forest", "tiktok": "nffc"},
+        {"id": "west-ham-united", "name": "West Ham United", "tiktok": "westham"},
+        {"id": "burnley", "name": "Burnley", "tiktok": "burnleyofficial"},
+        {"id": "wolverhampton", "name": "Wolves", "tiktok": "wolves"},
+    ],
+    "La Liga": [
+        {"id": "barcelona", "name": "FC Barcelona", "tiktok": "fcbarcelona"},
+        {"id": "real-madrid", "name": "Real Madrid", "tiktok": "realmadrid"},
+        {"id": "atletico-madrid", "name": "Atlético Madrid", "tiktok": "atleticodemadrid"},
+        {"id": "villarreal", "name": "Villarreal", "tiktok": "villarrealcf"},
+        {"id": "espanyol", "name": "Espanyol", "tiktok": "rcdespanyol"},
+        {"id": "real-betis", "name": "Real Betis", "tiktok": "realbetisbalompie"},
+        {"id": "celta-vigo", "name": "Celta Vigo", "tiktok": "rccelta"},
+        {"id": "athletic-bilbao", "name": "Athletic Bilbao", "tiktok": "athleticclub"},
+        {"id": "elche", "name": "Elche", "tiktok": "elchecfoficial"},
+        {"id": "sevilla", "name": "Sevilla", "tiktok": "sevillafc"},
+        {"id": "getafe", "name": "Getafe", "tiktok": "getafecf"},
+        {"id": "osasuna", "name": "Osasuna", "tiktok": "caosasuna"},
+        {"id": "mallorca", "name": "RCD Mallorca", "tiktok": "rabornemallorca"},
+        {"id": "alaves", "name": "Alavés", "tiktok": "deportivoalaves"},
+        {"id": "rayo-vallecano", "name": "Rayo Vallecano", "tiktok": "rayovallecano"},
+        {"id": "real-sociedad", "name": "Real Sociedad", "tiktok": "realsociedad"},
+        {"id": "valencia", "name": "Valencia", "tiktok": "valenciacf"},
+        {"id": "girona", "name": "Girona", "tiktok": "gabornefc"},
+        {"id": "oviedo", "name": "Real Oviedo", "tiktok": "realoviedo"},
+        {"id": "levante", "name": "Levante", "tiktok": "levanteud"},
+    ],
+    "Serie A": [
+        {"id": "inter-milan", "name": "Inter Milan", "tiktok": "inter"},
+        {"id": "ac-milan", "name": "AC Milan", "tiktok": "acmilan"},
+        {"id": "napoli", "name": "Napoli", "tiktok": "officialsscnapoli"},
+        {"id": "as-roma", "name": "AS Roma", "tiktok": "asroma"},
+        {"id": "juventus", "name": "Juventus", "tiktok": "juventus"},
+        {"id": "bologna", "name": "Bologna", "tiktok": "bolognafc1909"},
+        {"id": "como", "name": "Como 1907", "tiktok": "comocalcio"},
+        {"id": "lazio", "name": "Lazio", "tiktok": "officialsslazio"},
+        {"id": "atalanta", "name": "Atalanta", "tiktok": "abornebc"},
+        {"id": "sassuolo", "name": "Sassuolo", "tiktok": "sassuolocalcio"},
+        {"id": "cremonese", "name": "Cremonese", "tiktok": "uscremonese"},
+        {"id": "udinese", "name": "Udinese", "tiktok": "udaborneecalcio"},
+        {"id": "torino", "name": "Torino", "tiktok": "tobornefc1906"},
+        {"id": "lecce", "name": "Lecce", "tiktok": "uslecce"},
+        {"id": "cagliari", "name": "Cagliari", "tiktok": "cagliaricalcio"},
+        {"id": "parma", "name": "Parma", "tiktok": "parmacalcio1913"},
+        {"id": "genoa", "name": "Genoa", "tiktok": "genoacfc"},
+        {"id": "verona", "name": "Hellas Verona", "tiktok": "hellasveronabornefc"},
+        {"id": "pisa", "name": "Pisa", "tiktok": "pisasporting"},
+        {"id": "fiorentina", "name": "Fiorentina", "tiktok": "acffiorentina"},
+    ],
+    "Ligue 1": [
+        {"id": "lens", "name": "RC Lens", "tiktok": "rclens"},
+        {"id": "psg", "name": "Paris Saint-Germain", "tiktok": "psg"},
+        {"id": "marseille", "name": "Olympique Marseille", "tiktok": "om"},
+        {"id": "lille", "name": "Lille", "tiktok": "loaborneofficial"},
+        {"id": "lyon", "name": "Olympique Lyon", "tiktok": "ol"},
+        {"id": "rennes", "name": "Stade Rennais", "tiktok": "staderennaisfc"},
+        {"id": "strasbourg", "name": "RC Strasbourg", "tiktok": "rcstrasbourgalsace"},
+        {"id": "toulouse", "name": "Toulouse", "tiktok": "toulousefc"},
+        {"id": "monaco", "name": "AS Monaco", "tiktok": "asmonaco"},
+        {"id": "angers", "name": "Angers SCO", "tiktok": "anaborneofficial"},
+        {"id": "brest", "name": "Stade Brestois", "tiktok": "sb29official"},
+        {"id": "lorient", "name": "Lorient", "tiktok": "fclorient"},
+        {"id": "nice", "name": "OGC Nice", "tiktok": "ogcnice"},
+        {"id": "paris-fc", "name": "Paris FC", "tiktok": "parisfc"},
+        {"id": "le-havre", "name": "Le Havre", "tiktok": "lehaborneac"},
+        {"id": "auxerre", "name": "AJ Auxerre", "tiktok": "aaborneofficial"},
+        {"id": "nantes", "name": "FC Nantes", "tiktok": "fcnantes"},
+        {"id": "metz", "name": "FC Metz", "tiktok": "fcmetz"},
+    ],
+    "Süper Lig": [
+        {"id": "galatasaray", "name": "Galatasaray", "tiktok": "galatasaray"},
+        {"id": "fenerbahce", "name": "Fenerbahçe", "tiktok": "fenerbahce"},
+        {"id": "trabzonspor", "name": "Trabzonspor", "tiktok": "trabzonspor"},
+        {"id": "goztepe", "name": "Göztepe", "tiktok": "goztepeskresmi"},
+        {"id": "besiktas", "name": "Beşiktaş", "tiktok": "bjk"},
+        {"id": "samsunspor", "name": "Samsunspor", "tiktok": "samsunspor"},
+        {"id": "basaksehir", "name": "İstanbul Başakşehir", "tiktok": "basaborneehir"},
+        {"id": "kocaelispor", "name": "Kocaelispor", "tiktok": "kocaelisporkulubu"},
+        {"id": "gaziantep", "name": "Gaziantep FK", "tiktok": "gaziabornetepfk"},
+        {"id": "alanyaspor", "name": "Alanyaspor", "tiktok": "alanyaspor"},
+        {"id": "genclerbirligi", "name": "Gençlerbirliği", "tiktok": "genclerbirligiresmi"},
+        {"id": "rizespor", "name": "Çaykur Rizespor", "tiktok": "caykurrizespor"},
+        {"id": "konyaspor", "name": "Konyaspor", "tiktok": "konyaspor"},
+        {"id": "kasimpasa", "name": "Kasımpaşa", "tiktok": "kasimpasa"},
+        {"id": "antalyaspor", "name": "Antalyaspor", "tiktok": "antalyaspor"},
+        {"id": "kayserispor", "name": "Kayserispor", "tiktok": "kayserispor"},
+        {"id": "eyupspor", "name": "Eyüpspor", "tiktok": "eyupspor1925"},
+        {"id": "karagumruk", "name": "Fatih Karagümrük", "tiktok": "karagumruksk"},
+    ],
+}
 
 def get_tiktok_followers(username: str) -> int:
     """
@@ -146,65 +232,79 @@ def init_firebase():
     return firestore.client()
 
 def main():
-    print("=" * 60)
-    print("🎵 Premier League TikTok Follower Scraper")
+    print("=" * 70)
+    print("🎵 Multi-League TikTok Follower Scraper")
     print(f"📅 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print("=" * 60)
+    print("=" * 70)
     print()
     
     # Initialize Firebase
     db = init_firebase()
     
-    results = []
-    success_count = 0
-    fail_count = 0
+    all_results = []
+    total_success = 0
+    total_fail = 0
     
-    for team in PREMIER_LEAGUE_TEAMS:
-        print(f"📊 {team['name']} (@{team['tiktok']})...")
+    for league, teams in ALL_TEAMS.items():
+        print(f"\n🏆 {league} ({len(teams)} teams)")
+        print("-" * 50)
         
-        followers = get_tiktok_followers(team['tiktok'])
+        league_success = 0
+        league_fail = 0
         
-        if followers > 0:
-            print(f"   ✅ {followers:,} followers")
-            success_count += 1
+        for team in teams:
+            followers = get_tiktok_followers(team['tiktok'])
             
-            # Update Firestore if available
-            if db:
-                if update_firestore(team['id'], followers, db):
-                    print(f"   💾 Firestore updated")
-        else:
-            print(f"   ❌ Could not fetch followers")
-            fail_count += 1
+            if followers > 0:
+                print(f"   ✅ {team['name']}: {followers:,}")
+                league_success += 1
+                
+                # Update Firestore if available
+                if db:
+                    if update_firestore(team['id'], followers, db):
+                        print(f"      💾 Firestore updated")
+            else:
+                print(f"   ❌ {team['name']}: Could not fetch")
+                league_fail += 1
+            
+            all_results.append({
+                "id": team['id'],
+                "name": team['name'],
+                "league": league,
+                "tiktok_username": team['tiktok'],
+                "tiktok_followers": followers,
+                "scraped_at": datetime.now().isoformat()
+            })
         
-        results.append({
-            "id": team['id'],
-            "name": team['name'],
-            "tiktok_username": team['tiktok'],
-            "tiktok_followers": followers,
-            "scraped_at": datetime.now().isoformat()
-        })
+        total_success += league_success
+        total_fail += league_fail
+        print(f"   📊 {league}: {league_success}/{len(teams)} success")
+    
+    total_teams = sum(len(teams) for teams in ALL_TEAMS.values())
     
     print()
-    print("=" * 60)
-    print("📋 SUMMARY")
-    print("=" * 60)
-    print(f"✅ Success: {success_count}/{len(PREMIER_LEAGUE_TEAMS)}")
-    print(f"❌ Failed: {fail_count}/{len(PREMIER_LEAGUE_TEAMS)}")
+    print("=" * 70)
+    print("📋 GRAND SUMMARY")
+    print("=" * 70)
+    print(f"✅ Total Success: {total_success}/{total_teams}")
+    print(f"❌ Total Failed: {total_fail}/{total_teams}")
+    print(f"📊 Success Rate: {(total_success/total_teams)*100:.1f}%")
     
     # Save results to JSON
     output_file = "tiktok_results.json"
     with open(output_file, 'w') as f:
         json.dump({
             "scraped_at": datetime.now().isoformat(),
-            "success_count": success_count,
-            "fail_count": fail_count,
-            "results": results
+            "total_teams": total_teams,
+            "success_count": total_success,
+            "fail_count": total_fail,
+            "results": all_results
         }, f, indent=2)
     
     print(f"📁 Results saved to {output_file}")
     
     # Exit with error if too many failures
-    if fail_count > len(PREMIER_LEAGUE_TEAMS) // 2:
+    if total_fail > total_teams // 2:
         print("⚠️ Too many failures, exiting with error")
         exit(1)
 
