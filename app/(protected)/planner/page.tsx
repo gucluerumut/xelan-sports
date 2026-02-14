@@ -2,11 +2,11 @@
 
 import { useState, useEffect } from "react";
 import Navbar from "@/components/Navbar";
-import { MOCK_TEAMS } from "@/lib/mock-data";
 import { cn } from "@/lib/utils";
 import { Calendar, Plus, Trash2, Tag, Clock, CheckCircle2, Lightbulb, PenTool, History } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { getPlannerItems, addPlannerItem, deletePlannerItem } from "@/lib/firestore";
+import { getAllTeams, type FirestoreTeam } from "@/lib/teams-firestore";
 import { toast } from "sonner";
 
 type ContentStatus = "Fikir" | "Tasarım" | "Planda" | "Paylaşıldı";
@@ -20,6 +20,15 @@ interface ContentItem {
     status: ContentStatus;
 }
 
+// Display team type for compatibility
+interface DisplayTeam {
+    id: string;
+    name: string;
+    country: string;
+    league: string;
+    logo: string;
+}
+
 const STATUS_CONFIG: Record<ContentStatus, { color: string; icon: any }> = {
     "Fikir": { color: "text-yellow-400 bg-yellow-400/10 border-yellow-400/20", icon: Lightbulb },
     "Tasarım": { color: "text-purple-400 bg-purple-400/10 border-purple-400/20", icon: PenTool },
@@ -29,9 +38,21 @@ const STATUS_CONFIG: Record<ContentStatus, { color: string; icon: any }> = {
 
 import { useTeamModal } from "@/context/TeamModalContext";
 
+function convertToDisplayTeam(team: FirestoreTeam): DisplayTeam {
+    return {
+        id: team.id,
+        name: team.name,
+        country: team.country,
+        league: team.league,
+        logo: team.logo,
+    };
+}
+
 export default function PlannerPage() {
     const [items, setItems] = useState<ContentItem[]>([]);
+    const [teams, setTeams] = useState<DisplayTeam[]>([]);
     const [loading, setLoading] = useState(true);
+    const [teamsLoading, setTeamsLoading] = useState(true);
     const [newItem, setNewItem] = useState<Partial<ContentItem>>({
         status: "Fikir",
         date: new Date().toISOString().split("T")[0],
@@ -40,6 +61,24 @@ export default function PlannerPage() {
     const [showTagHistory, setShowTagHistory] = useState(false);
     const [selectedDate, setSelectedDate] = useState<string | null>(null);
     const { openModal } = useTeamModal();
+
+    // Load teams from Firestore on mount
+    useEffect(() => {
+        async function loadTeams() {
+            try {
+                setTeamsLoading(true);
+                const firestoreTeams = await getAllTeams();
+                const displayTeams = firestoreTeams.map(convertToDisplayTeam);
+                setTeams(displayTeams);
+            } catch (error) {
+                console.error("Error loading teams:", error);
+                toast.error("Takımlar yüklenirken hata oluştu");
+            } finally {
+                setTeamsLoading(false);
+            }
+        }
+        loadTeams();
+    }, []);
 
     // Load items from Firestore on mount
     useEffect(() => {
@@ -96,7 +135,7 @@ export default function PlannerPage() {
         }
     };
 
-    const getTeam = (id: string) => MOCK_TEAMS.find((t) => t.id === id);
+    const getTeam = (id: string) => teams.find((t) => t.id === id || t.name === id);
 
     // Group items by tag for history view
     const getTagHistory = () => {
@@ -175,8 +214,8 @@ export default function PlannerPage() {
                                             <option value="Ligue 1">League</option>
                                             <option value="Süper Lig">League</option>
 
-                                            {/* Teams */}
-                                            {MOCK_TEAMS.sort((a, b) => a.name.localeCompare(b.name)).map((team) => (
+                                            {/* Teams from Firestore */}
+                                            {teams.sort((a, b) => a.name.localeCompare(b.name)).map((team) => (
                                                 <option key={team.id} value={team.name} />
                                             ))}
                                         </datalist>
@@ -334,7 +373,7 @@ export default function PlannerPage() {
                                                                     <div
                                                                         onClick={(e) => {
                                                                             e.stopPropagation();
-                                                                            openModal(team);
+                                                                            openModal(team as any);
                                                                         }}
                                                                         className="flex cursor-pointer items-center gap-0.5 rounded bg-white/10 px-1 py-0.5 text-[9px] font-medium text-white hover:bg-white/20 truncate max-w-[70%]"
                                                                     >
@@ -573,7 +612,7 @@ export default function PlannerPage() {
                                                             <div className="flex items-center gap-3">
                                                                 {team ? (
                                                                     <div
-                                                                        onClick={() => openModal(team)}
+                                                                        onClick={() => openModal(team as any)}
                                                                         className="flex cursor-pointer items-center gap-3 rounded-lg bg-white/10 px-3 py-2 transition-colors hover:bg-white/20"
                                                                     >
                                                                         <img src={team.logo} alt={team.name} className="h-8 w-8 object-contain" />

@@ -2,6 +2,7 @@ export interface SocialStats {
   followers: number;
   growth: number;
   engagement: number;
+  username?: string;
 }
 
 export interface Team {

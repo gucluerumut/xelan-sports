@@ -12,6 +12,10 @@ import {
     seedPremierLeagueTeams,
     FirestoreTeam
 } from "@/lib/teams-firestore";
+import { UndoHistoryPanel } from "@/components/UndoHistoryPanel";
+import { saveToHistory } from "@/lib/edit-history";
+import { useInvalidateTeams } from "@/hooks/useTeamsQuery";
+import { PlayerManagementPanel } from "@/components/PlayerManagementPanel";
 
 export default function AdminPage() {
     const [teams, setTeams] = useState<FirestoreTeam[]>([]);
@@ -20,6 +24,8 @@ export default function AdminPage() {
     const [editingTeam, setEditingTeam] = useState<FirestoreTeam | null>(null);
     const [saving, setSaving] = useState(false);
     const [selectedLeague, setSelectedLeague] = useState("Premier League");
+    const [activeTab, setActiveTab] = useState<"teams" | "players">("teams");
+    const invalidateTeams = useInvalidateTeams();
 
     const LEAGUES = ["Premier League", "La Liga", "Serie A", "Ligue 1", "Süper Lig"];
 
@@ -51,6 +57,9 @@ export default function AdminPage() {
     const handleSaveTeam = async () => {
         if (!editingTeam) return;
 
+        // Find original team data for history
+        const originalTeam = teams.find(t => t.id === editingTeam.id);
+
         setSaving(true);
         const success = await updateTeam(editingTeam.id, {
             socials: editingTeam.socials,
@@ -58,8 +67,44 @@ export default function AdminPage() {
         });
 
         if (success) {
+            // Save to history for undo
+            if (originalTeam) {
+                // Save Instagram changes
+                if (originalTeam.socials.instagram.followers !== editingTeam.socials.instagram.followers) {
+                    await saveToHistory(
+                        "team",
+                        editingTeam.id,
+                        editingTeam.name,
+                        "socials.instagram.followers",
+                        originalTeam.socials.instagram.followers,
+                        editingTeam.socials.instagram.followers
+                    );
+                }
+                if (originalTeam.socials.instagram.username !== editingTeam.socials.instagram.username) {
+                    await saveToHistory(
+                        "team",
+                        editingTeam.id,
+                        editingTeam.name,
+                        "socials.instagram.username",
+                        originalTeam.socials.instagram.username,
+                        editingTeam.socials.instagram.username
+                    );
+                }
+                // Save Twitter changes
+                if (originalTeam.socials.twitter.followers !== editingTeam.socials.twitter.followers) {
+                    await saveToHistory(
+                        "team",
+                        editingTeam.id,
+                        editingTeam.name,
+                        "socials.twitter.followers",
+                        originalTeam.socials.twitter.followers,
+                        editingTeam.socials.twitter.followers
+                    );
+                }
+            }
             toast.success("Takım güncellendi!");
             await loadTeams();
+            invalidateTeams(); // Clear React Query cache so rankings page gets fresh data
             setEditingTeam(null);
         } else {
             toast.error("Güncelleme başarısız!");
@@ -84,7 +129,9 @@ export default function AdminPage() {
                             <Settings className="h-8 w-8 text-blue-500" />
                             Admin Panel
                         </h1>
-                        <p className="text-gray-400">Tüm liglerdeki takım verilerini yönetin</p>
+                        <p className="text-gray-400">
+                            {activeTab === "teams" ? "Tüm liglerdeki takım verilerini yönetin" : "Oyuncu verilerini yönetin"}
+                        </p>
                     </div>
 
                     {teams.length === 0 && !loading && (
@@ -99,116 +146,158 @@ export default function AdminPage() {
                     )}
                 </div>
 
-                {/* League Selector */}
-                <div className="mb-6">
-                    <label className="block text-sm font-medium text-gray-400 mb-2">
-                        Lig Seçin
-                    </label>
-                    <div className="flex gap-2 flex-wrap">
-                        {LEAGUES.map((league) => (
-                            <button
-                                key={league}
-                                onClick={() => setSelectedLeague(league)}
-                                className={cn(
-                                    "px-4 py-2 rounded-lg font-medium transition-all active:scale-95",
-                                    selectedLeague === league
-                                        ? "bg-blue-600 text-white"
-                                        : "bg-gray-800 text-gray-400 hover:bg-gray-700"
-                                )}
-                            >
-                                {league}
-                            </button>
-                        ))}
-                    </div>
+                {/* Tab Selector */}
+                <div className="mb-6 flex gap-2">
+                    <button
+                        onClick={() => setActiveTab("teams")}
+                        className={cn(
+                            "px-6 py-3 rounded-lg font-semibold transition-all active:scale-95",
+                            activeTab === "teams"
+                                ? "bg-blue-600 text-white"
+                                : "bg-gray-800 text-gray-400 hover:bg-gray-700"
+                        )}
+                    >
+                        Takımlar
+                    </button>
+                    <button
+                        onClick={() => setActiveTab("players")}
+                        className={cn(
+                            "px-6 py-3 rounded-lg font-semibold transition-all active:scale-95",
+                            activeTab === "players"
+                                ? "bg-blue-600 text-white"
+                                : "bg-gray-800 text-gray-400 hover:bg-gray-700"
+                        )}
+                    >
+                        Oyuncular
+                    </button>
                 </div>
 
-                {loading ? (
-                    <div className="text-center py-12">
-                        <RefreshCw className="h-8 w-8 animate-spin mx-auto text-blue-500 mb-4" />
-                        <p className="text-gray-400">Takımlar yükleniyor...</p>
-                    </div>
-                ) : teams.length === 0 ? (
-                    <div className="text-center py-12 rounded-2xl border border-white/10 bg-white/5">
-                        <AlertCircle className="h-12 w-12 mx-auto text-yellow-500 mb-4" />
-                        <h2 className="text-xl font-bold mb-2">Henüz veri yok</h2>
-                        <p className="text-gray-400 mb-4">Premier League verilerini yüklemek için butona tıklayın</p>
-                    </div>
-                ) : (
-                    <div className="rounded-2xl border border-white/10 bg-white/5 overflow-hidden">
-                        <table className="w-full">
-                            <thead>
-                                <tr className="border-b border-white/10 bg-white/5">
-                                    <th className="py-4 px-4 text-left text-sm font-medium text-gray-400">Takım</th>
-                                    <th className="py-4 px-4 text-left text-sm font-medium text-gray-400">Instagram</th>
-                                    <th className="py-4 px-4 text-left text-sm font-medium text-gray-400">Twitter</th>
-                                    <th className="py-4 px-4 text-left text-sm font-medium text-gray-400">TikTok</th>
-                                    <th className="py-4 px-4 text-right text-sm font-medium text-gray-400">Toplam</th>
-                                    <th className="py-4 px-4 text-center text-sm font-medium text-gray-400">İşlem</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {teams.map((team) => (
-                                    <motion.tr
-                                        key={team.id}
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                        className="border-b border-white/5 hover:bg-white/5"
+                {/* Teams Tab */}
+                {activeTab === "teams" && (
+                    <>
+                        {/* League Selector */}
+                        <div className="mb-6">
+                            <label className="block text-sm font-medium text-gray-400 mb-2">
+                                Lig Seçin
+                            </label>
+                            <div className="flex gap-2 flex-wrap">
+                                {LEAGUES.map((league) => (
+                                    <button
+                                        key={league}
+                                        onClick={() => setSelectedLeague(league)}
+                                        className={cn(
+                                            "px-4 py-2 rounded-lg font-medium transition-all active:scale-95",
+                                            selectedLeague === league
+                                                ? "bg-blue-600 text-white"
+                                                : "bg-gray-800 text-gray-400 hover:bg-gray-700"
+                                        )}
                                     >
-                                        <td className="py-3 px-4">
-                                            <div className="flex items-center gap-3">
-                                                <img src={team.logo} alt={team.name} className="h-8 w-8 object-contain" />
-                                                <span className="font-medium">{team.name}</span>
-                                            </div>
-                                        </td>
-                                        <td className="py-3 px-4">
-                                            <div className="text-sm">
-                                                <span className="text-gray-400">@</span>
-                                                <span className="text-[#E1306C]">{team.socials.instagram.username}</span>
-                                                <div className="text-xs text-gray-500">{formatNumber(team.socials.instagram.followers)}</div>
-                                            </div>
-                                        </td>
-                                        <td className="py-3 px-4">
-                                            <div className="text-sm">
-                                                <span className="text-gray-400">@</span>
-                                                <span className="text-[#1DA1F2]">{team.socials.twitter.username}</span>
-                                                <div className="text-xs text-gray-500">{formatNumber(team.socials.twitter.followers)}</div>
-                                            </div>
-                                        </td>
-                                        <td className="py-3 px-4">
-                                            <div className="text-sm">
-                                                <span className="text-gray-400">@</span>
-                                                <span className="text-[#00f2ea]">{team.socials.tiktok.username}</span>
-                                                <div className="text-xs text-gray-500">{formatNumber(team.socials.tiktok.followers)}</div>
-                                            </div>
-                                        </td>
-                                        <td className="py-3 px-4 text-right font-mono font-bold">
-                                            {formatNumber(team.totalFollowers)}
-                                        </td>
-                                        <td className="py-3 px-4 text-center">
-                                            <button
-                                                onClick={() => setEditingTeam(team)}
-                                                className="rounded-lg bg-blue-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-blue-500 active:scale-95"
-                                            >
-                                                Düzenle
-                                            </button>
-                                        </td>
-                                    </motion.tr>
+                                        {league}
+                                    </button>
                                 ))}
-                            </tbody>
-                        </table>
+                            </div>
+                        </div>
 
-                        {teams.length > 0 && teams[0].updatedAt && (
-                            <div className="px-4 py-3 bg-white/5 border-t border-white/10 text-sm text-gray-500">
-                                Son güncelleme: {new Date(teams[0].updatedAt).toLocaleDateString('tr-TR', {
-                                    day: 'numeric',
-                                    month: 'long',
-                                    year: 'numeric',
-                                    hour: '2-digit',
-                                    minute: '2-digit'
-                                })}
+                        {loading ? (
+                            <div className="text-center py-12">
+                                <RefreshCw className="h-8 w-8 animate-spin mx-auto text-blue-500 mb-4" />
+                                <p className="text-gray-400">Takımlar yükleniyor...</p>
+                            </div>
+                        ) : teams.length === 0 ? (
+                            <div className="text-center py-12 rounded-2xl border border-white/10 bg-white/5">
+                                <AlertCircle className="h-12 w-12 mx-auto text-yellow-500 mb-4" />
+                                <h2 className="text-xl font-bold mb-2">Henüz veri yok</h2>
+                                <p className="text-gray-400 mb-4">Premier League verilerini yüklemek için butona tıklayın</p>
+                            </div>
+                        ) : (
+                            <div className="rounded-2xl border border-white/10 bg-white/5 overflow-hidden">
+                                <table className="w-full">
+                                    <thead>
+                                        <tr className="border-b border-white/10 bg-white/5">
+                                            <th className="py-4 px-4 text-left text-sm font-medium text-gray-400">Takım</th>
+                                            <th className="py-4 px-4 text-left text-sm font-medium text-gray-400">Instagram</th>
+                                            <th className="py-4 px-4 text-left text-sm font-medium text-gray-400">Twitter</th>
+                                            <th className="py-4 px-4 text-left text-sm font-medium text-gray-400">TikTok</th>
+                                            <th className="py-4 px-4 text-right text-sm font-medium text-gray-400">Toplam</th>
+                                            <th className="py-4 px-4 text-center text-sm font-medium text-gray-400">İşlem</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {teams.map((team) => (
+                                            <motion.tr
+                                                key={team.id}
+                                                initial={{ opacity: 0 }}
+                                                animate={{ opacity: 1 }}
+                                                className="border-b border-white/5 hover:bg-white/5"
+                                            >
+                                                <td className="py-3 px-4">
+                                                    <div className="flex items-center gap-3">
+                                                        <img src={team.logo} alt={team.name} className="h-8 w-8 object-contain" />
+                                                        <span className="font-medium">{team.name}</span>
+                                                    </div>
+                                                </td>
+                                                <td className="py-3 px-4">
+                                                    <div className="text-sm">
+                                                        <span className="text-gray-400">@</span>
+                                                        <span className="text-[#E1306C]">{team.socials.instagram.username}</span>
+                                                        <div className="text-xs text-gray-500">{formatNumber(team.socials.instagram.followers)}</div>
+                                                    </div>
+                                                </td>
+                                                <td className="py-3 px-4">
+                                                    <div className="text-sm">
+                                                        <span className="text-gray-400">@</span>
+                                                        <span className="text-[#1DA1F2]">{team.socials.twitter.username}</span>
+                                                        <div className="text-xs text-gray-500">{formatNumber(team.socials.twitter.followers)}</div>
+                                                    </div>
+                                                </td>
+                                                <td className="py-3 px-4">
+                                                    <div className="text-sm">
+                                                        <span className="text-gray-400">@</span>
+                                                        <span className="text-[#00f2ea]">{team.socials.tiktok.username}</span>
+                                                        <div className="text-xs text-gray-500">{formatNumber(team.socials.tiktok.followers)}</div>
+                                                    </div>
+                                                </td>
+                                                <td className="py-3 px-4 text-right font-mono font-bold">
+                                                    {formatNumber(team.totalFollowers)}
+                                                </td>
+                                                <td className="py-3 px-4 text-center">
+                                                    <button
+                                                        onClick={() => setEditingTeam(team)}
+                                                        className="rounded-lg bg-blue-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-blue-500 active:scale-95"
+                                                    >
+                                                        Düzenle
+                                                    </button>
+                                                </td>
+                                            </motion.tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+
+                                {teams.length > 0 && teams[0].updatedAt && (
+                                    <div className="px-4 py-3 bg-white/5 border-t border-white/10 text-sm text-gray-500">
+                                        Son güncelleme: {new Date(teams[0].updatedAt).toLocaleDateString('tr-TR', {
+                                            day: 'numeric',
+                                            month: 'long',
+                                            year: 'numeric',
+                                            hour: '2-digit',
+                                            minute: '2-digit'
+                                        })}
+                                    </div>
+                                )}
                             </div>
                         )}
-                    </div>
+
+                        {/* Player Management Section */}
+                        <PlayerManagementPanel />
+
+                        {/* Undo History Panel */}
+                        <UndoHistoryPanel className="mt-8" onUndo={loadTeams} />
+                    </>
+                )}
+
+                {/* Players Tab */}
+                {activeTab === "players" && (
+                    <PlayerManagementPanel />
                 )}
             </div>
 

@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-import RankingsTable from "@/components/RankingsTable";
+import RankingsTableFirestore from "@/components/RankingsTableFirestore";
 
 export default function RankingsPage() {
     return (
@@ -12,7 +12,7 @@ export default function RankingsPage() {
                     <p className="text-gray-400">Instagram, Twitter ve TikTok'tan canlı veri</p>
                 </div>
 
-                <RankingsTable />
+                <RankingsTableFirestore />
             </div>
         </main>
     );

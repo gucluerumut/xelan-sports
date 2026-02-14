@@ -50,3 +50,11 @@ tiktok_results.json
 
 # Data files
 *.rtf
+
+# Backup files
+firestore_backup_*.json
+*.backup
+*.bak
+
+# Antigravity artifacts (development only)
+.gemini/

@@ -2,13 +2,12 @@
 
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
-import TeamSelector from "@/components/TeamSelector";
+import TeamSelectorFirestore, { type DisplayTeam } from "@/components/TeamSelectorFirestore";
 import ComparisonView from "@/components/ComparisonView";
-import { MOCK_TEAMS, Team } from "@/lib/mock-data";
 
 export default function ComparePage() {
-    const [teamA, setTeamA] = useState<Team | null>(MOCK_TEAMS[0]);
-    const [teamB, setTeamB] = useState<Team | null>(MOCK_TEAMS[1]);
+    const [teamA, setTeamA] = useState<DisplayTeam | null>(null);
+    const [teamB, setTeamB] = useState<DisplayTeam | null>(null);
 
     return (
         <main className="flex min-h-screen flex-col">
@@ -20,7 +19,7 @@ export default function ComparePage() {
 
                 {/* Selectors */}
                 <div className="flex w-full max-w-4xl flex-col gap-8 md:flex-row md:items-center md:justify-between">
-                    <TeamSelector
+                    <TeamSelectorFirestore
                         label="Team A"
                         selectedTeam={teamA}
                         onSelect={setTeamA}
@@ -29,7 +28,7 @@ export default function ComparePage() {
 
                     <div className="hidden text-2xl font-bold text-gray-600 md:block">VS</div>
 
-                    <TeamSelector
+                    <TeamSelectorFirestore
                         label="Team B"
                         selectedTeam={teamB}
                         onSelect={setTeamB}
@@ -39,7 +38,7 @@ export default function ComparePage() {
 
                 {/* Comparison View */}
                 {teamA && teamB ? (
-                    <ComparisonView teamA={teamA} teamB={teamB} />
+                    <ComparisonView teamA={teamA as any} teamB={teamB as any} />
                 ) : (
                     <div className="mt-12 flex h-64 w-full max-w-4xl items-center justify-center rounded-3xl border border-white/10 bg-white/5 text-gray-500">
                         Select two teams to start comparison

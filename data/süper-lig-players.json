@@ -1,0 +1,3705 @@
+[
+  {
+    "teamName": "Galatasaray",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/galatasaray-istanbul/startseite/verein/141/saison_id/2025",
+    "players": [
+      {
+        "name": "Uğurcan Çakır",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/292199-1756290095.png?lm=1"
+      },
+      {
+        "name": "Günay Güvenç",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/114422-1744295861.jpeg?lm=1"
+      },
+      {
+        "name": "Batuhan Şen",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€200k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/352659-1750244257.jpg?lm=1"
+      },
+      {
+        "name": "Enes Emre Büyük",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1105505-1762354186.jpg?lm=1"
+      },
+      {
+        "name": "Wilfried Singo",
+        "position": "Centre-Back",
+        "nationality": "Cote d'Ivoire",
+        "marketValue": "€28.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/648779-1737490058.jpg?lm=1"
+      },
+      {
+        "name": "Davinson Sánchez",
+        "position": "Centre-Back",
+        "nationality": "Colombia",
+        "marketValue": "€18.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/341429-1728904655.jpg?lm=1"
+      },
+      {
+        "name": "Abdülkerim Bardakcı",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€6.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/199316-1671036661.png?lm=1"
+      },
+      {
+        "name": "Arda Ünyay",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1048118-1753344804.jpg?lm=1"
+      },
+      {
+        "name": "Metehan Baltacı",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/618869-1671037619.png?lm=1"
+      },
+      {
+        "name": "Ismail Jakobs",
+        "position": "Left-Back",
+        "nationality": "Senegal",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/375137-1744296477.jpg?lm=1"
+      },
+      {
+        "name": "Eren Elmalı",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/616894-1723801363.jpg?lm=1"
+      },
+      {
+        "name": "Sacha Boey",
+        "position": "Right-Back",
+        "nationality": "France",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/475413-1706907003.jpg?lm=1"
+      },
+      {
+        "name": "Roland Sallai",
+        "position": "Right-Back",
+        "nationality": "Hungary",
+        "marketValue": "€10.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/332798-1753873822.jpg?lm=1"
+      },
+      {
+        "name": "Lucas Torreira",
+        "position": "Defensive Midfield",
+        "nationality": "Uruguay",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/318077-1671110829.png?lm=1"
+      },
+      {
+        "name": "Mario Lemina",
+        "position": "Defensive Midfield",
+        "nationality": "Gabon",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/170934-1667549900.jpg?lm=1"
+      },
+      {
+        "name": "Kaan Ayhan",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/119031-1742638125.jpeg?lm=1"
+      },
+      {
+        "name": "Gabriel Sara",
+        "position": "Central Midfield",
+        "nationality": "Brazil",
+        "marketValue": "€20.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/553469-1731009174.jpg?lm=1"
+      },
+      {
+        "name": "İlkay Gündoğan",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/53622-1756980813.png?lm=1"
+      },
+      {
+        "name": "Renato Nhaga",
+        "position": "Central Midfield",
+        "nationality": "Guinea-Bissau",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1396595-1770285319.png?lm=1"
+      },
+      {
+        "name": "Gökdeniz Gürpüz",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/884821-1698926798.jpg?lm=1"
+      },
+      {
+        "name": "Yunus Akgün",
+        "position": "Attacking Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€17.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/396908-1671104289.png?lm=1"
+      },
+      {
+        "name": "Noa Lang",
+        "position": "Left Winger",
+        "nationality": "Netherlands",
+        "marketValue": "€25.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/339332-1742501723.jpg?lm=1"
+      },
+      {
+        "name": "Barış Alper Yılmaz",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€24.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/541537-1671104025.png?lm=1"
+      },
+      {
+        "name": "Ahmed Kutucu",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/452084-1730285629.jpg?lm=1"
+      },
+      {
+        "name": "Leroy Sané",
+        "position": "Right Winger",
+        "nationality": "Germany",
+        "marketValue": "€23.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/192565-1694587968.jpg?lm=1"
+      },
+      {
+        "name": "Yáser Asprilla",
+        "position": "Right Winger",
+        "nationality": "Colombia",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/857818-1691597301.jpg?lm=1"
+      },
+      {
+        "name": "Armando Güner",
+        "position": "Right Winger",
+        "nationality": "Argentina",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1070983-1765308836.jpg?lm=1"
+      },
+      {
+        "name": "Victor Osimhen",
+        "position": "Centre-Forward",
+        "nationality": "Nigeria",
+        "marketValue": "€75.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/401923-1737730981.jpg?lm=1"
+      },
+      {
+        "name": "Mauro Icardi",
+        "position": "Centre-Forward",
+        "nationality": "Argentina",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/68863-1671105169.png?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Fenerbahce",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/fenerbahce-istanbul/startseite/verein/36/saison_id/2025",
+    "players": [
+      {
+        "name": "Ederson",
+        "position": "Goalkeeper",
+        "nationality": "Brazil",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/238223-1765380595.jpg?lm=1"
+      },
+      {
+        "name": "Tarık Çetin",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€600k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/286170-1765458831.jpg?lm=1"
+      },
+      {
+        "name": "Mert Günok",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/51894-1727355668.png?lm=1"
+      },
+      {
+        "name": "Engin Can Biterge",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1193441-1765460679.jpg?lm=1"
+      },
+      {
+        "name": "Jayden Oosterwolde",
+        "position": "Centre-Back",
+        "nationality": "Netherlands",
+        "marketValue": "€16.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/591361-1765461344.jpg?lm=1"
+      },
+      {
+        "name": "Milan Škriniar",
+        "position": "Centre-Back",
+        "nationality": "Slovakia",
+        "marketValue": "€11.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/204069-1765460153.png?lm=1"
+      },
+      {
+        "name": "Çağlar Söyüncü",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/320141-1765458282.png?lm=1"
+      },
+      {
+        "name": "Yiğit Efe Demir",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/889136-1765459102.jpg?lm=1"
+      },
+      {
+        "name": "Archie Brown",
+        "position": "Left-Back",
+        "nationality": "England",
+        "marketValue": "€10.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/581329-1765457672.png?lm=1"
+      },
+      {
+        "name": "Levent Mercan",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/388820-1765459620.jpg?lm=1"
+      },
+      {
+        "name": "Nélson Semedo",
+        "position": "Right-Back",
+        "nationality": "Portugal",
+        "marketValue": "€7.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/231572-1765459986.jpg?lm=1"
+      },
+      {
+        "name": "Mert Müldür",
+        "position": "Right-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/353922-1765459365.jpg?lm=1"
+      },
+      {
+        "name": "Edson Álvarez",
+        "position": "Defensive Midfield",
+        "nationality": "Mexico",
+        "marketValue": "€22.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/401356-1765380634.jpg?lm=1"
+      },
+      {
+        "name": "İsmail Yüksek",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€13.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/613725-1765458019.jpg?lm=1"
+      },
+      {
+        "name": "N'Golo Kanté",
+        "position": "Defensive Midfield",
+        "nationality": "France",
+        "marketValue": "€4.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/225083-1770653003.png?lm=1"
+      },
+      {
+        "name": "Mattéo Guendouzi",
+        "position": "Central Midfield",
+        "nationality": "France",
+        "marketValue": "€28.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/465830-1770049970.png?lm=1"
+      },
+      {
+        "name": "Fred",
+        "position": "Central Midfield",
+        "nationality": "Brazil",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/191614-1765458332.png?lm=1"
+      },
+      {
+        "name": "Abdou Aziz Fall",
+        "position": "Central Midfield",
+        "nationality": "Senegal",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1133732-1765461128.jpg?lm=1"
+      },
+      {
+        "name": "Marco Asensio",
+        "position": "Attacking Midfield",
+        "nationality": "Spain",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/296622-1765459707.png?lm=1"
+      },
+      {
+        "name": "Mert Hakan Yandaş",
+        "position": "Attacking Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/306462-1765458461.png?lm=1"
+      },
+      {
+        "name": "Kerem Aktürkoğlu",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€22.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/382528-1765381227.png?lm=1"
+      },
+      {
+        "name": "Oğuz Aydın",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€10.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/563749-1765461184.png?lm=1"
+      },
+      {
+        "name": "Dorgeles Nene",
+        "position": "Right Winger",
+        "nationality": "Mali",
+        "marketValue": "€18.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/671591-1765460300.png?lm=1"
+      },
+      {
+        "name": "Anthony Musaba",
+        "position": "Right Winger",
+        "nationality": "Netherlands",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/511401-1758534437.png?lm=1"
+      },
+      {
+        "name": "Emre Mor",
+        "position": "Right Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/283223-1712157441.png?lm=1"
+      },
+      {
+        "name": "Talisca",
+        "position": "Centre-Forward",
+        "nationality": "Brazil",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/258626-1738664288.jpg?lm=1"
+      },
+      {
+        "name": "Sidiki Chérif",
+        "position": "Centre-Forward",
+        "nationality": "France",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/986288-1750956854.png?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Besiktas JK",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/besiktas-istanbul/startseite/verein/114/saison_id/2025",
+    "players": [
+      {
+        "name": "Ersin Destanoğlu",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€2.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/500091-1727354578.png?lm=1"
+      },
+      {
+        "name": "Devis Vásquez",
+        "position": "Goalkeeper",
+        "nationality": "Colombia",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/495722-1770806559.jpg?lm=1"
+      },
+      {
+        "name": "Emre Bilgin",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/727147-1750256140.jpg?lm=1"
+      },
+      {
+        "name": "Emir Yaşar",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/935552-1727357788.png?lm=1"
+      },
+      {
+        "name": "Emmanuel Agbadou",
+        "position": "Centre-Back",
+        "nationality": "Cote d'Ivoire",
+        "marketValue": "€18.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/683895-1770396716.jpg?lm=1"
+      },
+      {
+        "name": "Tiago Djaló",
+        "position": "Centre-Back",
+        "nationality": "Portugal",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/420465-1770375312.png?lm=1"
+      },
+      {
+        "name": "Felix Uduokhai",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/278343-1727357502.png?lm=1"
+      },
+      {
+        "name": "Emirhan Topçu",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/531332-1727357464.png?lm=1"
+      },
+      {
+        "name": "Yasin Özcan",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1043003-1727694653.jpg?lm=1"
+      },
+      {
+        "name": "Rıdvan Yılmaz",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/477930-1727381049.jpg?lm=1"
+      },
+      {
+        "name": "Amir Murillo",
+        "position": "Right-Back",
+        "nationality": "Panama",
+        "marketValue": "€10.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/354482-1770806107.png?lm=1"
+      },
+      {
+        "name": "Taylan Bulut",
+        "position": "Right-Back",
+        "nationality": "Germany",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/810100-1770375467.png?lm=1"
+      },
+      {
+        "name": "Gökhan Sazdağı",
+        "position": "Right-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/257785-1694079581.png?lm=1"
+      },
+      {
+        "name": "Kristjan Asllani",
+        "position": "Defensive Midfield",
+        "nationality": "Albania",
+        "marketValue": "€13.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/543771-1716969431.jpg?lm=1"
+      },
+      {
+        "name": "Wilfred Ndidi",
+        "position": "Defensive Midfield",
+        "nationality": "Nigeria",
+        "marketValue": "€10.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/274839-1765193511.jpg?lm=1"
+      },
+      {
+        "name": "Kartal Yılmaz",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/461951-1696077083.png?lm=1"
+      },
+      {
+        "name": "Necip Uysal",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€200k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/77710-1727357566.png?lm=1"
+      },
+      {
+        "name": "Orkun Kökçü",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€25.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/454567-1770375601.png?lm=1"
+      },
+      {
+        "name": "Salih Uçan",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/170838-1727357729.png?lm=1"
+      },
+      {
+        "name": "Junior Olaitan",
+        "position": "Attacking Midfield",
+        "nationality": "Benin",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/900938-1759400118.png?lm=1"
+      },
+      {
+        "name": "El Bilal Touré",
+        "position": "Left Winger",
+        "nationality": "Mali",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/649016-1770375726.png?lm=1"
+      },
+      {
+        "name": "Jota Silva",
+        "position": "Left Winger",
+        "nationality": "Portugal",
+        "marketValue": "€14.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/663244-1770374751.png?lm=1"
+      },
+      {
+        "name": "Devrim Şahin",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1304045-1770374297.png?lm=1"
+      },
+      {
+        "name": "Vaclav Cerny",
+        "position": "Right Winger",
+        "nationality": "Czech Republic",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/242063-1770713580.jpg?lm=1"
+      },
+      {
+        "name": "Cengiz Ünder",
+        "position": "Right Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/341647-1728392057.JPG?lm=1"
+      },
+      {
+        "name": "Milot Rashica",
+        "position": "Right Winger",
+        "nationality": "Kosovo",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/291739-1727356752.png?lm=1"
+      },
+      {
+        "name": "Hyeon-gyu Oh",
+        "position": "Centre-Forward",
+        "nationality": "Korea, South",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/639246-1770374157.png?lm=1"
+      },
+      {
+        "name": "Mustafa Hekimoğlu",
+        "position": "Centre-Forward",
+        "nationality": "Türkiye",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1071252-1727355701.png?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Trabzonspor",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/trabzonspor/startseite/verein/449/saison_id/2025",
+    "players": [
+      {
+        "name": "André Onana",
+        "position": "Goalkeeper",
+        "nationality": "Cameroon",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/234509-1769612568.jpg?lm=1"
+      },
+      {
+        "name": "Onuralp Çevikkan",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€900k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1054214-1756298814.png?lm=1"
+      },
+      {
+        "name": "Ahmet Yıldırım",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1174140-1756306705.png?lm=1"
+      },
+      {
+        "name": "Erol Can Çolak",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1152080-1756306818.png?lm=1"
+      },
+      {
+        "name": "Arseniy Batagov",
+        "position": "Centre-Back",
+        "nationality": "Ukraine",
+        "marketValue": "€9.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/665048-1756305501.png?lm=1"
+      },
+      {
+        "name": "Chibuike Nwaiwu",
+        "position": "Centre-Back",
+        "nationality": "Nigeria",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/985825-1769002425.png?lm=1"
+      },
+      {
+        "name": "Stefan Savic",
+        "position": "Centre-Back",
+        "nationality": "Montenegro",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/107010-1756296906.png?lm=1"
+      },
+      {
+        "name": "Arda Öztürk",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1243013-1756298611.png?lm=1"
+      },
+      {
+        "name": "Taha Emre İnce",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1304031-1756306765.png?lm=1"
+      },
+      {
+        "name": "Mathias Løvik",
+        "position": "Left-Back",
+        "nationality": "Norway",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/661212-1769002109.png?lm=1"
+      },
+      {
+        "name": "Mustafa Eskihellaç",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/390379-1756296973.png?lm=1"
+      },
+      {
+        "name": "Wagner Pina",
+        "position": "Right-Back",
+        "nationality": "Cape Verde",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1072017-1756297062.png?lm=1"
+      },
+      {
+        "name": "Okay Yokuşlu",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/137616-1756290191.png?lm=1"
+      },
+      {
+        "name": "Salih Malkoçoğlu",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/944442-1756306507.png?lm=1"
+      },
+      {
+        "name": "Christ Inao Oulaï",
+        "position": "Central Midfield",
+        "nationality": "Cote d'Ivoire",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1279526-1756305389.png?lm=1"
+      },
+      {
+        "name": "Benjamin Bouchouari",
+        "position": "Central Midfield",
+        "nationality": "Morocco",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/783094-1769002275.png?lm=1"
+      },
+      {
+        "name": "Tim Jabol-Folcarelli",
+        "position": "Central Midfield",
+        "nationality": "France",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/674241-1756298953.png?lm=1"
+      },
+      {
+        "name": "Ozan Tufan",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/236471-1756296765.png?lm=1"
+      },
+      {
+        "name": "Boran Başkan",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1070028-1756306640.png?lm=1"
+      },
+      {
+        "name": "Ernest Muci",
+        "position": "Attacking Midfield",
+        "nationality": "Albania",
+        "marketValue": "€9.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/583917-1769002338.png?lm=1"
+      },
+      {
+        "name": "Anthony Nwakaeme",
+        "position": "Left Winger",
+        "nationality": "Nigeria",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/175988-1756296640.png?lm=1"
+      },
+      {
+        "name": "Oleksandr Zubkov",
+        "position": "Right Winger",
+        "nationality": "Ukraine",
+        "marketValue": "€7.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/289075-1756298697.png?lm=1"
+      },
+      {
+        "name": "Edin Visca",
+        "position": "Right Winger",
+        "nationality": "Bosnia-Herzegovina",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/109217-1756307005.png?lm=1"
+      },
+      {
+        "name": "Paul Onuachu",
+        "position": "Centre-Forward",
+        "nationality": "Nigeria",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/272855-1756305316.png?lm=1"
+      },
+      {
+        "name": "Felipe Augusto",
+        "position": "Centre-Forward",
+        "nationality": "Brazil",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/834899-1756306884.png?lm=1"
+      },
+      {
+        "name": "Umut Nayir",
+        "position": "Centre-Forward",
+        "nationality": "Türkiye",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/248271-1770414842.png?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Basaksehir FK",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/istanbul-basaksehir-fk/startseite/verein/6890/saison_id/2025",
+    "players": [
+      {
+        "name": "Muhammed Şengezer",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/330871-1759746190.jpg?lm=1"
+      },
+      {
+        "name": "Doğan Alemdar",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/576033-1759746256.jpg?lm=1"
+      },
+      {
+        "name": "Volkan Babacan",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/52261-1759745992.jpg?lm=1"
+      },
+      {
+        "name": "Luca Stancic",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1057178-1759746444.jpg?lm=1"
+      },
+      {
+        "name": "Jerome Opoku",
+        "position": "Centre-Back",
+        "nationality": "Ghana",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/408563-1759746503.jpg?lm=1"
+      },
+      {
+        "name": "Léo Duarte",
+        "position": "Centre-Back",
+        "nationality": "Brazil",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/312678-1759746750.jpg?lm=1"
+      },
+      {
+        "name": "Hamza Güreler",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/988247-1759746874.jpg?lm=1"
+      },
+      {
+        "name": "Ousseynou Ba",
+        "position": "Centre-Back",
+        "nationality": "Senegal",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/520815-1759746817.jpg?lm=1"
+      },
+      {
+        "name": "Christopher Operi",
+        "position": "Left-Back",
+        "nationality": "Cote d'Ivoire",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/469976-1759746677.jpg?lm=1"
+      },
+      {
+        "name": "Kazımcan Karataş",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/697149-1671038344.png?lm=1"
+      },
+      {
+        "name": "Festy Ebosele",
+        "position": "Right-Back",
+        "nationality": "Ireland",
+        "marketValue": "€4.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/586756-1759746605.jpg?lm=1"
+      },
+      {
+        "name": "Onur Bulut",
+        "position": "Right-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/152733-1759746930.jpg?lm=1"
+      },
+      {
+        "name": "Ömer Ali Şahiner",
+        "position": "Right-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/110695-1759747709.jpg?lm=1"
+      },
+      {
+        "name": "Jakub Kaluzinski",
+        "position": "Defensive Midfield",
+        "nationality": "Poland",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/699418-1759747245.jpg?lm=1"
+      },
+      {
+        "name": "Berat Özdemir",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/483063-1759747303.jpg?lm=1"
+      },
+      {
+        "name": "Onur Ergün",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/293998-1759747800.jpg?lm=1"
+      },
+      {
+        "name": "Miguel Crespo",
+        "position": "Central Midfield",
+        "nationality": "Portugal",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/498529-1759747363.jpg?lm=1"
+      },
+      {
+        "name": "Olivier Kemen",
+        "position": "Central Midfield",
+        "nationality": "Cameroon",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/243725-1759747426.jpg?lm=1"
+      },
+      {
+        "name": "Umut Güneş",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€2.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/422203-1759747514.jpg?lm=1"
+      },
+      {
+        "name": "Amine Harit",
+        "position": "Left Winger",
+        "nationality": "Morocco",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/372711-1759747205.jpg?lm=1"
+      },
+      {
+        "name": "Ivan Brnic",
+        "position": "Left Winger",
+        "nationality": "Croatia",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/432752-1759748260.jpg?lm=1"
+      },
+      {
+        "name": "Berkay Aslan",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€200k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1001554-1759748434.jpg?lm=1"
+      },
+      {
+        "name": "Abbosbek Fayzullaev",
+        "position": "Right Winger",
+        "nationality": "Uzbekistan",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/754037-1759747064.jpg?lm=1"
+      },
+      {
+        "name": "Yusuf Sarı",
+        "position": "Right Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/517376-1759748116.jpg?lm=1"
+      },
+      {
+        "name": "Eldor Shomurodov",
+        "position": "Centre-Forward",
+        "nationality": "Uzbekistan",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/358166-1759747995.jpg?lm=1"
+      },
+      {
+        "name": "Davie Selke",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/178459-1759748059.jpg?lm=1"
+      },
+      {
+        "name": "Bertuğ Yıldırım",
+        "position": "Centre-Forward",
+        "nationality": "Türkiye",
+        "marketValue": "€2.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/672803-1759748214.jpg?lm=1"
+      },
+      {
+        "name": "Nuno Da Costa",
+        "position": "Centre-Forward",
+        "nationality": "Cape Verde",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/306166-1759748387.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Samsunspor",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/samsunspor/startseite/verein/152/saison_id/2025",
+    "players": [
+      {
+        "name": "Okan Kocuk",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€2.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/204189-1758534083.png?lm=1"
+      },
+      {
+        "name": "İrfan Can Eğribayat",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/322873-1765457606.png?lm=1"
+      },
+      {
+        "name": "Efe Yiğit Üstün",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1237420-1758538004.png?lm=1"
+      },
+      {
+        "name": "Efe Berat Törüz",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1070009-1758538292.png?lm=1"
+      },
+      {
+        "name": "Rick van Drongelen",
+        "position": "Centre-Back",
+        "nationality": "Netherlands",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/354340-1758534195.png?lm=1"
+      },
+      {
+        "name": "Toni Borevković",
+        "position": "Centre-Back",
+        "nationality": "Croatia",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/396342-1758537755.png?lm=1"
+      },
+      {
+        "name": "Lubomir Satka",
+        "position": "Centre-Back",
+        "nationality": "Slovakia",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/168408-1758538210.png?lm=1"
+      },
+      {
+        "name": "Bedirhan Çetin",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€150k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1017551-1758538586.png?lm=1"
+      },
+      {
+        "name": "Ali Badra Diabaté",
+        "position": "Centre-Back",
+        "nationality": "Cote d'Ivoire",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1457367-1768769171.png?lm=1"
+      },
+      {
+        "name": "Logi Tómasson",
+        "position": "Left-Back",
+        "nationality": "Iceland",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/472873-1758534942.png?lm=1"
+      },
+      {
+        "name": "Soner Gönül",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€600k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/340967-1758537869.png?lm=1"
+      },
+      {
+        "name": "Enes Albak",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€125k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1072260-1758538666.png?lm=1"
+      },
+      {
+        "name": "Joe Mendes",
+        "position": "Right-Back",
+        "nationality": "Sweden",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/579284-1758534148.png?lm=1"
+      },
+      {
+        "name": "Zeki Yavru",
+        "position": "Right-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/98131-1758535030.png?lm=1"
+      },
+      {
+        "name": "Antoine Makoumbou",
+        "position": "Defensive Midfield",
+        "nationality": "Congo",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/460651-1758537931.png?lm=1"
+      },
+      {
+        "name": "Celil Yüksel",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/336074-1758534809.png?lm=1"
+      },
+      {
+        "name": "Yunus Emre Çift",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€600k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/821622-1730130642.JPG?lm=1"
+      },
+      {
+        "name": "Franck Atoen",
+        "position": "Defensive Midfield",
+        "nationality": "Cameroon",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1435403-1758537813.png?lm=1"
+      },
+      {
+        "name": "Eyüp Değirmenci",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1303364-1758538477.png?lm=1"
+      },
+      {
+        "name": "Olivier Ntcham",
+        "position": "Central Midfield",
+        "nationality": "Cameroon",
+        "marketValue": "€2.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/224088-1758534692.png?lm=1"
+      },
+      {
+        "name": "Yalçın Kayan",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/605266-1761574513.jpg?lm=1"
+      },
+      {
+        "name": "Muhammet Özbaskıcı",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/928352-1730128145.JPG?lm=1"
+      },
+      {
+        "name": "Alper Efe Pazar",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1015607-1730123928.JPG?lm=1"
+      },
+      {
+        "name": "Carlo Holse",
+        "position": "Attacking Midfield",
+        "nationality": "Denmark",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/345577-1758535097.png?lm=1"
+      },
+      {
+        "name": "Afonso Sousa",
+        "position": "Attacking Midfield",
+        "nationality": "Portugal",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/375378-1758538545.png?lm=1"
+      },
+      {
+        "name": "Jaurès Assoumou",
+        "position": "Left Winger",
+        "nationality": "Cote d'Ivoire",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1066904-1769865750.jpg?lm=1"
+      },
+      {
+        "name": "Tahsin Bülbül",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1142144-1756631523.jpg?lm=1"
+      },
+      {
+        "name": "Saikuba Jarju",
+        "position": "Left Winger",
+        "nationality": "The Gambia",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1494766-1767543132.jpeg?lm=1"
+      },
+      {
+        "name": "Elayis Tavsan",
+        "position": "Right Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/462086-1704798303.jpg?lm=1"
+      },
+      {
+        "name": "Emre Kılınç",
+        "position": "Right Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/208848-1758534769.png?lm=1"
+      },
+      {
+        "name": "Tanguy Coulibaly",
+        "position": "Right Winger",
+        "nationality": "France",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/618425-1762872193.jpg?lm=1"
+      },
+      {
+        "name": "Cherif Ndiaye",
+        "position": "Centre-Forward",
+        "nationality": "Senegal",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/480705-1758884255.jpg?lm=1"
+      },
+      {
+        "name": "Marius Mouandilmadji",
+        "position": "Centre-Forward",
+        "nationality": "Chad",
+        "marketValue": "€4.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/598399-1758534610.png?lm=1"
+      },
+      {
+        "name": "Ebrima Ceesay",
+        "position": "Centre-Forward",
+        "nationality": "The Gambia",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1432633-1758538627.png?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Göztepe",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/goztepe/startseite/verein/1467/saison_id/2025",
+    "players": [
+      {
+        "name": "Mateusz Lis",
+        "position": "Goalkeeper",
+        "nationality": "Poland",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/345437-1759399622.png?lm=1"
+      },
+      {
+        "name": "Ekrem Kılıçarslan",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/464378-1759399671.png?lm=1"
+      },
+      {
+        "name": "Şamil Öztürk",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1014342-1694080554.png?lm=1"
+      },
+      {
+        "name": "Nevzat Üzel",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1175606-1768661722.png?lm=1"
+      },
+      {
+        "name": "Taha Altıkardeş",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/745233-1759399719.png?lm=1"
+      },
+      {
+        "name": "Malcom Bokele",
+        "position": "Centre-Back",
+        "nationality": "Cameroon",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/647787-1759399776.png?lm=1"
+      },
+      {
+        "name": "Furkan Bayır",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/548270-1759399840.png?lm=1"
+      },
+      {
+        "name": "Héliton",
+        "position": "Centre-Back",
+        "nationality": "Brazil",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/676115-1759399891.png?lm=1"
+      },
+      {
+        "name": "Allan Godói",
+        "position": "Centre-Back",
+        "nationality": "Brazil",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/681814-1759399948.png?lm=1"
+      },
+      {
+        "name": "Ege Yıldırım",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1076671-1759400002.png?lm=1"
+      },
+      {
+        "name": "Anthony Dennis",
+        "position": "Defensive Midfield",
+        "nationality": "Nigeria",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1104114-1759400062.png?lm=1"
+      },
+      {
+        "name": "Novatus Miroshi",
+        "position": "Defensive Midfield",
+        "nationality": "Tanzania",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/833315-1759400497.png?lm=1"
+      },
+      {
+        "name": "Musah Mohammed",
+        "position": "Defensive Midfield",
+        "nationality": "Ghana",
+        "marketValue": "€900k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/859182-1770202574.png?lm=1"
+      },
+      {
+        "name": "Furkan Malak",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1011214-1727796079.png?lm=1"
+      },
+      {
+        "name": "Arda Okan Kurtulan",
+        "position": "Right Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/700031-1759400302.png?lm=1"
+      },
+      {
+        "name": "Ogün Bayrak",
+        "position": "Right Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/545550-1759400557.png?lm=1"
+      },
+      {
+        "name": "Uğur Kaan Yıldız",
+        "position": "Right Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/700034-1759400360.png?lm=1"
+      },
+      {
+        "name": "Amin Cherni",
+        "position": "Left Midfield",
+        "nationality": "Tunisia",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/782935-1759400424.png?lm=1"
+      },
+      {
+        "name": "İsmail Köybaşı",
+        "position": "Left Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/74641-1759400711.png?lm=1"
+      },
+      {
+        "name": "Filip Krastev",
+        "position": "Attacking Midfield",
+        "nationality": "Bulgaria",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/486814-1724750480.jpg?lm=1"
+      },
+      {
+        "name": "Alexis Antunes",
+        "position": "Attacking Midfield",
+        "nationality": "Switzerland",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/346898-1708349857.jpg?lm=1"
+      },
+      {
+        "name": "Efkan Bekiroğlu",
+        "position": "Attacking Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/327402-1759400177.png?lm=1"
+      },
+      {
+        "name": "Juan",
+        "position": "Centre-Forward",
+        "nationality": "Brazil",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/662332-1759400806.png?lm=1"
+      },
+      {
+        "name": "Janderson",
+        "position": "Centre-Forward",
+        "nationality": "Brazil",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/976561-1759400867.png?lm=1"
+      },
+      {
+        "name": "Jeh",
+        "position": "Centre-Forward",
+        "nationality": "Brazil",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1108966-1683562025.jpg?lm=1"
+      },
+      {
+        "name": "Ibrahim Sabra",
+        "position": "Centre-Forward",
+        "nationality": "Jordan",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1142382-1759400970.png?lm=1"
+      },
+      {
+        "name": "Guilherme Luiz",
+        "position": "Centre-Forward",
+        "nationality": "Brazil",
+        "marketValue": "€350k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1116387-1767858422.png?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Konyaspor",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/konyaspor/startseite/verein/2293/saison_id/2025",
+    "players": [
+      {
+        "name": "Deniz Ertaş",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/882568-1755608855.png?lm=1"
+      },
+      {
+        "name": "Bahadır Güngördü",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€600k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/388359-1755609683.png?lm=1"
+      },
+      {
+        "name": "Egemen Aydın",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1071220-1755610606.png?lm=1"
+      },
+      {
+        "name": "Adamo Nagalo",
+        "position": "Centre-Back",
+        "nationality": "Burkina Faso",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/800976-1769789205.png?lm=1"
+      },
+      {
+        "name": "Riechedly Bazoer",
+        "position": "Centre-Back",
+        "nationality": "Curacao",
+        "marketValue": "€2.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/216443-1755610334.png?lm=1"
+      },
+      {
+        "name": "Adil Demirbağ",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/354173-1755608954.png?lm=1"
+      },
+      {
+        "name": "Rayyan Baniya",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/394872-1756298762.png?lm=1"
+      },
+      {
+        "name": "Uğurcan Yazğılı",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/295955-1755609000.png?lm=1"
+      },
+      {
+        "name": "Josip Calusic",
+        "position": "Centre-Back",
+        "nationality": "Croatia",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/170851-1755610081.png?lm=1"
+      },
+      {
+        "name": "Yasir Subaşı",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/375719-1755608902.png?lm=1"
+      },
+      {
+        "name": "Arif Boşluk",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/801693-1756306563.png?lm=1"
+      },
+      {
+        "name": "Guilherme",
+        "position": "Left-Back",
+        "nationality": "Brazil",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/217863-1755609529.png?lm=1"
+      },
+      {
+        "name": "Yhoan Andzouana",
+        "position": "Right-Back",
+        "nationality": "Congo",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/342218-1755610529.png?lm=1"
+      },
+      {
+        "name": "Jin-ho Jo",
+        "position": "Defensive Midfield",
+        "nationality": "Korea, South",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/638573-1755610399.png?lm=1"
+      },
+      {
+        "name": "Marko Jevtovic",
+        "position": "Defensive Midfield",
+        "nationality": "Serbia",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/256000-1755610141.png?lm=1"
+      },
+      {
+        "name": "Ufuk Akyol",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/241251-1755610295.png?lm=1"
+      },
+      {
+        "name": "Berkan Kutlu",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/469787-1671101403.png?lm=1"
+      },
+      {
+        "name": "Melih İbrahimoğlu",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/391555-1755610825.png?lm=1"
+      },
+      {
+        "name": "Morten Bjørlo",
+        "position": "Central Midfield",
+        "nationality": "Norway",
+        "marketValue": "€900k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/230361-1755610713.png?lm=1"
+      },
+      {
+        "name": "Esat Buğa",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1178929-1755608784.png?lm=1"
+      },
+      {
+        "name": "Enis Bardhi",
+        "position": "Attacking Midfield",
+        "nationality": "North Macedonia",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/245014-1755609434.png?lm=1"
+      },
+      {
+        "name": "Sander Svendsen",
+        "position": "Attacking Midfield",
+        "nationality": "Norway",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/269503-1768311447.jpg?lm=1"
+      },
+      {
+        "name": "Kazeem Olaigbe",
+        "position": "Left Winger",
+        "nationality": "Belgium",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/565406-1756306440.png?lm=1"
+      },
+      {
+        "name": "Diogo Gonçalves",
+        "position": "Left Winger",
+        "nationality": "Portugal",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/258015-1742221378.jpg?lm=1"
+      },
+      {
+        "name": "Pedrinho",
+        "position": "Left Winger",
+        "nationality": "Brazil",
+        "marketValue": "€900k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/742063-1755609162.png?lm=1"
+      },
+      {
+        "name": "Tunahan Taşçı",
+        "position": "Right Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/594240-1755609056.png?lm=1"
+      },
+      {
+        "name": "Marius Ștefănescu",
+        "position": "Right Winger",
+        "nationality": "Romania",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/685795-1755609474.png?lm=1"
+      },
+      {
+        "name": "Deniz Türüç",
+        "position": "Right Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/216662-1759748326.jpg?lm=1"
+      },
+      {
+        "name": "Jackson Muleka",
+        "position": "Centre-Forward",
+        "nationality": "DR Congo",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/549966-1696076449.png?lm=1"
+      },
+      {
+        "name": "Blaz Kramer",
+        "position": "Centre-Forward",
+        "nationality": "Slovenia",
+        "marketValue": "€900k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/322288-1727457836.png?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Caykur Rizespor",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/caykur-rizespor/startseite/verein/126/saison_id/2025",
+    "players": [
+      {
+        "name": "Yahia Fofana",
+        "position": "Goalkeeper",
+        "nationality": "Cote d'Ivoire",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/418651-1759315646.jpg?lm=1"
+      },
+      {
+        "name": "Erdem Canpolat",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/521956-1759315730.jpg?lm=1"
+      },
+      {
+        "name": "Efe Doğan",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€150k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/966488-1759315779.jpg?lm=1"
+      },
+      {
+        "name": "Attila Mocsi",
+        "position": "Centre-Back",
+        "nationality": "Hungary",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/496996-1759320319.jpg?lm=1"
+      },
+      {
+        "name": "Modibo Sagnan",
+        "position": "Centre-Back",
+        "nationality": "Mali",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/524925-1759315957.jpg?lm=1"
+      },
+      {
+        "name": "Khusniddin Alikulov",
+        "position": "Centre-Back",
+        "nationality": "Uzbekistan",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/581429-1759320278.jpg?lm=1"
+      },
+      {
+        "name": "Samet Akaydin",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/295024-1759320361.jpg?lm=1"
+      },
+      {
+        "name": "Emir Ortakaya",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/727081-1761573846.jpg?lm=1"
+      },
+      {
+        "name": "Mithat Pala",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/703720-1759320679.jpg?lm=1"
+      },
+      {
+        "name": "Casper Højer",
+        "position": "Left-Back",
+        "nationality": "Denmark",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/222977-1759320396.jpg?lm=1"
+      },
+      {
+        "name": "Taha Şahin",
+        "position": "Right-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/616885-1759320247.jpg?lm=1"
+      },
+      {
+        "name": "Furkan Orak",
+        "position": "Right-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1054907-1759320440.jpg?lm=1"
+      },
+      {
+        "name": "Giannis Papanikolaou",
+        "position": "Defensive Midfield",
+        "nationality": "Greece",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/448058-1759320641.jpg?lm=1"
+      },
+      {
+        "name": "Qazim Laci",
+        "position": "Central Midfield",
+        "nationality": "Albania",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/290552-1759320482.jpg?lm=1"
+      },
+      {
+        "name": "Ibrahim Olawoyin",
+        "position": "Central Midfield",
+        "nationality": "Nigeria",
+        "marketValue": "€2.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/672597-1759320526.jpg?lm=1"
+      },
+      {
+        "name": "Muhamed Buljubasic",
+        "position": "Central Midfield",
+        "nationality": "Bosnia-Herzegovina",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/687800-1759320588.jpg?lm=1"
+      },
+      {
+        "name": "Taylan Antalyalı",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/204176-1759320728.jpg?lm=1"
+      },
+      {
+        "name": "Valentin Mihăilă",
+        "position": "Left Winger",
+        "nationality": "Romania",
+        "marketValue": "€2.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/535469-1759320869.jpg?lm=1"
+      },
+      {
+        "name": "Altin Zeqiri",
+        "position": "Left Winger",
+        "nationality": "Kosovo",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/508780-1759320957.jpg?lm=1"
+      },
+      {
+        "name": "Emrecan Bulut",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€600k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1050797-1759321103.jpg?lm=1"
+      },
+      {
+        "name": "Loide Augusto",
+        "position": "Right Winger",
+        "nationality": "Angola",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/696693-1759320995.jpg?lm=1"
+      },
+      {
+        "name": "Adedire Mebude",
+        "position": "Right Winger",
+        "nationality": "Scotland",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/719672-1738055206.jpg?lm=1"
+      },
+      {
+        "name": "Frantzdy Pierrot",
+        "position": "Centre-Forward",
+        "nationality": "Haiti",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/492955-1754429681.png?lm=1"
+      },
+      {
+        "name": "Ali Sowe",
+        "position": "Centre-Forward",
+        "nationality": "The Gambia",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/229817-1759320916.jpg?lm=1"
+      },
+      {
+        "name": "Halil Dervişoğlu",
+        "position": "Centre-Forward",
+        "nationality": "Türkiye",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/465606-1759321069.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Gaziantep FK",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/gaziantep-fk/startseite/verein/2832/saison_id/2025",
+    "players": [
+      {
+        "name": "Zafer Görgen",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/576566-1693407126.png?lm=1"
+      },
+      {
+        "name": "Burak Bozan",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/587726-1725480479.jpg?lm=1"
+      },
+      {
+        "name": "Tayyip Talha Sanuç",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/462772-1666279231.png?lm=1"
+      },
+      {
+        "name": "Nihad Mujakic",
+        "position": "Centre-Back",
+        "nationality": "Bosnia-Herzegovina",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/380919-1761574168.jpg?lm=1"
+      },
+      {
+        "name": "Arda Kızıldağ",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€900k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/532905-1725459615.jpg?lm=1"
+      },
+      {
+        "name": "Myenty Abena",
+        "position": "Centre-Back",
+        "nationality": "Suriname",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/254003-1751374048.jpg?lm=1"
+      },
+      {
+        "name": "Nazım Sangaré",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€200k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/157113-1754566911.jpg?lm=1"
+      },
+      {
+        "name": "Kévin Rodrigues",
+        "position": "Left-Back",
+        "nationality": "Portugal",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/206947-1727695143.jpg?lm=1"
+      },
+      {
+        "name": "Luis Pérez",
+        "position": "Right-Back",
+        "nationality": "Spain",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/358115-1755778491.jpg?lm=1"
+      },
+      {
+        "name": "Salem M'Bakata",
+        "position": "Right-Back",
+        "nationality": "France",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/590926-1725480071.jpg?lm=1"
+      },
+      {
+        "name": "Melih Kabasakal",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/275683-1730285950.jpg?lm=1"
+      },
+      {
+        "name": "Ogün Özçiçek",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/701845-1725480189.jpg?lm=1"
+      },
+      {
+        "name": "Drissa Camara",
+        "position": "Central Midfield",
+        "nationality": "Cote d'Ivoire",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/614742-1756729981.jpg?lm=1"
+      },
+      {
+        "name": "Karamba Gassama",
+        "position": "Central Midfield",
+        "nationality": "The Gambia",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1111215-1768213620.png?lm=1"
+      },
+      {
+        "name": "Kacper Kozlowski",
+        "position": "Attacking Midfield",
+        "nationality": "Poland",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/554284-1725460185.jpg?lm=1"
+      },
+      {
+        "name": "Alexandru Maxim",
+        "position": "Attacking Midfield",
+        "nationality": "Romania",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/129513-1725480429.jpg?lm=1"
+      },
+      {
+        "name": "Victor Ntino-Emo Gidado",
+        "position": "Attacking Midfield",
+        "nationality": "Nigeria",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1209519-1768207480.png?lm=1"
+      },
+      {
+        "name": "Yusuf Kabadayi",
+        "position": "Left Winger",
+        "nationality": "Germany",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/604359-1755202049.jpg?lm=1"
+      },
+      {
+        "name": "Christopher Lungoyi",
+        "position": "Left Winger",
+        "nationality": "Switzerland",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/346903-1725444576.jpg?lm=1"
+      },
+      {
+        "name": "Ali Osman Kalın",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1261143-1758285506.png?lm=1"
+      },
+      {
+        "name": "Deian Sorescu",
+        "position": "Right Winger",
+        "nationality": "Romania",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/379209-1725479961.jpg?lm=1"
+      },
+      {
+        "name": "Ali Mevran Ablak",
+        "position": "Right Winger",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/889343-1725479870.jpg?lm=1"
+      },
+      {
+        "name": "Mohamed Bayo",
+        "position": "Centre-Forward",
+        "nationality": "Guinea",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/594991-1756720669.jpg?lm=1"
+      },
+      {
+        "name": "Denis Drăguș",
+        "position": "Centre-Forward",
+        "nationality": "Romania",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/405399-1761574798.jpg?lm=1"
+      },
+      {
+        "name": "Muhammet Akmelek",
+        "position": "Centre-Forward",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1474871-1770724407.jpeg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Kasimpasa",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/kasimpasa/startseite/verein/10484/saison_id/2025",
+    "players": [
+      {
+        "name": "Andreas Gianniotis",
+        "position": "Goalkeeper",
+        "nationality": "Greece",
+        "marketValue": "€350k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/226802-1759929776.jpg?lm=1"
+      },
+      {
+        "name": "Ali Emre Yanar",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/435135-1759929810.jpg?lm=1"
+      },
+      {
+        "name": "Ege Albayrak",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1233283-1759929845.jpg?lm=1"
+      },
+      {
+        "name": "Şant Kazancı",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1254156-1759929884.jpg?lm=1"
+      },
+      {
+        "name": "Rodrigo Becão",
+        "position": "Centre-Back",
+        "nationality": "Brazil",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/410158-1765460867.jpg?lm=1"
+      },
+      {
+        "name": "Nicholas Opoku",
+        "position": "Centre-Back",
+        "nationality": "Ghana",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/396516-1759929993.jpg?lm=1"
+      },
+      {
+        "name": "Adem Arous",
+        "position": "Centre-Back",
+        "nationality": "Tunisia",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1071742-1759930106.jpg?lm=1"
+      },
+      {
+        "name": "Taylan Aydın",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1067930-1759930154.jpg?lm=1"
+      },
+      {
+        "name": "Ahmet Taha Dağbaşı",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1314014-1765986288.jpeg?lm=1"
+      },
+      {
+        "name": "Godfried Frimpong",
+        "position": "Left-Back",
+        "nationality": "Netherlands",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/364244-1759929921.jpg?lm=1"
+      },
+      {
+        "name": "Emre Taşdemir",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/204201-1759930221.jpg?lm=1"
+      },
+      {
+        "name": "Cláudio Winck",
+        "position": "Right-Back",
+        "nationality": "Brazil",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/181783-1759930026.jpg?lm=1"
+      },
+      {
+        "name": "Kamil Ahmet Çörekçi",
+        "position": "Right-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/110686-1767781573.png?lm=1"
+      },
+      {
+        "name": "Berkay Muratoğlu",
+        "position": "Right-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1233280-1759930643.jpg?lm=1"
+      },
+      {
+        "name": "Andri Fannar Baldursson",
+        "position": "Defensive Midfield",
+        "nationality": "Iceland",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/464446-1759930869.jpg?lm=1"
+      },
+      {
+        "name": "Burak Gültekin",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€150k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1160504-1770151429.png?lm=1"
+      },
+      {
+        "name": "Kerem Demirbay",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/125858-1761574006.jpg?lm=1"
+      },
+      {
+        "name": "Eyüp Aydın",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/605110-1758890141.jpg?lm=1"
+      },
+      {
+        "name": "Cafú",
+        "position": "Central Midfield",
+        "nationality": "Portugal",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/203655-1759930957.jpg?lm=1"
+      },
+      {
+        "name": "İrfan Can Kahveci",
+        "position": "Attacking Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€4.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/216603-1765459199.png?lm=1"
+      },
+      {
+        "name": "Haris Hajradinovic",
+        "position": "Attacking Midfield",
+        "nationality": "Bosnia-Herzegovina",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/215592-1759930716.jpg?lm=1"
+      },
+      {
+        "name": "Adrian Benedyczak",
+        "position": "Left Winger",
+        "nationality": "Poland",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/454386-1686128177.jpg?lm=1"
+      },
+      {
+        "name": "Mortadha Ben Ouanes",
+        "position": "Left Winger",
+        "nationality": "Tunisia",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/230921-1759931275.jpg?lm=1"
+      },
+      {
+        "name": "Ali Yavuz Kol",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/477938-1759931720.jpg?lm=1"
+      },
+      {
+        "name": "Erdem Çetinkaya",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/701834-1727699515.jpg?lm=1"
+      },
+      {
+        "name": "Jim Allevinah",
+        "position": "Right Winger",
+        "nationality": "Gabon",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/646733-1750956955.png?lm=1"
+      },
+      {
+        "name": "Fousseni Diabaté",
+        "position": "Right Winger",
+        "nationality": "Mali",
+        "marketValue": "€900k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/364861-1759931606.jpg?lm=1"
+      },
+      {
+        "name": "Pape Habib Guèye",
+        "position": "Centre-Forward",
+        "nationality": "Senegal",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/585339-1759931569.jpg?lm=1"
+      },
+      {
+        "name": "Yusuf Barası",
+        "position": "Centre-Forward",
+        "nationality": "Türkiye",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/566271-1759931224.jpg?lm=1"
+      },
+      {
+        "name": "Kubilay Kanatsızkuş",
+        "position": "Centre-Forward",
+        "nationality": "Türkiye",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/330876-1759931680.jpg?lm=1"
+      },
+      {
+        "name": "Cenk Tosun",
+        "position": "Centre-Forward",
+        "nationality": "Türkiye",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/45671-1765459685.png?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Kayserispor",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/kayserispor/startseite/verein/3205/saison_id/2025",
+    "players": [
+      {
+        "name": "Bilal Bayazıt",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/361032-1694080321.png?lm=1"
+      },
+      {
+        "name": "Deniz Dönmezer",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1189049-1728553505.jpg?lm=1"
+      },
+      {
+        "name": "Onurcan Piri",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€200k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/199470-1696332380.png?lm=1"
+      },
+      {
+        "name": "Majid Hosseini",
+        "position": "Centre-Back",
+        "nationality": "Iran",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/294767-1696332171.png?lm=1"
+      },
+      {
+        "name": "Semih Güler",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€900k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/265542-1728552899.jpg?lm=1"
+      },
+      {
+        "name": "Stefano Denswil",
+        "position": "Centre-Back",
+        "nationality": "Suriname",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/182923-1723802444.jpg?lm=1"
+      },
+      {
+        "name": "Jadel Katongo",
+        "position": "Centre-Back",
+        "nationality": "England",
+        "marketValue": "€350k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/670880-1768319320.jpg?lm=1"
+      },
+      {
+        "name": "Kayra Cihan",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1303968-1770033779.jpg?lm=1"
+      },
+      {
+        "name": "Abdulsamet Burak",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/349608-1728553445.jpg?lm=1"
+      },
+      {
+        "name": "Lionel Carole",
+        "position": "Left-Back",
+        "nationality": "France",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/11530-1694080287.png?lm=1"
+      },
+      {
+        "name": "Joshua Brenet",
+        "position": "Right-Back",
+        "nationality": "Curacao",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/207006-1770380854.png?lm=1"
+      },
+      {
+        "name": "Burak Kapacak",
+        "position": "Right-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€200k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/340251-1706883569.png?lm=1"
+      },
+      {
+        "name": "Youssef Aït Bennasser",
+        "position": "Defensive Midfield",
+        "nationality": "Morocco",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/265569-1730122729.JPG?lm=1"
+      },
+      {
+        "name": "Dorukhan Toköz",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/275935-1730285109.jpg?lm=1"
+      },
+      {
+        "name": "László Bénes",
+        "position": "Central Midfield",
+        "nationality": "Slovakia",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/243188-1719585148.jpg?lm=1"
+      },
+      {
+        "name": "Görkem Sağlam",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€900k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/251345-1728055097.jpg?lm=1"
+      },
+      {
+        "name": "Furkan Soyalp",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/221285-1725460087.jpg?lm=1"
+      },
+      {
+        "name": "Yiğit Emre Çeltik",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/655894-1740483485.jpg?lm=1"
+      },
+      {
+        "name": "João Mendes",
+        "position": "Attacking Midfield",
+        "nationality": "Portugal",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/504503-1695207301.jpg?lm=1"
+      },
+      {
+        "name": "Eray Özbek",
+        "position": "Attacking Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/662140-1694079986.png?lm=1"
+      },
+      {
+        "name": "Miguel Cardoso",
+        "position": "Left Winger",
+        "nationality": "Portugal",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/348425-1694079088.png?lm=1"
+      },
+      {
+        "name": "Sam Mather",
+        "position": "Left Winger",
+        "nationality": "England",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/670851-1757622357.jpg?lm=1"
+      },
+      {
+        "name": "Nurettin Korkmaz",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/654374-1744712447.jpg?lm=1"
+      },
+      {
+        "name": "Denis Makarov",
+        "position": "Right Winger",
+        "nationality": "Russia",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/599203-1721728027.png?lm=1"
+      },
+      {
+        "name": "Carlos Mané",
+        "position": "Right Winger",
+        "nationality": "Guinea-Bissau",
+        "marketValue": "€900k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/182711-1694080053.png?lm=1"
+      },
+      {
+        "name": "Ramazan Civelek",
+        "position": "Right Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/282560-1694080568.png?lm=1"
+      },
+      {
+        "name": "Fedor Chalov",
+        "position": "Centre-Forward",
+        "nationality": "Russia",
+        "marketValue": "€5.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/287183-1762637822.png?lm=1"
+      },
+      {
+        "name": "German Onugkha",
+        "position": "Centre-Forward",
+        "nationality": "Russia",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/568318-1747724381.jpg?lm=1"
+      },
+      {
+        "name": "Indrit Tuci",
+        "position": "Centre-Forward",
+        "nationality": "Albania",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/675857-1708671924.jpg?lm=1"
+      },
+      {
+        "name": "Talha Sarıarslan",
+        "position": "Centre-Forward",
+        "nationality": "Türkiye",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/777502-1744293010.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Genclerbirligi Ankara",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/genclerbirligi-ankara/startseite/verein/820/saison_id/2025",
+    "players": [
+      {
+        "name": "Ricardo Velho",
+        "position": "Goalkeeper",
+        "nationality": "Portugal",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/527026-1770396300.jpeg?lm=1"
+      },
+      {
+        "name": "Erhan Erentürk",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/342065-1754987500.png?lm=1"
+      },
+      {
+        "name": "Ebrar Aydın",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/605580-1754987963.png?lm=1"
+      },
+      {
+        "name": "Berk Deniz Çukurcu",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1189059-1754987392.png?lm=1"
+      },
+      {
+        "name": "Dimitrios Goutas",
+        "position": "Centre-Back",
+        "nationality": "Greece",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/191829-1754986049.png?lm=1"
+      },
+      {
+        "name": "Thalisson",
+        "position": "Centre-Back",
+        "nationality": "Brazil",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/323876-1754915410.png?lm=1"
+      },
+      {
+        "name": "Zan Zuzek",
+        "position": "Centre-Back",
+        "nationality": "Slovenia",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/325222-1754985392.png?lm=1"
+      },
+      {
+        "name": "Abdullah Şahindere",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/655901-1750154599.jpg?lm=1"
+      },
+      {
+        "name": "Umut İslamoğlu",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1168398-1754987880.png?lm=1"
+      },
+      {
+        "name": "Arda Çağan Çelik",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1078111-1698869890.png?lm=1"
+      },
+      {
+        "name": "Abdurrahim Dursun",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/366194-1754988253.png?lm=1"
+      },
+      {
+        "name": "Matej Hanousek",
+        "position": "Left-Back",
+        "nationality": "Czech Republic",
+        "marketValue": "€150k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/267473-1754987789.png?lm=1"
+      },
+      {
+        "name": "Yiğit Hamza Aydar",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1417530-1754988673.png?lm=1"
+      },
+      {
+        "name": "Pedro Pereira",
+        "position": "Right-Back",
+        "nationality": "Portugal",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/314965-1754986954.png?lm=1"
+      },
+      {
+        "name": "Fıratcan Üzüm",
+        "position": "Right-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€200k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/508994-1754988482.png?lm=1"
+      },
+      {
+        "name": "Emirhan Ünal",
+        "position": "Right-Back",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/934617-1724868906.png?lm=1"
+      },
+      {
+        "name": "Tom Dele-Bashiru",
+        "position": "Defensive Midfield",
+        "nationality": "Nigeria",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/346472-1766418531.jpg?lm=1"
+      },
+      {
+        "name": "Moussa Kyabou",
+        "position": "Defensive Midfield",
+        "nationality": "Mali",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/872123-1754988345.png?lm=1"
+      },
+      {
+        "name": "Peter Etebo",
+        "position": "Defensive Midfield",
+        "nationality": "Nigeria",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/409106-1754985491.png?lm=1"
+      },
+      {
+        "name": "Oğulcan Ülgün",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/440653-1754988056.png?lm=1"
+      },
+      {
+        "name": "Samed Onur",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/538864-1754985592.png?lm=1"
+      },
+      {
+        "name": "Ensar Kemaloğlu",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/457774-1754988151.png?lm=1"
+      },
+      {
+        "name": "Dal Varesanovic",
+        "position": "Attacking Midfield",
+        "nationality": "Bosnia-Herzegovina",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/433105-1729514636.jpg?lm=1"
+      },
+      {
+        "name": "Henry Onyekuru",
+        "position": "Left Winger",
+        "nationality": "Nigeria",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/380415-1754986136.png?lm=1"
+      },
+      {
+        "name": "Franco Tongya",
+        "position": "Left Winger",
+        "nationality": "Italy",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/530851-1757317545.jpg?lm=1"
+      },
+      {
+        "name": "Metehan Mimaroğlu",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/294100-1754985812.png?lm=1"
+      },
+      {
+        "name": "Adama Traoré",
+        "position": "Right Winger",
+        "nationality": "Mali",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/364405-1613461784.png?lm=1"
+      },
+      {
+        "name": "Cihan Çanak",
+        "position": "Right Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/743376-1756305564.png?lm=1"
+      },
+      {
+        "name": "Göktan Gürpüz",
+        "position": "Right Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/655912-1754986859.png?lm=1"
+      },
+      {
+        "name": "Sékou Koïta",
+        "position": "Second Striker",
+        "nationality": "Mali",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/402010-1721915630.png?lm=1"
+      },
+      {
+        "name": "M'Baye Niang",
+        "position": "Centre-Forward",
+        "nationality": "Senegal",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/157501-1695124679.png?lm=1"
+      },
+      {
+        "name": "Ayaz Özcan",
+        "position": "Centre-Forward",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1437503-1754987165.png?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Kocaelispor",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/kocaelispor/startseite/verein/120/saison_id/2025",
+    "players": [
+      {
+        "name": "Aleksandar Jovanovic",
+        "position": "Goalkeeper",
+        "nationality": "Serbia",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/256567-1760087849.png?lm=1"
+      },
+      {
+        "name": "Serhat Öztaşdelen",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€200k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/722650-1760087898.png?lm=1"
+      },
+      {
+        "name": "Gökhan Değirmenci",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/58534-1760087936.png?lm=1"
+      },
+      {
+        "name": "Botond Balogh",
+        "position": "Centre-Back",
+        "nationality": "Hungary",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/543727-1760087992.png?lm=1"
+      },
+      {
+        "name": "Hrvoje Smolcic",
+        "position": "Centre-Back",
+        "nationality": "Croatia",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/571299-1760088066.png?lm=1"
+      },
+      {
+        "name": "Mateusz Wieteska",
+        "position": "Centre-Back",
+        "nationality": "Poland",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/208172-1746022660.png?lm=1"
+      },
+      {
+        "name": "Massadio Haïdara",
+        "position": "Left-Back",
+        "nationality": "Mali",
+        "marketValue": "€900k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/170929-1760088165.png?lm=1"
+      },
+      {
+        "name": "Muharrem Cinan",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/539822-1760088317.png?lm=1"
+      },
+      {
+        "name": "Anfernee Dijksteel",
+        "position": "Right-Back",
+        "nationality": "Suriname",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/428302-1760088265.png?lm=1"
+      },
+      {
+        "name": "Ahmet Oğuz",
+        "position": "Right-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/291758-1760088360.png?lm=1"
+      },
+      {
+        "name": "Show",
+        "position": "Defensive Midfield",
+        "nationality": "Angola",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/568216-1760088579.png?lm=1"
+      },
+      {
+        "name": "Mahamadou Susoho",
+        "position": "Defensive Midfield",
+        "nationality": "Spain",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/895074-1699384922.jpg?lm=1"
+      },
+      {
+        "name": "Habib Keïta",
+        "position": "Central Midfield",
+        "nationality": "Mali",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/669000-1760088494.png?lm=1"
+      },
+      {
+        "name": "Joseph Nonge",
+        "position": "Central Midfield",
+        "nationality": "Belgium",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/748807-1760088450.png?lm=1"
+      },
+      {
+        "name": "Karol Linetty",
+        "position": "Central Midfield",
+        "nationality": "Poland",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/225873-1760088540.png?lm=1"
+      },
+      {
+        "name": "Samet Yalçın",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/355757-1760088752.png?lm=1"
+      },
+      {
+        "name": "Darko Churlinov",
+        "position": "Left Winger",
+        "nationality": "North Macedonia",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/386786-1760089004.png?lm=1"
+      },
+      {
+        "name": "Rigoberto Rivas",
+        "position": "Left Winger",
+        "nationality": "Honduras",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/451353-1760088955.png?lm=1"
+      },
+      {
+        "name": "Tayfur Bingöl",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/184440-1760088624.png?lm=1"
+      },
+      {
+        "name": "Furkan Gedik",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/849404-1760089192.png?lm=1"
+      },
+      {
+        "name": "Can Keleş",
+        "position": "Right Winger",
+        "nationality": "Austria",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/451642-1760088905.png?lm=1"
+      },
+      {
+        "name": "Dan Agyei",
+        "position": "Right Winger",
+        "nationality": "England",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/367195-1760089051.png?lm=1"
+      },
+      {
+        "name": "Bruno Petkovic",
+        "position": "Centre-Forward",
+        "nationality": "Croatia",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/256358-1760088862.png?lm=1"
+      },
+      {
+        "name": "Ahmet Sağat",
+        "position": "Centre-Forward",
+        "nationality": "Türkiye",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/299717-1760089103.png?lm=1"
+      },
+      {
+        "name": "Serdar Dursun",
+        "position": "Centre-Forward",
+        "nationality": "Türkiye",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/80059-1760089154.png?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Alanyaspor",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/alanyaspor/startseite/verein/11282/saison_id/2025",
+    "players": [
+      {
+        "name": "Ertuğrul Taşkıran",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/91945-1761654065.jpg?lm=1"
+      },
+      {
+        "name": "Paulo Victor",
+        "position": "Goalkeeper",
+        "nationality": "Brazil",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/67886-1761654129.jpg?lm=1"
+      },
+      {
+        "name": "Nuno Lima",
+        "position": "Centre-Back",
+        "nationality": "Portugal",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/836336-1761654218.jpg?lm=1"
+      },
+      {
+        "name": "Ümit Akdağ",
+        "position": "Centre-Back",
+        "nationality": "Romania",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/958647-1761656477.jpg?lm=1"
+      },
+      {
+        "name": "Fatih Aksoy",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/338794-1761654260.jpg?lm=1"
+      },
+      {
+        "name": "Fidan Aliti",
+        "position": "Centre-Back",
+        "nationality": "Kosovo",
+        "marketValue": "€900k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/182870-1761654341.jpg?lm=1"
+      },
+      {
+        "name": "Bruno Viana",
+        "position": "Centre-Back",
+        "nationality": "Brazil",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/411838-1761654430.jpg?lm=1"
+      },
+      {
+        "name": "Baran Moğultay",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/922892-1761654477.jpg?lm=1"
+      },
+      {
+        "name": "Batuhan Yavuz",
+        "position": "Right-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/745596-1761654595.jpg?lm=1"
+      },
+      {
+        "name": "Maestro",
+        "position": "Defensive Midfield",
+        "nationality": "Angola",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/666551-1761654630.jpg?lm=1"
+      },
+      {
+        "name": "Gaius Makouta",
+        "position": "Defensive Midfield",
+        "nationality": "Congo",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/450173-1761654687.jpg?lm=1"
+      },
+      {
+        "name": "Nicolas Janvier",
+        "position": "Central Midfield",
+        "nationality": "France",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/324803-1761655464.jpg?lm=1"
+      },
+      {
+        "name": "Enes Keskin",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/742611-1761655507.jpg?lm=1"
+      },
+      {
+        "name": "İzzet Çelik",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/811841-1761656775.jpg?lm=1"
+      },
+      {
+        "name": "Buluthan Bulut",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/700305-1761655684.jpg?lm=1"
+      },
+      {
+        "name": "Florent Hadergjonaj",
+        "position": "Right Midfield",
+        "nationality": "Kosovo",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/238809-1761654302.jpg?lm=1"
+      },
+      {
+        "name": "Ruan",
+        "position": "Left Midfield",
+        "nationality": "Brazil",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1053933-1761655975.jpg?lm=1"
+      },
+      {
+        "name": "Yusuf Özdemir",
+        "position": "Left Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/652426-1761656965.jpg?lm=1"
+      },
+      {
+        "name": "Ianis Hagi",
+        "position": "Attacking Midfield",
+        "nationality": "Romania",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/282076-1761654746.jpg?lm=1"
+      },
+      {
+        "name": "İbrahim Kaya",
+        "position": "Attacking Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/712127-1761656595.jpg?lm=1"
+      },
+      {
+        "name": "Ui-jo Hwang",
+        "position": "Attacking Midfield",
+        "nationality": "Korea, South",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/260166-1761656009.jpg?lm=1"
+      },
+      {
+        "name": "Efecan Karaca",
+        "position": "Attacking Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/50655-1761655607.jpg?lm=1"
+      },
+      {
+        "name": "Yusuf Can Karademir",
+        "position": "Attacking Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1243736-1761655745.jpg?lm=1"
+      },
+      {
+        "name": "Meschack Elia",
+        "position": "Centre-Forward",
+        "nationality": "DR Congo",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/423678-1761655792.jpg?lm=1"
+      },
+      {
+        "name": "Steve Mounié",
+        "position": "Centre-Forward",
+        "nationality": "Benin",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/238639-1761655846.jpg?lm=1"
+      },
+      {
+        "name": "Güven Yalçın",
+        "position": "Centre-Forward",
+        "nationality": "Türkiye",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/341019-1761657328.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Antalyaspor",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/antalyaspor/startseite/verein/589/saison_id/2025",
+    "players": [
+      {
+        "name": "Abdullah Yiğiter",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/393371-1757669476.jpg?lm=1"
+      },
+      {
+        "name": "Julián Cuesta",
+        "position": "Goalkeeper",
+        "nationality": "Spain",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/176936-1757668664.jpg?lm=1"
+      },
+      {
+        "name": "Kağan Arıcan",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€150k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1047622-1757670366.jpg?lm=1"
+      },
+      {
+        "name": "Georgiy Dzhikiya",
+        "position": "Centre-Back",
+        "nationality": "Russia",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/185024-1757669214.jpg?lm=1"
+      },
+      {
+        "name": "Lautaro Giannetti",
+        "position": "Centre-Back",
+        "nationality": "Argentina",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/225963-1757670028.jpg?lm=1"
+      },
+      {
+        "name": "Hüseyin Türkmen",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€200k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/395862-1757668869.jpg?lm=1"
+      },
+      {
+        "name": "Bahadır Öztürk",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€200k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/353970-1757668809.jpg?lm=1"
+      },
+      {
+        "name": "Veysel Sarı",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/88374-1757670298.jpg?lm=1"
+      },
+      {
+        "name": "Ensar Buğra Tivsiz",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1076670-1736112872.jpeg?lm=1"
+      },
+      {
+        "name": "Ege İzmirli",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1189079-1757670392.jpg?lm=1"
+      },
+      {
+        "name": "Kenneth Paal",
+        "position": "Left-Back",
+        "nationality": "Suriname",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/247596-1757668901.jpg?lm=1"
+      },
+      {
+        "name": "Samet Karakoç",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/815017-1758810269.jpg?lm=1"
+      },
+      {
+        "name": "Bünyamin Balcı",
+        "position": "Right-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€2.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/620072-1757669020.jpg?lm=1"
+      },
+      {
+        "name": "Erdoğan Yeşilyurt",
+        "position": "Right-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/158946-1757669329.jpg?lm=1"
+      },
+      {
+        "name": "Jesper Ceesay",
+        "position": "Defensive Midfield",
+        "nationality": "The Gambia",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/577832-1757669557.jpg?lm=1"
+      },
+      {
+        "name": "Soner Dikmen",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/291750-1757668970.jpg?lm=1"
+      },
+      {
+        "name": "Dario Saric",
+        "position": "Central Midfield",
+        "nationality": "Bosnia-Herzegovina",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/293228-1757670257.jpg?lm=1"
+      },
+      {
+        "name": "Yakub İlçin",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1223303-1757669448.jpg?lm=1"
+      },
+      {
+        "name": "Abdülkadir Ömür",
+        "position": "Attacking Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/271495-1757669130.jpg?lm=1"
+      },
+      {
+        "name": "Ramzi Safuri",
+        "position": "Attacking Midfield",
+        "nationality": "Israel",
+        "marketValue": "€900k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/204116-1757669050.jpg?lm=1"
+      },
+      {
+        "name": "Sander van de Streek",
+        "position": "Attacking Midfield",
+        "nationality": "Netherlands",
+        "marketValue": "€600k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/190222-1757669526.jpg?lm=1"
+      },
+      {
+        "name": "Nikola Storm",
+        "position": "Left Winger",
+        "nationality": "Belgium",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/183120-1757669600.jpg?lm=1"
+      },
+      {
+        "name": "Doğukan Sinik",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/370833-1757670157.jpg?lm=1"
+      },
+      {
+        "name": "Berkay Topdemir",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1254152-1757670059.jpg?lm=1"
+      },
+      {
+        "name": "Samuel Ballet",
+        "position": "Right Winger",
+        "nationality": "Switzerland",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/309977-1758810231.jpg?lm=1"
+      },
+      {
+        "name": "Yohan Boli",
+        "position": "Centre-Forward",
+        "nationality": "Cote d'Ivoire",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/280700-1758810204.jpg?lm=1"
+      },
+      {
+        "name": "Bachir Gueye",
+        "position": "Centre-Forward",
+        "nationality": "Senegal",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1458978-1758810169.jpg?lm=1"
+      },
+      {
+        "name": "Kerem Kayaarası",
+        "position": "Centre-Forward",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1175609-1757670324.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Eyüpspor",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/eyupspor/startseite/verein/7160/saison_id/2025",
+    "players": [
+      {
+        "name": "Marcos Felipe",
+        "position": "Goalkeeper",
+        "nationality": "Brazil",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/283166-1761569708.jpg?lm=1"
+      },
+      {
+        "name": "Jankat Yılmaz",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/727077-1761574296.jpg?lm=1"
+      },
+      {
+        "name": "Umut Keseci",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1045821-1770150875.png?lm=1"
+      },
+      {
+        "name": "Anıl Yaşar",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/685329-1729514807.jpg?lm=1"
+      },
+      {
+        "name": "Luccas Claro",
+        "position": "Centre-Back",
+        "nationality": "Brazil",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/175179-1761569805.jpg?lm=1"
+      },
+      {
+        "name": "Bedirhan Özyurt",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€150k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/710051-1761654519.jpg?lm=1"
+      },
+      {
+        "name": "Jérôme Onguéné",
+        "position": "Centre-Back",
+        "nationality": "Cameroon",
+        "marketValue": "€150k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/272638-1768376215.png?lm=1"
+      },
+      {
+        "name": "Gilbert Mendy",
+        "position": "Centre-Back",
+        "nationality": "Senegal",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1456741-1761569769.jpg?lm=1"
+      },
+      {
+        "name": "Diabel Ndoye",
+        "position": "Centre-Back",
+        "nationality": "Senegal",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1414664-1770395490.png?lm=1"
+      },
+      {
+        "name": "Berhan Kutlay Şatlı",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1178853-1696079503.jpg?lm=1"
+      },
+      {
+        "name": "Umut Meraş",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/341549-1761574844.jpg?lm=1"
+      },
+      {
+        "name": "Arda Yavuz",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€50k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1175508-1769444452.jpeg?lm=1"
+      },
+      {
+        "name": "Calegari",
+        "position": "Right-Back",
+        "nationality": "Brazil",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/686597-1761569743.jpg?lm=1"
+      },
+      {
+        "name": "Denis Radu",
+        "position": "Right-Back",
+        "nationality": "Romania",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/641989-1753425002.png?lm=1"
+      },
+      {
+        "name": "Talha Ülvan",
+        "position": "Right-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/708111-1761574144.jpg?lm=1"
+      },
+      {
+        "name": "Mateusz Legowski",
+        "position": "Defensive Midfield",
+        "nationality": "Poland",
+        "marketValue": "€2.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/570466-1761574254.jpg?lm=1"
+      },
+      {
+        "name": "Baran Gezek",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/988710-1761574737.jpg?lm=1"
+      },
+      {
+        "name": "Taras Stepanenko",
+        "position": "Defensive Midfield",
+        "nationality": "Ukraine",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/59970-1761574538.jpg?lm=1"
+      },
+      {
+        "name": "Taşkın İlter",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€150k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/200082-1761574493.jpg?lm=1"
+      },
+      {
+        "name": "Charles-André Raux-Yao",
+        "position": "Central Midfield",
+        "nationality": "France",
+        "marketValue": "€150k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/976840-1742299551.png?lm=1"
+      },
+      {
+        "name": "Emre Akbaba",
+        "position": "Attacking Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/278654-1761573921.jpg?lm=1"
+      },
+      {
+        "name": "Ismaila Manga",
+        "position": "Attacking Midfield",
+        "nationality": "Senegal",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1414670-1770395456.png?lm=1"
+      },
+      {
+        "name": "Prince Ampem",
+        "position": "Left Winger",
+        "nationality": "Ghana",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/562734-1761574566.jpg?lm=1"
+      },
+      {
+        "name": "Ángel Torres",
+        "position": "Right Winger",
+        "nationality": "Colombia",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/599224-1748410778.png?lm=1"
+      },
+      {
+        "name": "Dorin Rotariu",
+        "position": "Right Winger",
+        "nationality": "Romania",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/250573-1760697009.jpg?lm=1"
+      },
+      {
+        "name": "Lenny Pintor",
+        "position": "Right Winger",
+        "nationality": "France",
+        "marketValue": "€200k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/418660-1754322911.png?lm=1"
+      },
+      {
+        "name": "Christ Sadia",
+        "position": "Right Winger",
+        "nationality": "Cote d'Ivoire",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1458907-1761574906.jpg?lm=1"
+      },
+      {
+        "name": "Umut Bozok",
+        "position": "Centre-Forward",
+        "nationality": "Türkiye",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/259025-1761574190.jpg?lm=1"
+      },
+      {
+        "name": "Metehan Altunbaş",
+        "position": "Centre-Forward",
+        "nationality": "Türkiye",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/621603-1761574360.jpg?lm=1"
+      },
+      {
+        "name": "Abdou Khadre Sy",
+        "position": "Centre-Forward",
+        "nationality": "Senegal",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1414677-1770395421.png?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Fatih Karagümrük",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/fatih-karagumruk/startseite/verein/6646/saison_id/2025",
+    "players": [
+      {
+        "name": "Ivo Grbic",
+        "position": "Goalkeeper",
+        "nationality": "Croatia",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/226073-1755098360.jpg?lm=1"
+      },
+      {
+        "name": "Furkan Bekleviç",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/460218-1755099410.jpg?lm=1"
+      },
+      {
+        "name": "Kerem Yandal",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1105394-1755098412.jpg?lm=1"
+      },
+      {
+        "name": "Berke Can Evli",
+        "position": "Goalkeeper",
+        "nationality": "Türkiye",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1223507-1755098514.jpg?lm=1"
+      },
+      {
+        "name": "Igor Lichnovsky",
+        "position": "Centre-Back",
+        "nationality": "Chile",
+        "marketValue": "€900k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/209513-1718986146.jpg?lm=1"
+      },
+      {
+        "name": "Davide Biraschi",
+        "position": "Centre-Back",
+        "nationality": "Italy",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/199927-1699272474.png?lm=1"
+      },
+      {
+        "name": "Fatih Kurucuk",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€275k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/337516-1755098631.jpg?lm=1"
+      },
+      {
+        "name": "Anıl Yiğit Çınar",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€200k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/982344-1755099114.jpg?lm=1"
+      },
+      {
+        "name": "Burhan Ersoy",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/859924-1728553472.jpg?lm=1"
+      },
+      {
+        "name": "Muhammed Kadıoğlu",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1372495-1755098752.jpg?lm=1"
+      },
+      {
+        "name": "Filip Mladenovic",
+        "position": "Left-Back",
+        "nationality": "Serbia",
+        "marketValue": "€600k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/168063-1756043070.png?lm=1"
+      },
+      {
+        "name": "Çağtay Kurukalıp",
+        "position": "Left-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€600k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/616886-1755098788.png?lm=1"
+      },
+      {
+        "name": "Ricardo Esgaio",
+        "position": "Right-Back",
+        "nationality": "Portugal",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/139395-1591776235.png?lm=1"
+      },
+      {
+        "name": "Bartuğ Elmaz",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/655895-1765460045.png?lm=1"
+      },
+      {
+        "name": "Matías Kranevitter",
+        "position": "Defensive Midfield",
+        "nationality": "Argentina",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/240900-1693315007.png?lm=1"
+      },
+      {
+        "name": "Yaya Onogo",
+        "position": "Defensive Midfield",
+        "nationality": "Cote d'Ivoire",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1511508-1770385433.jpg?lm=1"
+      },
+      {
+        "name": "Berkay Özcan",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/249952-1755098866.jpg?lm=1"
+      },
+      {
+        "name": "Daniel Johnson",
+        "position": "Central Midfield",
+        "nationality": "Jamaica",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/169092-1755099005.jpg?lm=1"
+      },
+      {
+        "name": "Tuğbey Akgün",
+        "position": "Central Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/642869-1755095600.jpg?lm=1"
+      },
+      {
+        "name": "Sam Larsson",
+        "position": "Attacking Midfield",
+        "nationality": "Sweden",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/159668-1726736544.jpg?lm=1"
+      },
+      {
+        "name": "Serginho",
+        "position": "Left Winger",
+        "nationality": "Brazil",
+        "marketValue": "€600k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/456449-1755099167.png?lm=1"
+      },
+      {
+        "name": "Ahmet Sivri",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/529251-1755099356.jpg?lm=1"
+      },
+      {
+        "name": "Barış Kalaycı",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€200k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/908982-1755099053.jpg?lm=1"
+      },
+      {
+        "name": "Shavy Babicka",
+        "position": "Right Winger",
+        "nationality": "Gabon",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/916920-1769598370.png?lm=1"
+      },
+      {
+        "name": "Daniele Verde",
+        "position": "Right Winger",
+        "nationality": "Italy",
+        "marketValue": "€750k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/256361-1681205989.jpg?lm=1"
+      },
+      {
+        "name": "João Camacho",
+        "position": "Right Winger",
+        "nationality": "Portugal",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/268732-1755099087.jpg?lm=1"
+      },
+      {
+        "name": "Tarık Buğra Kalpaklı",
+        "position": "Right Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€200k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1261862-1755099272.png?lm=1"
+      },
+      {
+        "name": "Ahmed Traore",
+        "position": "Right Winger",
+        "nationality": "Cote d'Ivoire",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1498276-1768469273.jpeg?lm=1"
+      },
+      {
+        "name": "Tiago Çukur",
+        "position": "Centre-Forward",
+        "nationality": "Türkiye",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/594276-1755282514.jpeg?lm=1"
+      },
+      {
+        "name": "Moussa Kone",
+        "position": "Centre-Forward",
+        "nationality": "Cote d'Ivoire",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1500143-1767901111.png?lm=1"
+      }
+    ]
+  }
+]

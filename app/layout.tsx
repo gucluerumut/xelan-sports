@@ -6,6 +6,7 @@ import { TeamModalProvider } from "@/context/TeamModalContext";
 import TeamModal from "@/components/TeamModal";
 import { AuthProvider } from "@/lib/authContext";
 import { Toaster } from "sonner";
+import { QueryProvider } from "@/components/QueryProvider";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -34,25 +35,27 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={cn(inter.variable, "min-h-screen antialiased")}>
-        <AuthProvider>
-          <TeamModalProvider>
-            <div className="relative flex min-h-screen flex-col">
-              {children}
-            </div>
-            <TeamModal />
-            <Toaster
-              position="top-right"
-              richColors
-              theme="dark"
-              toastOptions={{
-                style: {
-                  background: '#1a1a1a',
-                  border: '1px solid rgba(255,255,255,0.1)',
-                },
-              }}
-            />
-          </TeamModalProvider>
-        </AuthProvider>
+        <QueryProvider>
+          <AuthProvider>
+            <TeamModalProvider>
+              <div className="relative flex min-h-screen flex-col">
+                {children}
+              </div>
+              <TeamModal />
+              <Toaster
+                position="top-right"
+                richColors
+                theme="dark"
+                toastOptions={{
+                  style: {
+                    background: '#1a1a1a',
+                    border: '1px solid rgba(255,255,255,0.1)',
+                  },
+                }}
+              />
+            </TeamModalProvider>
+          </AuthProvider>
+        </QueryProvider>
       </body>
     </html>
   );

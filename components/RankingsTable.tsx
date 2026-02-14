@@ -3,10 +3,10 @@
 import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUp, ArrowDown, Instagram, Twitter } from "lucide-react";
-import { MOCK_TEAMS } from "@/lib/mock-data";
+import { useTeams } from "@/hooks/useTeamsQuery";
 import { cn } from "@/lib/utils";
+import { useTeamModal } from "@/context/TeamModalContext";
 
-// Custom TikTok Icon
 // Custom TikTok Icon
 export const TikTokIcon = ({ className }: { className?: string }) => (
     <svg
@@ -22,18 +22,18 @@ export const TikTokIcon = ({ className }: { className?: string }) => (
 
 type SortField = "total" | "instagram" | "twitter" | "tiktok";
 
-import { useTeamModal } from "@/context/TeamModalContext";
-
 export default function RankingsTable() {
+    const { data: teams, isLoading } = useTeams();
     const [sortField, setSortField] = useState<SortField>("total");
     const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc");
     const [selectedLeague, setSelectedLeague] = useState<string>("All");
     const { openModal } = useTeamModal();
 
     const leagues = useMemo(() => {
-        const uniqueLeagues = Array.from(new Set(MOCK_TEAMS.map(team => team.league))).filter(Boolean).sort();
+        if (!teams) return ["All"];
+        const uniqueLeagues = Array.from(new Set(teams.map(team => team.league))).filter(Boolean).sort();
         return ["All", ...uniqueLeagues];
-    }, []);
+    }, [teams]);
 
     const handleSort = (field: SortField) => {
         if (sortField === field) {
@@ -45,199 +45,210 @@ export default function RankingsTable() {
     };
 
     const sortedTeams = useMemo(() => {
-        let filtered = MOCK_TEAMS;
+        if (!teams) return [];
+        let filtered = teams;
         if (selectedLeague !== "All") {
-            filtered = MOCK_TEAMS.filter(team => team.league === selectedLeague);
+            filtered = teams.filter(team => team.league === selectedLeague);
         }
 
         return [...filtered].sort((a, b) => {
-            let valA = 0;
-            let valB = 0;
+            let aValue = 0;
+            let bValue = 0;
 
-            try {
-                switch (sortField) {
-                    case "total":
-                        valA = a.totalFollowers || 0;
-                        valB = b.totalFollowers || 0;
-                        break;
-                    case "instagram":
-                        valA = a.platforms?.instagram?.followers || 0;
-                        valB = b.platforms?.instagram?.followers || 0;
-                        break;
-                    case "twitter":
-                        valA = a.platforms?.twitter?.followers || 0;
-                        valB = b.platforms?.twitter?.followers || 0;
-                        break;
-                    case "tiktok":
-                        valA = a.platforms?.tiktok?.followers || 0;
-                        valB = b.platforms?.tiktok?.followers || 0;
-                        break;
-                }
-            } catch (error) {
-                console.error("Sorting error:", error);
-                return 0;
+            switch (sortField) {
+                case "total":
+                    aValue = a.totalFollowers || 0;
+                    bValue = b.totalFollowers || 0;
+                    break;
+                case "instagram":
+                    aValue = a.socials?.instagram?.followers || 0;
+                    bValue = b.socials?.instagram?.followers || 0;
+                    break;
+                case "twitter":
+                    aValue = a.socials?.twitter?.followers || 0;
+                    bValue = b.socials?.twitter?.followers || 0;
+                    break;
+                case "tiktok":
+                    aValue = a.socials?.tiktok?.followers || 0;
+                    bValue = b.socials?.tiktok?.followers || 0;
+                    break;
             }
 
-            return sortDirection === "asc" ? valA - valB : valB - valA;
+            return sortDirection === "asc" ? aValue - bValue : bValue - aValue;
         });
-    }, [sortField, sortDirection, selectedLeague]);
+    }, [teams, selectedLeague, sortField, sortDirection]);
 
-    const formatNumber = (num: number) => {
-        if (num >= 1000000) {
-            return (num / 1000000).toFixed(1) + "M";
-        }
-        if (num >= 1000) {
-            return (num / 1000).toFixed(1) + "K";
-        }
-        return num.toString();
-    };
+    if (isLoading) {
+        return (
+            <div className="space-y-4">
+                {[...Array(5)].map((_, i) => (
+                    <div key={i} className="h-20 w-full rounded-xl bg-white/5 animate-pulse" />
+                ))}
+            </div>
+        );
+    }
 
     return (
-        <div className="w-full space-y-6">
-            <div className="mb-6 flex flex-wrap items-center justify-between gap-4">
-                <h2 className="text-2xl font-bold">Küresel Sıralamalar</h2>
-                <div className="flex flex-wrap gap-2">
-                    {leagues.map((league) => (
-                        <button
-                            key={league}
-                            onClick={(e) => {
-                                e.stopPropagation();
-                                setSelectedLeague(league);
-                            }}
-                            className={cn(
-                                "rounded-full px-4 py-2 text-sm font-medium transition-all active:scale-95",
-                                selectedLeague === league
-                                    ? "bg-blue-600 text-white"
-                                    : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white"
-                            )}
-                        >
-                            {league === "All" ? "Tümü" : league}
-                        </button>
-                    ))}
+        <div className="space-y-6">
+            {/* League Filters */}
+            <div className="flex flex-wrap gap-2">
+                {leagues.map((league) => (
+                    <button
+                        key={league}
+                        onClick={() => setSelectedLeague(league)}
+                        className={cn(
+                            "px-4 py-2 rounded-full text-sm font-medium transition-all duration-300",
+                            selectedLeague === league
+                                ? "bg-white text-black shadow-lg shadow-white/10 scale-105"
+                                : "bg-white/5 text-white/60 hover:bg-white/10 hover:text-white"
+                        )}
+                    >
+                        {league === "All" ? "Tüm Ligler" : league}
+                    </button>
+                ))}
+            </div>
+
+            {/* Table Header */}
+            <div className="hidden md:grid grid-cols-12 gap-4 px-6 py-3 text-xs font-medium text-white/40 uppercase tracking-wider">
+                <div className="col-span-1 text-center">#</div>
+                <div className="col-span-4 pl-2">Takım</div>
+                <div className="col-span-2 text-right cursor-pointer hover:text-white transition-colors" onClick={() => handleSort("total")}>
+                    <div className="flex items-center justify-end gap-1">
+                        Toplam
+                        {sortField === "total" && (sortDirection === "desc" ? <ArrowDown size={14} /> : <ArrowUp size={14} />)}
+                    </div>
+                </div>
+                <div className="col-span-5 grid grid-cols-3 gap-2">
+                    <div className="text-right cursor-pointer hover:text-white transition-colors" onClick={() => handleSort("instagram")}>
+                        <div className="flex items-center justify-end gap-1">
+                            <Instagram size={14} />
+                            {sortField === "instagram" && (sortDirection === "desc" ? <ArrowDown size={14} /> : <ArrowUp size={14} />)}
+                        </div>
+                    </div>
+                    <div className="text-right cursor-pointer hover:text-white transition-colors" onClick={() => handleSort("twitter")}>
+                        <div className="flex items-center justify-end gap-1">
+                            <Twitter size={14} />
+                            {sortField === "twitter" && (sortDirection === "desc" ? <ArrowDown size={14} /> : <ArrowUp size={14} />)}
+                        </div>
+                    </div>
+                    <div className="text-right cursor-pointer hover:text-white transition-colors" onClick={() => handleSort("tiktok")}>
+                        <div className="flex items-center justify-end gap-1">
+                            <TikTokIcon className="text-sm" />
+                            {sortField === "tiktok" && (sortDirection === "desc" ? <ArrowDown size={14} /> : <ArrowUp size={14} />)}
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            {/* Table */}
-            <div className="overflow-x-auto">
-                <table className="w-full">
-                    <thead>
-                        <tr className="border-b border-white/10 text-left text-sm text-gray-400">
-                            <th className="pb-4 pr-4 font-medium">Sıra</th>
-                            <th className="pb-4 pr-4 font-medium">Takım</th>
-                            <th className="pb-4 pr-4 font-medium">Lig</th>
-                            <th
-                                className="cursor-pointer pb-4 pr-4 font-medium transition-colors hover:text-white"
-                                onClick={(e) => {
-                                    e.stopPropagation();
-                                    handleSort("total");
-                                }}
-                            >
-                                <div className="flex items-center gap-1">
-                                    Toplam Takipçi
-                                    {sortField === "total" && (
-                                        sortDirection === "asc" ? <ArrowUp className="h-4 w-4" /> : <ArrowDown className="h-4 w-4" />
-                                    )}
-                                </div>
-                            </th>
-                            <th
-                                className="cursor-pointer pb-4 pr-4 font-medium transition-colors hover:text-[#E1306C]"
-                                onClick={(e) => {
-                                    e.stopPropagation();
-                                    handleSort("instagram");
-                                }}
-                            >
-                                <div className="flex items-center justify-end gap-1">
-                                    <Instagram className="h-4 w-4" />
-                                    {sortField === "instagram" && (
-                                        sortDirection === "asc" ? <ArrowUp className="h-3 w-3" /> : <ArrowDown className="h-3 w-3" />
-                                    )}
-                                </div>
-                            </th>
-                            <th
-                                className="cursor-pointer pb-4 pr-4 font-medium transition-colors hover:text-[#1DA1F2]"
-                                onClick={(e) => {
-                                    e.stopPropagation();
-                                    handleSort("twitter");
-                                }}
-                            >
-                                <div className="flex items-center justify-end gap-1">
-                                    <Twitter className="h-4 w-4" />
-                                    {sortField === "twitter" && (
-                                        sortDirection === "asc" ? <ArrowUp className="h-3 w-3" /> : <ArrowDown className="h-3 w-3" />
-                                    )}
-                                </div>
-                            </th>
-                            <th
-                                className="cursor-pointer pb-4 font-medium transition-colors hover:text-[#00f2ea]"
-                                onClick={(e) => {
-                                    e.stopPropagation();
-                                    handleSort("tiktok");
-                                }}
-                            >
-                                <div className="flex items-center justify-end gap-1">
-                                    <TikTokIcon className="h-4 w-4" />
-                                    {sortField === "tiktok" && (
-                                        sortDirection === "asc" ? <ArrowUp className="h-3 w-3" /> : <ArrowDown className="h-3 w-3" />
-                                    )}
-                                </div>
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {sortedTeams.map((team, index) => (
-                            <motion.tr
-                                key={`${selectedLeague}-${sortField}-${team.id}`}
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1 }}
-                                transition={{ duration: 0.2, delay: index * 0.02 }}
-                                onClick={() => openModal(team)}
-                                className="group cursor-pointer border-b border-white/5 transition-colors hover:bg-white/5"
-                            >
-                                {/* Rank */}
-                                <td className="py-4 pr-4 text-center font-mono text-lg font-bold text-gray-500 group-hover:text-white">
-                                    {index + 1}
-                                </td>
-
-                                {/* Team */}
-                                <td className="py-4 pr-4">
+            {/* Teams List */}
+            <div className="space-y-3">
+                <AnimatePresence mode="popLayout">
+                    {sortedTeams.map((team, index) => (
+                        <motion.div
+                            layout
+                            key={team.id}
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, scale: 0.95 }}
+                            transition={{ duration: 0.3, delay: index * 0.05 }}
+                            onClick={() => openModal(team)}
+                            className="group relative overflow-hidden bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 rounded-2xl p-4 transition-all duration-300 cursor-pointer"
+                        >
+                            {/* Mobile Layout */}
+                            <div className="md:hidden flex items-center justify-between">
+                                <div className="flex items-center gap-4">
+                                    <span className={cn(
+                                        "text-lg font-bold w-6 text-center",
+                                        index < 3 ? "text-yellow-400" : "text-white/40"
+                                    )}>
+                                        {index + 1}
+                                    </span>
                                     <div className="flex items-center gap-3">
-                                        <img src={team.logo} alt={team.name} className="h-8 w-8 rounded-lg object-contain" loading="lazy" />
-                                        <span className="font-semibold text-white">{team.name}</span>
+                                        <div className="w-10 h-10 rounded-full bg-white/10 p-2 overflow-hidden relative">
+                                            {team.logo ? (
+                                                <img
+                                                    src={team.logo}
+                                                    alt={team.name}
+                                                    className="w-full h-full object-contain"
+                                                    onError={(e) => {
+                                                        const target = e.target as HTMLImageElement;
+                                                        target.style.display = 'none';
+                                                        target.parentElement!.classList.add('flex', 'items-center', 'justify-center', 'text-xs', 'font-bold');
+                                                        target.parentElement!.innerText = team.name.substring(0, 2).toUpperCase();
+                                                    }}
+                                                />
+                                            ) : (
+                                                <div className="w-full h-full flex items-center justify-center text-xs font-bold">
+                                                    {team.name.substring(0, 2).toUpperCase()}
+                                                </div>
+                                            )}
+                                        </div>
+                                        <div>
+                                            <h3 className="font-bold text-white group-hover:text-blue-400 transition-colors">
+                                                {team.name}
+                                            </h3>
+                                            <p className="text-xs text-white/40">{team.league}</p>
+                                        </div>
                                     </div>
-                                </td>
+                                </div>
+                                <div className="text-right">
+                                    <div className="text-sm font-bold text-white">
+                                        {(team.totalFollowers / 1000000).toFixed(1)}M
+                                    </div>
+                                    <div className="text-xs text-white/40">Takipçi</div>
+                                </div>
+                            </div>
 
-                                {/* League */}
-                                <td className="py-4 pr-4 text-sm text-gray-400">{team.league}</td>
-
-                                {/* Total */}
-                                <td className="py-4 pr-4 font-mono text-lg font-bold text-white">
-                                    {formatNumber(team.totalFollowers)}
-                                </td>
-
-                                {/* Instagram */}
-                                <td className="py-4 pr-4 text-right font-mono text-sm text-gray-400">
-                                    <span className={cn(sortField === "instagram" && "text-[#E1306C] font-bold")}>
-                                        {formatNumber(team.platforms.instagram.followers)}
+                            {/* Desktop Layout */}
+                            <div className="hidden md:grid grid-cols-12 gap-4 items-center">
+                                <div className={cn(
+                                    "col-span-1 text-center font-bold text-lg",
+                                    index < 3 ? "text-yellow-400" : "text-white/40"
+                                )}>
+                                    {index + 1}
+                                </div>
+                                <div className="col-span-4 flex items-center gap-4 pl-2">
+                                    <div className="w-10 h-10 rounded-full bg-white/5 p-2 overflow-hidden relative group-hover:scale-110 transition-transform duration-300">
+                                        {team.logo ? (
+                                            <img
+                                                src={team.logo}
+                                                alt={team.name}
+                                                className="w-full h-full object-contain"
+                                                onError={(e) => {
+                                                    const target = e.target as HTMLImageElement;
+                                                    target.style.display = 'none';
+                                                    target.parentElement!.classList.add('flex', 'items-center', 'justify-center', 'text-xs', 'font-bold');
+                                                    target.parentElement!.innerText = team.name.substring(0, 2).toUpperCase();
+                                                }}
+                                            />
+                                        ) : (
+                                            <div className="w-full h-full flex items-center justify-center text-xs font-bold">
+                                                {team.name.substring(0, 2).toUpperCase()}
+                                            </div>
+                                        )}
+                                    </div>
+                                    <span className="font-bold text-white group-hover:text-blue-400 transition-colors">
+                                        {team.name}
                                     </span>
-                                </td>
-
-                                {/* Twitter */}
-                                <td className="py-4 pr-4 text-right font-mono text-sm text-gray-400">
-                                    <span className={cn(sortField === "twitter" && "text-[#1DA1F2] font-bold")}>
-                                        {formatNumber(team.platforms.twitter.followers)}
-                                    </span>
-                                </td>
-
-                                {/* TikTok */}
-                                <td className="py-4 text-right font-mono text-sm text-gray-400">
-                                    <span className={cn(sortField === "tiktok" && "text-[#00f2ea] font-bold")}>
-                                        {formatNumber(team.platforms.tiktok.followers)}
-                                    </span>
-                                </td>
-                            </motion.tr>
-                        ))}
-                    </tbody>
-                </table>
+                                </div>
+                                <div className="col-span-2 text-right font-bold text-white text-lg">
+                                    {(team.totalFollowers / 1000000).toFixed(1)}M
+                                </div>
+                                <div className="col-span-5 grid grid-cols-3 gap-2 text-right text-sm text-white/60">
+                                    <div className="group-hover:text-pink-400 transition-colors">
+                                        {(team.socials?.instagram?.followers / 1000000).toFixed(1)}M
+                                    </div>
+                                    <div className="group-hover:text-blue-400 transition-colors">
+                                        {(team.socials?.twitter?.followers / 1000000).toFixed(1)}M
+                                    </div>
+                                    <div className="group-hover:text-purple-400 transition-colors">
+                                        {(team.socials?.tiktok?.followers / 1000000).toFixed(1)}M
+                                    </div>
+                                </div>
+                            </div>
+                        </motion.div>
+                    ))}
+                </AnimatePresence>
             </div>
         </div>
     );

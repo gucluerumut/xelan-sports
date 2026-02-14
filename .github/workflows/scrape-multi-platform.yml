@@ -24,13 +24,24 @@ jobs:
           playwright install chromium
       
       - name: Run multi-platform scraper
+        id: scraper
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
-        run: python scripts/scrape_multi_platform.py
+        run: |
+          python scripts/scrape_multi_platform.py
+          echo "scraper_status=success" >> $GITHUB_OUTPUT
+        continue-on-error: true
       
       - name: Upload results artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: multi-platform-results
+          name: multi-platform-results-${{ github.run_number }}
           path: multi_platform_results.json
           retention-days: 30
+      
+      - name: Check scraper status
+        if: steps.scraper.outcome == 'failure'
+        run: |
+          echo "::error::Scraper failed! Check logs for details."
+          exit 1

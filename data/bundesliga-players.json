@@ -1,0 +1,3768 @@
+[
+  {
+    "teamName": "Bayern Munich",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/fc-bayern-munchen/startseite/verein/27/saison_id/2025",
+    "players": [
+      {
+        "name": "Jonas Urbig",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/607720-1737037032.jpg?lm=1"
+      },
+      {
+        "name": "Manuel Neuer",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/17259-1762943283.jpg?lm=1"
+      },
+      {
+        "name": "Sven Ulreich",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/40680-1700659982.jpg?lm=1"
+      },
+      {
+        "name": "Leon Klanac",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€150k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1009439-1758891464.jpg?lm=1"
+      },
+      {
+        "name": "Dayot Upamecano",
+        "position": "Centre-Back",
+        "nationality": "France",
+        "marketValue": "€70.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/344695-1701245272.jpg?lm=1"
+      },
+      {
+        "name": "Jonathan Tah",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€30.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/196357-1695367765.jpg?lm=1"
+      },
+      {
+        "name": "Min-jae Kim",
+        "position": "Centre-Back",
+        "nationality": "Korea, South",
+        "marketValue": "€25.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/503482-1700208062.jpg?lm=1"
+      },
+      {
+        "name": "Hiroki Ito",
+        "position": "Centre-Back",
+        "nationality": "Japan",
+        "marketValue": "€18.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/353892-1657181215.jpg?lm=1"
+      },
+      {
+        "name": "Alphonso Davies",
+        "position": "Left-Back",
+        "nationality": "Canada",
+        "marketValue": "€50.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/424204-1711745534.jpg?lm=1"
+      },
+      {
+        "name": "Raphaël Guerreiro",
+        "position": "Left-Back",
+        "nationality": "Portugal",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/170986-1711745629.jpg?lm=1"
+      },
+      {
+        "name": "Konrad Laimer",
+        "position": "Right-Back",
+        "nationality": "Austria",
+        "marketValue": "€32.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/223967-1700659266.jpg?lm=1"
+      },
+      {
+        "name": "Josip Stanisic",
+        "position": "Right-Back",
+        "nationality": "Croatia",
+        "marketValue": "€32.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/483046-1716966862.jpg?lm=1"
+      },
+      {
+        "name": "Aleksandar Pavlovic",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€65.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/792380-1727098078.jpg?lm=1"
+      },
+      {
+        "name": "Joshua Kimmich",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€40.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/161056-1700039639.jpg?lm=1"
+      },
+      {
+        "name": "Tom Bischof",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€40.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/822959-1758269709.jpg?lm=1"
+      },
+      {
+        "name": "Leon Goretzka",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/153084-1700040179.jpg?lm=1"
+      },
+      {
+        "name": "Bara Sapoko Ndiaye",
+        "position": "Central Midfield",
+        "nationality": "Senegal",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1497653-1767449727.jpg?lm=1"
+      },
+      {
+        "name": "Jamal Musiala",
+        "position": "Attacking Midfield",
+        "nationality": "Germany",
+        "marketValue": "€130.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/580195-1711745441.jpg?lm=1"
+      },
+      {
+        "name": "Lennart Karl",
+        "position": "Attacking Midfield",
+        "nationality": "Germany",
+        "marketValue": "€60.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1075147-1759417800.jpg?lm=1"
+      },
+      {
+        "name": "Luis Díaz",
+        "position": "Left Winger",
+        "nationality": "Colombia",
+        "marketValue": "€70.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/480692-1757938077.jpg?lm=1"
+      },
+      {
+        "name": "Wisdom Mike",
+        "position": "Left Winger",
+        "nationality": "Germany",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1084539-1726644985.png?lm=1"
+      },
+      {
+        "name": "Michael Olise",
+        "position": "Right Winger",
+        "nationality": "France",
+        "marketValue": "€130.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/566723-1762944477.jpg?lm=1"
+      },
+      {
+        "name": "Serge Gnabry",
+        "position": "Second Striker",
+        "nationality": "Germany",
+        "marketValue": "€20.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/159471-1759909173.jpg?lm=1"
+      },
+      {
+        "name": "Harry Kane",
+        "position": "Centre-Forward",
+        "nationality": "England",
+        "marketValue": "€65.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/132098-1700211169.jpg?lm=1"
+      },
+      {
+        "name": "Nicolas Jackson",
+        "position": "Centre-Forward",
+        "nationality": "Senegal",
+        "marketValue": "€45.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/776890-1757939139.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Borussia Dortmund",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/borussia-dortmund/startseite/verein/16/saison_id/2025",
+    "players": [
+      {
+        "name": "Gregor Kobel",
+        "position": "Goalkeeper",
+        "nationality": "Switzerland",
+        "marketValue": "€40.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/257814-1709559904.jpg?lm=1"
+      },
+      {
+        "name": "Alexander Meyer",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/76158-1716381651.jpg?lm=1"
+      },
+      {
+        "name": "Patrick Drewes",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/94192-1721851751.jpg?lm=1"
+      },
+      {
+        "name": "Silas Ostrzinski",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€200k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/684116-1657285206.jpg?lm=1"
+      },
+      {
+        "name": "Nico Schlotterbeck",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€55.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/388198-1709560457.jpg?lm=1"
+      },
+      {
+        "name": "Waldemar Anton",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€18.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/193004-1723922551.jpg?lm=1"
+      },
+      {
+        "name": "Ramy Bensebaini",
+        "position": "Centre-Back",
+        "nationality": "Algeria",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/284732-1730103772.jpg?lm=1"
+      },
+      {
+        "name": "Emre Can",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/119296-1709561046.jpg?lm=1"
+      },
+      {
+        "name": "Niklas Süle",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/166601-1709560223.jpg?lm=1"
+      },
+      {
+        "name": "Filippo Mane",
+        "position": "Centre-Back",
+        "nationality": "Italy",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/883007-1713461702.jpg?lm=1"
+      },
+      {
+        "name": "Daniel Svensson",
+        "position": "Left-Back",
+        "nationality": "Sweden",
+        "marketValue": "€22.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/579287-1739179044.jpg?lm=1"
+      },
+      {
+        "name": "Almugera Kabar",
+        "position": "Left-Back",
+        "nationality": "Germany",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/884820-1713462323.jpg?lm=1"
+      },
+      {
+        "name": "Julian Ryerson",
+        "position": "Right-Back",
+        "nationality": "Norway",
+        "marketValue": "€20.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/370789-1709561216.jpg?lm=1"
+      },
+      {
+        "name": "Salih Özcan",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/244940-1709561120.jpg?lm=1"
+      },
+      {
+        "name": "Felix Nmecha",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€45.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/406640-1709560961.jpg?lm=1"
+      },
+      {
+        "name": "Jobe Bellingham",
+        "position": "Central Midfield",
+        "nationality": "England",
+        "marketValue": "€25.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/796297-1766483351.jpg?lm=1"
+      },
+      {
+        "name": "Carney Chukwuemeka",
+        "position": "Central Midfield",
+        "nationality": "England",
+        "marketValue": "€25.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/659459-1770806329.jpg?lm=1"
+      },
+      {
+        "name": "Marcel Sabitzer",
+        "position": "Central Midfield",
+        "nationality": "Austria",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/106987-1711745992.jpg?lm=1"
+      },
+      {
+        "name": "Yan Couto",
+        "position": "Right Midfield",
+        "nationality": "Brazil",
+        "marketValue": "€20.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/627228-1723922216.jpg?lm=1"
+      },
+      {
+        "name": "Julian Brandt",
+        "position": "Attacking Midfield",
+        "nationality": "Germany",
+        "marketValue": "€20.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/187492-1709560849.jpg?lm=1"
+      },
+      {
+        "name": "Karim Adeyemi",
+        "position": "Right Winger",
+        "nationality": "Germany",
+        "marketValue": "€60.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/496094-1712859708.jpg?lm=1"
+      },
+      {
+        "name": "Serhou Guirassy",
+        "position": "Centre-Forward",
+        "nationality": "Guinea",
+        "marketValue": "€40.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/270541-1755989642.jpg?lm=1"
+      },
+      {
+        "name": "Maximilian Beier",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€30.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/578392-1733829348.jpg?lm=1"
+      },
+      {
+        "name": "Fábio Silva",
+        "position": "Centre-Forward",
+        "nationality": "Portugal",
+        "marketValue": "€28.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/505653-1766483527.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "RB Leipzig",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/rasenballsport-leipzig/startseite/verein/23826/saison_id/2025",
+    "players": [
+      {
+        "name": "Maarten Vandevoordt",
+        "position": "Goalkeeper",
+        "nationality": "Belgium",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/486046-1724337345.jpg?lm=1"
+      },
+      {
+        "name": "Péter Gulácsi",
+        "position": "Goalkeeper",
+        "nationality": "Hungary",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/57071-1719214600.jpg?lm=1"
+      },
+      {
+        "name": "Leopold Zingerle",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/160971-1770713811.jpg?lm=1"
+      },
+      {
+        "name": "Castello Lukeba",
+        "position": "Centre-Back",
+        "nationality": "France",
+        "marketValue": "€45.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/618472-1713897532.jpg?lm=1"
+      },
+      {
+        "name": "El Chadaille Bitshiabu",
+        "position": "Centre-Back",
+        "nationality": "France",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/787912-1672304780.jpg?lm=1"
+      },
+      {
+        "name": "Willi Orbán",
+        "position": "Centre-Back",
+        "nationality": "Hungary",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/93740-1724337179.jpg?lm=1"
+      },
+      {
+        "name": "Lukas Klostermann",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/215599-1724337278.jpg?lm=1"
+      },
+      {
+        "name": "Jonathan Norbye",
+        "position": "Centre-Back",
+        "nationality": "Norway",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1006916-1752230132.jpg?lm=1"
+      },
+      {
+        "name": "David Raum",
+        "position": "Left-Back",
+        "nationality": "Germany",
+        "marketValue": "€20.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/318204-1713945422.jpg?lm=1"
+      },
+      {
+        "name": "Max Finkgräfe",
+        "position": "Left-Back",
+        "nationality": "Germany",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/810649-1721139640.jpg?lm=1"
+      },
+      {
+        "name": "Ridle Baku",
+        "position": "Right-Back",
+        "nationality": "Germany",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/327251-1764846399.jpg?lm=1"
+      },
+      {
+        "name": "Benjamin Henrichs",
+        "position": "Right-Back",
+        "nationality": "Germany",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/202591-1715858341.jpg?lm=1"
+      },
+      {
+        "name": "Kosta Nedeljkovic",
+        "position": "Right-Back",
+        "nationality": "Serbia",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/848682-1744279498.jpg?lm=1"
+      },
+      {
+        "name": "Nicolas Seiwald",
+        "position": "Defensive Midfield",
+        "nationality": "Austria",
+        "marketValue": "€18.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/404950-1716315232.jpg?lm=1"
+      },
+      {
+        "name": "Benno Kaltefleiter",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1279157-1760627062.jpg?lm=1"
+      },
+      {
+        "name": "Assan Ouédraogo",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€28.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/897424-1759779834.jpg?lm=1"
+      },
+      {
+        "name": "Ezechiel Banzuzi",
+        "position": "Central Midfield",
+        "nationality": "Netherlands",
+        "marketValue": "€18.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/865682-1742827854.jpg?lm=1"
+      },
+      {
+        "name": "Xaver Schlager",
+        "position": "Central Midfield",
+        "nationality": "Austria",
+        "marketValue": "€10.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/223979-1713945331.jpg?lm=1"
+      },
+      {
+        "name": "Joyeux Masanka Bungi",
+        "position": "Left Midfield",
+        "nationality": "Belgium",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/990146-1695052638.jpg?lm=1"
+      },
+      {
+        "name": "Christoph Baumgartner",
+        "position": "Attacking Midfield",
+        "nationality": "Austria",
+        "marketValue": "€20.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/324278-1716315718.jpg?lm=1"
+      },
+      {
+        "name": "Andrija Maksimovic",
+        "position": "Attacking Midfield",
+        "nationality": "Serbia",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/952779-1764846286.jpg?lm=1"
+      },
+      {
+        "name": "Viggo Gebel",
+        "position": "Attacking Midfield",
+        "nationality": "Germany",
+        "marketValue": "€350k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1074526-1723447785.jpg?lm=1"
+      },
+      {
+        "name": "Yan Diomande",
+        "position": "Left Winger",
+        "nationality": "Cote d'Ivoire",
+        "marketValue": "€45.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1390649-1759779499.jpg?lm=1"
+      },
+      {
+        "name": "Antonio Nusa",
+        "position": "Left Winger",
+        "nationality": "Norway",
+        "marketValue": "€32.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/894914-1724337096.jpg?lm=1"
+      },
+      {
+        "name": "Tidiam Gomis",
+        "position": "Left Winger",
+        "nationality": "France",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/955448-1736408355.jpg?lm=1"
+      },
+      {
+        "name": "Suleman Sani",
+        "position": "Left Winger",
+        "nationality": "Nigeria",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1235583-1758621608.jpg?lm=1"
+      },
+      {
+        "name": "Ayodele Thomas",
+        "position": "Left Winger",
+        "nationality": "Netherlands",
+        "marketValue": "€650k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/763948-1727814145.jpg?lm=1"
+      },
+      {
+        "name": "Brajan Gruda",
+        "position": "Right Winger",
+        "nationality": "Germany",
+        "marketValue": "€28.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/700106-1770733562.jpg?lm=1"
+      },
+      {
+        "name": "Johan Bakayoko",
+        "position": "Right Winger",
+        "nationality": "Belgium",
+        "marketValue": "€25.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/565424-1697637209.jpg?lm=1"
+      },
+      {
+        "name": "Rômulo",
+        "position": "Centre-Forward",
+        "nationality": "Brazil",
+        "marketValue": "€30.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/957874-1761551454.jpg?lm=1"
+      },
+      {
+        "name": "Conrad Harder",
+        "position": "Centre-Forward",
+        "nationality": "Denmark",
+        "marketValue": "€24.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/807386-1697191702.jpg?lm=1"
+      },
+      {
+        "name": "Samba Konaté",
+        "position": "Centre-Forward",
+        "nationality": "France",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1380977-1764846026.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Bayer 04 Leverkusen",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/bayer-04-leverkusen/startseite/verein/15/saison_id/2025",
+    "players": [
+      {
+        "name": "Mark Flekken",
+        "position": "Goalkeeper",
+        "nationality": "Netherlands",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/125714-1758704276.jpg?lm=1"
+      },
+      {
+        "name": "Jonas Omlin",
+        "position": "Goalkeeper",
+        "nationality": "Switzerland",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/247915-1691248651.jpg?lm=1"
+      },
+      {
+        "name": "Janis Blaswich",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/81173-1758702865.jpg?lm=1"
+      },
+      {
+        "name": "Niklas Lomb",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/85543-1695367888.jpg?lm=1"
+      },
+      {
+        "name": "Jarell Quansah",
+        "position": "Centre-Back",
+        "nationality": "England",
+        "marketValue": "€40.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/632349-1758704191.jpg?lm=1"
+      },
+      {
+        "name": "Edmond Tapsoba",
+        "position": "Centre-Back",
+        "nationality": "Burkina Faso",
+        "marketValue": "€35.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/564545-1695368009.jpg?lm=1"
+      },
+      {
+        "name": "Loïc Badé",
+        "position": "Centre-Back",
+        "nationality": "France",
+        "marketValue": "€28.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/730581-1758704021.jpg?lm=1"
+      },
+      {
+        "name": "Axel Tape",
+        "position": "Centre-Back",
+        "nationality": "France",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1077670-1758703206.jpg?lm=1"
+      },
+      {
+        "name": "Tim Oermann",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/696164-1657283257.jpg?lm=1"
+      },
+      {
+        "name": "Issa Traoré",
+        "position": "Centre-Back",
+        "nationality": "Mali",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1133977-1730193915.jpg?lm=1"
+      },
+      {
+        "name": "Alejandro Grimaldo",
+        "position": "Left-Back",
+        "nationality": "Spain",
+        "marketValue": "€24.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/193082-1689710805.jpg?lm=1"
+      },
+      {
+        "name": "Arthur",
+        "position": "Right-Back",
+        "nationality": "Brazil",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/977464-1689709842.jpg?lm=1"
+      },
+      {
+        "name": "Lucas Vázquez",
+        "position": "Right-Back",
+        "nationality": "Spain",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/221316-1758702933.jpg?lm=1"
+      },
+      {
+        "name": "Equi Fernández",
+        "position": "Defensive Midfield",
+        "nationality": "Argentina",
+        "marketValue": "€25.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/664708-1758703953.jpg?lm=1"
+      },
+      {
+        "name": "Robert Andrich",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/159088-1758703807.jpg?lm=1"
+      },
+      {
+        "name": "Exequiel Palacios",
+        "position": "Central Midfield",
+        "nationality": "Argentina",
+        "marketValue": "€30.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/401578-1695368200.jpg?lm=1"
+      },
+      {
+        "name": "Aleix García",
+        "position": "Central Midfield",
+        "nationality": "Spain",
+        "marketValue": "€20.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/261504-1727378020.jpg?lm=1"
+      },
+      {
+        "name": "Malik Tillman",
+        "position": "Attacking Midfield",
+        "nationality": "United States",
+        "marketValue": "€35.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/467437-1758703514.jpg?lm=1"
+      },
+      {
+        "name": "Ibrahim Maza",
+        "position": "Attacking Midfield",
+        "nationality": "Algeria",
+        "marketValue": "€25.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/905011-1758702817.jpg?lm=1"
+      },
+      {
+        "name": "Jonas Hofmann",
+        "position": "Attacking Midfield",
+        "nationality": "Germany",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/7161-1689710421.jpg?lm=1"
+      },
+      {
+        "name": "Eliesse Ben Seghir",
+        "position": "Left Winger",
+        "nationality": "Morocco",
+        "marketValue": "€24.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/810895-1758703148.jpg?lm=1"
+      },
+      {
+        "name": "Martin Terrier",
+        "position": "Left Winger",
+        "nationality": "France",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/442891-1727378397.jpg?lm=1"
+      },
+      {
+        "name": "Ernest Poku",
+        "position": "Right Winger",
+        "nationality": "Netherlands",
+        "marketValue": "€20.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/718303-1758703071.jpg?lm=1"
+      },
+      {
+        "name": "Nathan Tella",
+        "position": "Right Winger",
+        "nationality": "Nigeria",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/340322-1727377772.jpg?lm=1"
+      },
+      {
+        "name": "Montrell Culbreath",
+        "position": "Right Winger",
+        "nationality": "Germany",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1058514-1756412896.jpg?lm=1"
+      },
+      {
+        "name": "Patrik Schick",
+        "position": "Centre-Forward",
+        "nationality": "Czech Republic",
+        "marketValue": "€25.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/242086-1727378322.jpg?lm=1"
+      },
+      {
+        "name": "Christian Kofane",
+        "position": "Centre-Forward",
+        "nationality": "Cameroon",
+        "marketValue": "€22.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1364454-1758702715.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Eintracht Frankfurt",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/eintracht-frankfurt/startseite/verein/24/saison_id/2025",
+    "players": [
+      {
+        "name": "Kauã Santos",
+        "position": "Goalkeeper",
+        "nationality": "Brazil",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/997861-1696509170.jpg?lm=1"
+      },
+      {
+        "name": "Michael Zetterer",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€4.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/196813-1757598019.jpg?lm=1"
+      },
+      {
+        "name": "Jens Grahl",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€200k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/40034-1663064684.jpg?lm=1"
+      },
+      {
+        "name": "Amil Siljevic",
+        "position": "Goalkeeper",
+        "nationality": "Bosnia-Herzegovina",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1079622-1753984743.jpg?lm=1"
+      },
+      {
+        "name": "Arthur Theate",
+        "position": "Centre-Back",
+        "nationality": "Belgium",
+        "marketValue": "€24.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/368891-1757597860.jpg?lm=1"
+      },
+      {
+        "name": "Robin Koch",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/328784-1753984898.jpg?lm=1"
+      },
+      {
+        "name": "Nnamdi Collins",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/684315-1724772257.jpg?lm=1"
+      },
+      {
+        "name": "Aurèle Amenda",
+        "position": "Centre-Back",
+        "nationality": "Switzerland",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/635645-1724772426.jpg?lm=1"
+      },
+      {
+        "name": "Nathaniel Brown",
+        "position": "Left-Back",
+        "nationality": "Germany",
+        "marketValue": "€35.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/691892-1724772335.jpg?lm=1"
+      },
+      {
+        "name": "Keita Kosugi",
+        "position": "Left-Back",
+        "nationality": "Japan",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1146988-1758617811.jpg?lm=1"
+      },
+      {
+        "name": "Rasmus Kristensen",
+        "position": "Right-Back",
+        "nationality": "Denmark",
+        "marketValue": "€14.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/369684-1725875948.jpg?lm=1"
+      },
+      {
+        "name": "Elias Baum",
+        "position": "Right-Back",
+        "nationality": "Germany",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/744857-1722953003.jpg?lm=1"
+      },
+      {
+        "name": "Timothy Chandler",
+        "position": "Right-Back",
+        "nationality": "United States",
+        "marketValue": "€350k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/49723-1663064872.jpg?lm=1"
+      },
+      {
+        "name": "Ellyes Skhiri",
+        "position": "Defensive Midfield",
+        "nationality": "Tunisia",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/290587-1696509403.jpg?lm=1"
+      },
+      {
+        "name": "Hugo Larsson",
+        "position": "Central Midfield",
+        "nationality": "Sweden",
+        "marketValue": "€40.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/931838-1696509259.jpg?lm=1"
+      },
+      {
+        "name": "Farès Chaïbi",
+        "position": "Central Midfield",
+        "nationality": "Algeria",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/855015-1693383538.jpg?lm=1"
+      },
+      {
+        "name": "Oscar Højlund",
+        "position": "Central Midfield",
+        "nationality": "Denmark",
+        "marketValue": "€7.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/846310-1724771793.jpg?lm=1"
+      },
+      {
+        "name": "Mahmoud Dahoud",
+        "position": "Central Midfield",
+        "nationality": "Syria",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/191422-1726605307.jpg?lm=1"
+      },
+      {
+        "name": "Can Uzun",
+        "position": "Attacking Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€45.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/816585-1724772468.jpg?lm=1"
+      },
+      {
+        "name": "Love Arrhov",
+        "position": "Attacking Midfield",
+        "nationality": "Sweden",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1184986-1743334043.jpg?lm=1"
+      },
+      {
+        "name": "Mario Götze",
+        "position": "Attacking Midfield",
+        "nationality": "Germany",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/74842-1663065102.jpg?lm=1"
+      },
+      {
+        "name": "Jean-Mattéo Bahoya",
+        "position": "Left Winger",
+        "nationality": "France",
+        "marketValue": "€25.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/939964-1724772389.jpg?lm=1"
+      },
+      {
+        "name": "Ritsu Doan",
+        "position": "Right Winger",
+        "nationality": "Japan",
+        "marketValue": "€25.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/358504-1757597784.jpg?lm=1"
+      },
+      {
+        "name": "Ansgar Knauff",
+        "position": "Right Winger",
+        "nationality": "Germany",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/429874-1663065826.jpg?lm=1"
+      },
+      {
+        "name": "Ayoube Amaimouni-Echghouyab",
+        "position": "Right Winger",
+        "nationality": "Morocco",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/799993-1756889822.jpg?lm=1"
+      },
+      {
+        "name": "Jonathan Burkardt",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€35.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/333647-1753985077.jpg?lm=1"
+      },
+      {
+        "name": "Arnaud Kalimuendo",
+        "position": "Centre-Forward",
+        "nationality": "France",
+        "marketValue": "€25.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/585959-1666698479.jpg?lm=1"
+      },
+      {
+        "name": "Younes Ebnoutalib",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/692368-1753442833.jpg?lm=1"
+      },
+      {
+        "name": "Michy Batshuayi",
+        "position": "Centre-Forward",
+        "nationality": "Belgium",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/179184-1753985153.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "VfB Stuttgart",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/vfb-stuttgart/startseite/verein/79/saison_id/2025",
+    "players": [
+      {
+        "name": "Alexander Nübel",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/195778-1691998861.jpg?lm=1"
+      },
+      {
+        "name": "Florian Hellstern",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1009438-1710968907.jpg?lm=1"
+      },
+      {
+        "name": "Fabian Bredlow",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/187624-1723707742.jpg?lm=1"
+      },
+      {
+        "name": "Stefan Drljaca",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/388067-1723707200.jpg?lm=1"
+      },
+      {
+        "name": "Finn Jeltsch",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€25.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/924117-1753307360.jpg?lm=1"
+      },
+      {
+        "name": "Jeff Chabot",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/303219-1723707145.jpg?lm=1"
+      },
+      {
+        "name": "Luca Jaquez",
+        "position": "Centre-Back",
+        "nationality": "Switzerland",
+        "marketValue": "€10.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/539798-1753307950.jpg?lm=1"
+      },
+      {
+        "name": "Ramon Hendriks",
+        "position": "Centre-Back",
+        "nationality": "Netherlands",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/436064-1753734234.jpg?lm=1"
+      },
+      {
+        "name": "Ameen Al-Dakhil",
+        "position": "Centre-Back",
+        "nationality": "Belgium",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/620598-1753308180.jpg?lm=1"
+      },
+      {
+        "name": "Dan-Axel Zagadou",
+        "position": "Centre-Back",
+        "nationality": "France",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/344598-1756244458.jpg?lm=1"
+      },
+      {
+        "name": "Maximilian Mittelstädt",
+        "position": "Left-Back",
+        "nationality": "Germany",
+        "marketValue": "€18.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/282660-1723707584.jpg?lm=1"
+      },
+      {
+        "name": "Lorenz Assignon",
+        "position": "Right-Back",
+        "nationality": "France",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/711969-1753307527.jpg?lm=1"
+      },
+      {
+        "name": "Josha Vagnoman",
+        "position": "Right-Back",
+        "nationality": "Germany",
+        "marketValue": "€10.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/448258-1691999620.jpg?lm=1"
+      },
+      {
+        "name": "Pascal Stenzel",
+        "position": "Right-Back",
+        "nationality": "Germany",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/195246-1753307904.jpg?lm=1"
+      },
+      {
+        "name": "Angelo Stiller",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€45.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/443710-1753308094.jpg?lm=1"
+      },
+      {
+        "name": "Chema Andrés",
+        "position": "Defensive Midfield",
+        "nationality": "Spain",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/948279-1760444727.jpg?lm=1"
+      },
+      {
+        "name": "Atakan Karazor",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€9.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/232320-1753307846.jpg?lm=1"
+      },
+      {
+        "name": "Mirza Catovic",
+        "position": "Defensive Midfield",
+        "nationality": "Serbia",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1131117-1727777657.jpg?lm=1"
+      },
+      {
+        "name": "Nikolas Nartey",
+        "position": "Central Midfield",
+        "nationality": "Denmark",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/400546-1753307448.jpg?lm=1"
+      },
+      {
+        "name": "Bilal El Khannouss",
+        "position": "Attacking Midfield",
+        "nationality": "Morocco",
+        "marketValue": "€32.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/654982-1714038053.png?lm=1"
+      },
+      {
+        "name": "Chris Führich",
+        "position": "Left Winger",
+        "nationality": "Germany",
+        "marketValue": "€10.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/272278-1691999004.jpg?lm=1"
+      },
+      {
+        "name": "Justin Diehl",
+        "position": "Left Winger",
+        "nationality": "Germany",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/720162-1723707320.jpg?lm=1"
+      },
+      {
+        "name": "Jamie Leweling",
+        "position": "Right Winger",
+        "nationality": "Germany",
+        "marketValue": "€25.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/518505-1691999306.jpg?lm=1"
+      },
+      {
+        "name": "Badredine Bouanani",
+        "position": "Right Winger",
+        "nationality": "Algeria",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/707242-1756822874.jpg?lm=1"
+      },
+      {
+        "name": "Lazar Jovanovic",
+        "position": "Right Winger",
+        "nationality": "Serbia",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/897505-1753307294.jpg?lm=1"
+      },
+      {
+        "name": "Noah Darvich",
+        "position": "Right Winger",
+        "nationality": "Germany",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/897480-1753307671.jpg?lm=1"
+      },
+      {
+        "name": "Ermedin Demirovic",
+        "position": "Centre-Forward",
+        "nationality": "Bosnia-Herzegovina",
+        "marketValue": "€22.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/335457-1723707508.jpg?lm=1"
+      },
+      {
+        "name": "Deniz Undav",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€20.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/339314-1691999036.jpg?lm=1"
+      },
+      {
+        "name": "Tiago Tomás",
+        "position": "Centre-Forward",
+        "nationality": "Portugal",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/616344-1695623995.jpg?lm=1"
+      },
+      {
+        "name": "Jeremy Arévalo",
+        "position": "Centre-Forward",
+        "nationality": "Ecuador",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/971663-1762250473.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "VfL Wolfsburg",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/vfl-wolfsburg/startseite/verein/82/saison_id/2025",
+    "players": [
+      {
+        "name": "Kamil Grabara",
+        "position": "Goalkeeper",
+        "nationality": "Poland",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/346551-1724770843.jpg?lm=1"
+      },
+      {
+        "name": "Marius Müller",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/118161-1724771088.jpg?lm=1"
+      },
+      {
+        "name": "Jakub Zielinski",
+        "position": "Goalkeeper",
+        "nationality": "Poland",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1068257-1752736507.jpg?lm=1"
+      },
+      {
+        "name": "Pavao Pervan",
+        "position": "Goalkeeper",
+        "nationality": "Austria",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/51977-1657202144.jpg?lm=1"
+      },
+      {
+        "name": "Konstantinos Koulierakis",
+        "position": "Centre-Back",
+        "nationality": "Greece",
+        "marketValue": "€25.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/669380-1752736071.jpg?lm=1"
+      },
+      {
+        "name": "Jeanuël Belocian",
+        "position": "Centre-Back",
+        "nationality": "France",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/919515-1727378177.jpg?lm=1"
+      },
+      {
+        "name": "Denis Vavro",
+        "position": "Centre-Back",
+        "nationality": "Slovakia",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/239962-1752735947.jpg?lm=1"
+      },
+      {
+        "name": "Jonas Adjetey",
+        "position": "Centre-Back",
+        "nationality": "Ghana",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/734676-1707377190.jpg?lm=1"
+      },
+      {
+        "name": "Jenson Seelt",
+        "position": "Centre-Back",
+        "nationality": "Netherlands",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/617755-1756751142.jpg?lm=1"
+      },
+      {
+        "name": "Moritz Jenz",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/460245-1689865901.jpg?lm=1"
+      },
+      {
+        "name": "Cleiton",
+        "position": "Centre-Back",
+        "nationality": "Brazil",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/943237-1660868052.jpeg?lm=1"
+      },
+      {
+        "name": "Joakim Maehle",
+        "position": "Left-Back",
+        "nationality": "Denmark",
+        "marketValue": "€9.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/369674-1724770995.jpg?lm=1"
+      },
+      {
+        "name": "Aaron Zehnter",
+        "position": "Left-Back",
+        "nationality": "Germany",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/730484-1752736438.jpg?lm=1"
+      },
+      {
+        "name": "Rogério",
+        "position": "Left-Back",
+        "nationality": "Brazil",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/401527-1695624076.jpg?lm=1"
+      },
+      {
+        "name": "Saël Kumbedi",
+        "position": "Right-Back",
+        "nationality": "France",
+        "marketValue": "€9.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/951579-1672831110.jpg?lm=1"
+      },
+      {
+        "name": "Kilian Fischer",
+        "position": "Right-Back",
+        "nationality": "Germany",
+        "marketValue": "€7.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/435796-1752736015.jpg?lm=1"
+      },
+      {
+        "name": "Jan Bürger",
+        "position": "Right-Back",
+        "nationality": "Germany",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1009440-1766416765.jpg?lm=1"
+      },
+      {
+        "name": "Vini Souza",
+        "position": "Defensive Midfield",
+        "nationality": "Brazil",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/663581-1752736121.jpg?lm=1"
+      },
+      {
+        "name": "Mattias Svanberg",
+        "position": "Central Midfield",
+        "nationality": "Sweden",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/342405-1752736577.jpg?lm=1"
+      },
+      {
+        "name": "Maximilian Arnold",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€4.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/117674-1660652294.JPG?lm=1"
+      },
+      {
+        "name": "Yannick Gerhardt",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/119277-1657203024.jpg?lm=1"
+      },
+      {
+        "name": "Pharell Hensel",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1150105-1766900206.jpg?lm=1"
+      },
+      {
+        "name": "Kevin Paredes",
+        "position": "Left Midfield",
+        "nationality": "United States",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/711517-1752736742.jpg?lm=1"
+      },
+      {
+        "name": "Lovro Majer",
+        "position": "Attacking Midfield",
+        "nationality": "Croatia",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/387106-1752736259.jpg?lm=1"
+      },
+      {
+        "name": "Bence Dárdai",
+        "position": "Attacking Midfield",
+        "nationality": "Hungary",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/789252-1752736165.jpg?lm=1"
+      },
+      {
+        "name": "Christian Eriksen",
+        "position": "Attacking Midfield",
+        "nationality": "Denmark",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/69633-1718628122.jpg?lm=1"
+      },
+      {
+        "name": "Patrick Wimmer",
+        "position": "Right Winger",
+        "nationality": "Austria",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/533295-1752736631.jpg?lm=1"
+      },
+      {
+        "name": "Jesper Lindstrøm",
+        "position": "Right Winger",
+        "nationality": "Denmark",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/513245-1663065433.jpg?lm=1"
+      },
+      {
+        "name": "Adam Daghim",
+        "position": "Right Winger",
+        "nationality": "Denmark",
+        "marketValue": "€7.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/881297-1754993454.png?lm=1"
+      },
+      {
+        "name": "Mohamed Amoura",
+        "position": "Centre-Forward",
+        "nationality": "Algeria",
+        "marketValue": "€32.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/746910-1724771303.jpg?lm=1"
+      },
+      {
+        "name": "Jonas Wind",
+        "position": "Centre-Forward",
+        "nationality": "Denmark",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/391004-1752736403.jpg?lm=1"
+      },
+      {
+        "name": "Dzenan Pejcinovic",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/819636-1689865855.jpg?lm=1"
+      },
+      {
+        "name": "Kento Shiogai",
+        "position": "Centre-Forward",
+        "nationality": "Japan",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1144627-1764256555.png?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "TSG 1899 Hoffenheim",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2025",
+    "players": [
+      {
+        "name": "Oliver Baumann",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/55089-1755090197.jpg?lm=1"
+      },
+      {
+        "name": "Luca Philipp",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€750k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/432671-1755092013.jpg?lm=1"
+      },
+      {
+        "name": "Lúkas Petersson",
+        "position": "Goalkeeper",
+        "nationality": "Iceland",
+        "marketValue": "€600k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/718460-1723920319.jpg?lm=1"
+      },
+      {
+        "name": "Albian Hajdari",
+        "position": "Centre-Back",
+        "nationality": "Kosovo",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/579459-1755184688.jpg?lm=1"
+      },
+      {
+        "name": "Robin Hranac",
+        "position": "Centre-Back",
+        "nationality": "Czech Republic",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/620217-1713471898.jpg?lm=1"
+      },
+      {
+        "name": "Koki Machida",
+        "position": "Centre-Back",
+        "nationality": "Japan",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/415035-1755090800.jpg?lm=1"
+      },
+      {
+        "name": "Ozan Kabak",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/361260-1691269223.jpg?lm=1"
+      },
+      {
+        "name": "Kevin Akpoguma",
+        "position": "Centre-Back",
+        "nationality": "Nigeria",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/160241-1723920979.jpg?lm=1"
+      },
+      {
+        "name": "Kelven Frees",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/934529-1755089804.jpg?lm=1"
+      },
+      {
+        "name": "Bernardo",
+        "position": "Left-Back",
+        "nationality": "Brazil",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/364258-1691250245.jpg?lm=1"
+      },
+      {
+        "name": "Valentin Gendrey",
+        "position": "Right-Back",
+        "nationality": "France",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/569387-1663745931.jpg?lm=1"
+      },
+      {
+        "name": "Vladimír Coufal",
+        "position": "Right-Back",
+        "nationality": "Czech Republic",
+        "marketValue": "€2.70m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/157672-1755091456.jpg?lm=1"
+      },
+      {
+        "name": "Leon Avdullahu",
+        "position": "Defensive Midfield",
+        "nationality": "Kosovo",
+        "marketValue": "€17.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/667457-1755091730.jpg?lm=1"
+      },
+      {
+        "name": "Wouter Burger",
+        "position": "Defensive Midfield",
+        "nationality": "Netherlands",
+        "marketValue": "€9.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/412953-1755092325.jpg?lm=1"
+      },
+      {
+        "name": "Luis Engelns",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1116191-1722953134.jpg?lm=1"
+      },
+      {
+        "name": "Grischa Prömel",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/234029-1755091326.jpg?lm=1"
+      },
+      {
+        "name": "Luka Duric",
+        "position": "Central Midfield",
+        "nationality": "Bosnia-Herzegovina",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/685484-1756890134.jpg?lm=1"
+      },
+      {
+        "name": "Alexander Prass",
+        "position": "Left Midfield",
+        "nationality": "Austria",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/434116-1723921044.jpg?lm=1"
+      },
+      {
+        "name": "Muhammed Damar",
+        "position": "Attacking Midfield",
+        "nationality": "Germany",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/789898-1691269309.jpg?lm=1"
+      },
+      {
+        "name": "Andrej Kramaric",
+        "position": "Attacking Midfield",
+        "nationality": "Croatia",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/46580-1755089885.jpg?lm=1"
+      },
+      {
+        "name": "Bazoumana Touré",
+        "position": "Left Winger",
+        "nationality": "Cote d'Ivoire",
+        "marketValue": "€25.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1067904-1755092124.jpg?lm=1"
+      },
+      {
+        "name": "Cole Campbell",
+        "position": "Right Winger",
+        "nationality": "United States",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/866579-1713463452.jpg?lm=1"
+      },
+      {
+        "name": "Fisnik Asllani",
+        "position": "Centre-Forward",
+        "nationality": "Kosovo",
+        "marketValue": "€30.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/524290-1755090506.jpg?lm=1"
+      },
+      {
+        "name": "Adam Hlozek",
+        "position": "Centre-Forward",
+        "nationality": "Czech Republic",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/552057-1755092070.jpg?lm=1"
+      },
+      {
+        "name": "Tim Lemperle",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/553285-1755090691.jpg?lm=1"
+      },
+      {
+        "name": "Max Moerstedt",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/923595-1723920909.jpg?lm=1"
+      },
+      {
+        "name": "Deniz Zeitler",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1108022-1752670799.jpg?lm=1"
+      },
+      {
+        "name": "Ihlas Bebou",
+        "position": "Centre-Forward",
+        "nationality": "Togo",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/237164-1723921163.jpg?lm=1"
+      },
+      {
+        "name": "Yannick Eduardo",
+        "position": "Centre-Forward",
+        "nationality": "Czech Republic",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/930998-1764074513.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "SV Werder Bremen",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/sv-werder-bremen/startseite/verein/86/saison_id/2025",
+    "players": [
+      {
+        "name": "Mio Backhaus",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€10.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/620295-1756027825.jpg?lm=1"
+      },
+      {
+        "name": "Karl Hein",
+        "position": "Goalkeeper",
+        "nationality": "Estonia",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/493513-1758702558.jpg?lm=1"
+      },
+      {
+        "name": "Markus Kolke",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/99451-1722887501.jpg?lm=1"
+      },
+      {
+        "name": "Stefan Smarkalev",
+        "position": "Goalkeeper",
+        "nationality": "Bulgaria",
+        "marketValue": "€150k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1025989-1756028056.jpg?lm=1"
+      },
+      {
+        "name": "Karim Coulibaly",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€20.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1084638-1756027638.jpg?lm=1"
+      },
+      {
+        "name": "Marco Friedl",
+        "position": "Centre-Back",
+        "nationality": "Austria",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/156990-1756027279.jpg?lm=1"
+      },
+      {
+        "name": "Amos Pieper",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/334221-1756028162.jpg?lm=1"
+      },
+      {
+        "name": "Maximilian Wöber",
+        "position": "Centre-Back",
+        "nationality": "Austria",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/263361-1756027913.jpg?lm=1"
+      },
+      {
+        "name": "Niklas Stark",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/162434-1756028002.jpg?lm=1"
+      },
+      {
+        "name": "Julián Malatini",
+        "position": "Centre-Back",
+        "nationality": "Argentina",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/830108-1722887346.jpg?lm=1"
+      },
+      {
+        "name": "Mick Schmetgens",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€150k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1045986-1756028103.jpg?lm=1"
+      },
+      {
+        "name": "Felix Agu",
+        "position": "Left-Back",
+        "nationality": "Nigeria",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/393512-1722887707.jpg?lm=1"
+      },
+      {
+        "name": "Olivier Deman",
+        "position": "Left-Back",
+        "nationality": "Belgium",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/621802-1722887784.jpg?lm=1"
+      },
+      {
+        "name": "Isaac Schmidt",
+        "position": "Left-Back",
+        "nationality": "Switzerland",
+        "marketValue": "€2.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/449597-1758702525.jpg?lm=1"
+      },
+      {
+        "name": "Yukinari Sugawara",
+        "position": "Right-Back",
+        "nationality": "Japan",
+        "marketValue": "€7.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/405385-1758702447.jpg?lm=1"
+      },
+      {
+        "name": "Mitchell Weiser",
+        "position": "Right-Back",
+        "nationality": "Germany",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/119211-1756027949.jpg?lm=1"
+      },
+      {
+        "name": "Senne Lynen",
+        "position": "Defensive Midfield",
+        "nationality": "Belgium",
+        "marketValue": "€10.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/338668-1756028282.jpg?lm=1"
+      },
+      {
+        "name": "Wesley Adeh",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1074523-1756028326.jpg?lm=1"
+      },
+      {
+        "name": "Jens Stage",
+        "position": "Central Midfield",
+        "nationality": "Denmark",
+        "marketValue": "€14.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/289835-1660208628.jpg?lm=1"
+      },
+      {
+        "name": "Leonardo Bittencourt",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/93844-1756027773.jpg?lm=1"
+      },
+      {
+        "name": "Romano Schmid",
+        "position": "Attacking Midfield",
+        "nationality": "Austria",
+        "marketValue": "€17.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/346853-1730117104.jpg?lm=1"
+      },
+      {
+        "name": "Cameron Puertas",
+        "position": "Attacking Midfield",
+        "nationality": "Spain",
+        "marketValue": "€10.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/449592-1758702596.jpg?lm=1"
+      },
+      {
+        "name": "Patrice Covic",
+        "position": "Attacking Midfield",
+        "nationality": "Croatia",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1114155-1756027408.jpg?lm=1"
+      },
+      {
+        "name": "Samuel Mbangula",
+        "position": "Left Winger",
+        "nationality": "Belgium",
+        "marketValue": "€14.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/654991-1758702407.jpg?lm=1"
+      },
+      {
+        "name": "Marco Grüll",
+        "position": "Left Winger",
+        "nationality": "Austria",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/391766-1756027360.jpg?lm=1"
+      },
+      {
+        "name": "Justin Njinmah",
+        "position": "Right Winger",
+        "nationality": "Germany",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/596153-1722887298.jpg?lm=1"
+      },
+      {
+        "name": "Victor Boniface",
+        "position": "Centre-Forward",
+        "nationality": "Nigeria",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/656681-1758702484.jpg?lm=1"
+      },
+      {
+        "name": "Jovan Milosevic",
+        "position": "Centre-Forward",
+        "nationality": "Serbia",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/943795-1691999261.jpg?lm=1"
+      },
+      {
+        "name": "Keke Topp",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/701757-1722887176.jpg?lm=1"
+      },
+      {
+        "name": "Salim Musah",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1042472-1756028237.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "SC Freiburg",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/sc-freiburg/startseite/verein/60/saison_id/2025",
+    "players": [
+      {
+        "name": "Noah Atubolu",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€20.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/526845-1753984204.jpg?lm=1"
+      },
+      {
+        "name": "Florian Müller",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/284769-1691998669.jpg?lm=1"
+      },
+      {
+        "name": "Jannik Huth",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/160954-1723190117.jpg?lm=1"
+      },
+      {
+        "name": "Philipp Lienhart",
+        "position": "Centre-Back",
+        "nationality": "Austria",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/225657-1658411602.jpg?lm=1"
+      },
+      {
+        "name": "Max Rosenfelder",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/599419-1753955074.jpg?lm=1"
+      },
+      {
+        "name": "Matthias Ginter",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/124502-1753984264.jpg?lm=1"
+      },
+      {
+        "name": "Bruno Ogbus",
+        "position": "Centre-Back",
+        "nationality": "Switzerland",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/863759-1723189626.jpg?lm=1"
+      },
+      {
+        "name": "Anthony Jung",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/58995-1753984159.jpg?lm=1"
+      },
+      {
+        "name": "Jordy Makengo",
+        "position": "Left-Back",
+        "nationality": "France",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/815078-1753955122.jpg?lm=1"
+      },
+      {
+        "name": "Christian Günter",
+        "position": "Left-Back",
+        "nationality": "Germany",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/93707-1753984492.jpg?lm=1"
+      },
+      {
+        "name": "Philipp Treu",
+        "position": "Right-Back",
+        "nationality": "Germany",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/335993-1753984451.jpg?lm=1"
+      },
+      {
+        "name": "Lukas Kübler",
+        "position": "Right-Back",
+        "nationality": "Germany",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/93604-1658412582.jpg?lm=1"
+      },
+      {
+        "name": "Patrick Osterhage",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/443331-1723190030.jpg?lm=1"
+      },
+      {
+        "name": "Nicolas Höfler",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/55099-1658412737.jpg?lm=1"
+      },
+      {
+        "name": "Johan Manzambi",
+        "position": "Central Midfield",
+        "nationality": "Switzerland",
+        "marketValue": "€30.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/927353-1753954939.jpg?lm=1"
+      },
+      {
+        "name": "Maximilian Eggestein",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€10.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/190284-1723189965.jpg?lm=1"
+      },
+      {
+        "name": "Daniel-Kofi Kyereh",
+        "position": "Attacking Midfield",
+        "nationality": "Ghana",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/272587-1658413205.jpg?lm=1"
+      },
+      {
+        "name": "Derry Scherhant",
+        "position": "Left Winger",
+        "nationality": "Germany",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/820957-1753954863.jpg?lm=1"
+      },
+      {
+        "name": "Vincenzo Grifo",
+        "position": "Left Winger",
+        "nationality": "Italy",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/185077-1753983973.jpg?lm=1"
+      },
+      {
+        "name": "Cyriaque Irié",
+        "position": "Right Winger",
+        "nationality": "Burkina Faso",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1145064-1753954975.jpg?lm=1"
+      },
+      {
+        "name": "Niklas Beste",
+        "position": "Right Winger",
+        "nationality": "Germany",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/342967-1753984040.jpg?lm=1"
+      },
+      {
+        "name": "Yuito Suzuki",
+        "position": "Second Striker",
+        "nationality": "Japan",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/668606-1753955159.jpg?lm=1"
+      },
+      {
+        "name": "Maximilian Philipp",
+        "position": "Second Striker",
+        "nationality": "Germany",
+        "marketValue": "€600k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/143891-1723189806.jpg?lm=1"
+      },
+      {
+        "name": "Igor Matanovic",
+        "position": "Centre-Forward",
+        "nationality": "Croatia",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/605268-1753984387.jpg?lm=1"
+      },
+      {
+        "name": "Lucas Höler",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/248999-1753984328.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Borussia Mönchengladbach",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/borussia-monchengladbach/startseite/verein/18/saison_id/2025",
+    "players": [
+      {
+        "name": "Moritz Nicolas",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/284270-1722945496.jpg?lm=1"
+      },
+      {
+        "name": "Tiago Pereira Cardoso",
+        "position": "Goalkeeper",
+        "nationality": "Luxembourg",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/926301-1760967429.jpg?lm=1"
+      },
+      {
+        "name": "Jan Olschowsky",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€450k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/455922-1662965990.jpg?lm=1"
+      },
+      {
+        "name": "Tobias Sippel",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/31653-1662965792.jpg?lm=1"
+      },
+      {
+        "name": "Nico Elvedi",
+        "position": "Centre-Back",
+        "nationality": "Switzerland",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/192635-1691249306.jpg?lm=1"
+      },
+      {
+        "name": "Kevin Diks",
+        "position": "Centre-Back",
+        "nationality": "Indonesia",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/335209-1760966816.jpg?lm=1"
+      },
+      {
+        "name": "Kota Takai",
+        "position": "Centre-Back",
+        "nationality": "Japan",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/671108-1745788815.jpg?lm=1"
+      },
+      {
+        "name": "Fabio Chiarodia",
+        "position": "Centre-Back",
+        "nationality": "Italy",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/724104-1722945535.jpg?lm=1"
+      },
+      {
+        "name": "Marvin Friedrich",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/196231-1662966392.jpg?lm=1"
+      },
+      {
+        "name": "Lukas Ullrich",
+        "position": "Left-Back",
+        "nationality": "Germany",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/787151-1691248738.jpg?lm=1"
+      },
+      {
+        "name": "Joe Scally",
+        "position": "Right-Back",
+        "nationality": "United States",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/504153-1760967039.jpg?lm=1"
+      },
+      {
+        "name": "Yannik Engelhardt",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/405670-1760966867.jpg?lm=1"
+      },
+      {
+        "name": "Niklas Swider",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1009463-1760967332.jpg?lm=1"
+      },
+      {
+        "name": "Rocco Reitz",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€17.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/467434-1760966939.jpg?lm=1"
+      },
+      {
+        "name": "Jens Castrop",
+        "position": "Central Midfield",
+        "nationality": "Korea, South",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/613192-1760966991.jpg?lm=1"
+      },
+      {
+        "name": "Philipp Sander",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/388409-1760966764.jpg?lm=1"
+      },
+      {
+        "name": "Florian Neuhaus",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/278332-1739091435.jpg?lm=1"
+      },
+      {
+        "name": "Hugo Bolin",
+        "position": "Left Midfield",
+        "nationality": "Sweden",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/667251-1704806100.jpg?lm=1"
+      },
+      {
+        "name": "Giovanni Reyna",
+        "position": "Attacking Midfield",
+        "nationality": "United States",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/504215-1760967520.jpg?lm=1"
+      },
+      {
+        "name": "Kevin Stöger",
+        "position": "Attacking Midfield",
+        "nationality": "Austria",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/106872-1722945684.jpg?lm=1"
+      },
+      {
+        "name": "Wael Mohya",
+        "position": "Attacking Midfield",
+        "nationality": "Germany",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1070979-1760967470.jpg?lm=1"
+      },
+      {
+        "name": "Robin Hack",
+        "position": "Left Winger",
+        "nationality": "Germany",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/284010-1722945425.jpg?lm=1"
+      },
+      {
+        "name": "Franck Honorat",
+        "position": "Right Winger",
+        "nationality": "France",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/229006-1691248904.jpg?lm=1"
+      },
+      {
+        "name": "Nathan Ngoumou",
+        "position": "Right Winger",
+        "nationality": "Cameroon",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/629588-1760967137.jpg?lm=1"
+      },
+      {
+        "name": "Tim Kleindienst",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/193033-1722945738.jpg?lm=1"
+      },
+      {
+        "name": "Shuto Machino",
+        "position": "Centre-Forward",
+        "nationality": "Japan",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/550580-1760967093.jpg?lm=1"
+      },
+      {
+        "name": "Haris Tabakovic",
+        "position": "Centre-Forward",
+        "nationality": "Bosnia-Herzegovina",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/203123-1720778399.jpg?lm=1"
+      },
+      {
+        "name": "Alejo Sarco",
+        "position": "Centre-Forward",
+        "nationality": "Argentina",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1000675-1760947366.jpg?lm=1"
+      },
+      {
+        "name": "Jan Urbich",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/820723-1755073828.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "FC Augsburg",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/fc-augsburg/startseite/verein/167/saison_id/2025",
+    "players": [
+      {
+        "name": "Finn Dahmen",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/251299-1755200500.jpg?lm=1"
+      },
+      {
+        "name": "Nediljko Labrovic",
+        "position": "Goalkeeper",
+        "nationality": "Croatia",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/610190-1755200567.jpg?lm=1"
+      },
+      {
+        "name": "Daniel Klein",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€150k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/392124-1755200609.jpg?lm=1"
+      },
+      {
+        "name": "Chrislain Matsima",
+        "position": "Centre-Back",
+        "nationality": "France",
+        "marketValue": "€22.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/569383-1755200922.jpg?lm=1"
+      },
+      {
+        "name": "Noahkai Banks",
+        "position": "Centre-Back",
+        "nationality": "United States",
+        "marketValue": "€15.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/923945-1755200998.jpg?lm=1"
+      },
+      {
+        "name": "Keven Schlotterbeck",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/413843-1755201026.jpg?lm=1"
+      },
+      {
+        "name": "Cédric Zesiger",
+        "position": "Centre-Back",
+        "nationality": "Switzerland",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/382478-1755200960.jpg?lm=1"
+      },
+      {
+        "name": "Arthur Chaves",
+        "position": "Centre-Back",
+        "nationality": "Brazil",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/875332-1755091087.jpg?lm=1"
+      },
+      {
+        "name": "Jeffrey Gouweleeuw",
+        "position": "Centre-Back",
+        "nationality": "Netherlands",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/106405-1755201296.jpg?lm=1"
+      },
+      {
+        "name": "Felix Meiser",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€150k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1069641-1755201345.jpg?lm=1"
+      },
+      {
+        "name": "Dimitrios Giannoulis",
+        "position": "Left-Back",
+        "nationality": "Greece",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/295630-1755201178.jpg?lm=1"
+      },
+      {
+        "name": "Mads Pedersen",
+        "position": "Left-Back",
+        "nationality": "Denmark",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/288429-1755201256.jpg?lm=1"
+      },
+      {
+        "name": "Oliver Sorg",
+        "position": "Left-Back",
+        "nationality": "Austria",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/960444-1755200367.jpg?lm=1"
+      },
+      {
+        "name": "Marius Wolf",
+        "position": "Right-Back",
+        "nationality": "Germany",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/193900-1755201094.jpg?lm=1"
+      },
+      {
+        "name": "Kristijan Jakic",
+        "position": "Defensive Midfield",
+        "nationality": "Croatia",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/374954-1755201482.jpg?lm=1"
+      },
+      {
+        "name": "Robin Fellhauer",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/264960-1755201733.jpg?lm=1"
+      },
+      {
+        "name": "Yannik Keitel",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/342039-1753734178.jpg?lm=1"
+      },
+      {
+        "name": "Mahmut Kücüksahin",
+        "position": "Defensive Midfield",
+        "nationality": "Türkiye",
+        "marketValue": "€175k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/730486-1755201696.jpg?lm=1"
+      },
+      {
+        "name": "Han-Noah Massengo",
+        "position": "Central Midfield",
+        "nationality": "France",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/536508-1755200310.jpg?lm=1"
+      },
+      {
+        "name": "Elvis Rexhbecaj",
+        "position": "Central Midfield",
+        "nationality": "Kosovo",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/280575-1755201620.jpg?lm=1"
+      },
+      {
+        "name": "Anton Kade",
+        "position": "Right Midfield",
+        "nationality": "Germany",
+        "marketValue": "€7.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/654234-1726041593.jpg?lm=1"
+      },
+      {
+        "name": "Alexis Claude-Maurice",
+        "position": "Attacking Midfield",
+        "nationality": "France",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/384593-1755201378.jpg?lm=1"
+      },
+      {
+        "name": "Mert Kömür",
+        "position": "Attacking Midfield",
+        "nationality": "Germany",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/777005-1755201514.jpg?lm=1"
+      },
+      {
+        "name": "Fabian Rieder",
+        "position": "Attacking Midfield",
+        "nationality": "Switzerland",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/507341-1723707005.jpg?lm=1"
+      },
+      {
+        "name": "Ismaël Gharbi",
+        "position": "Left Winger",
+        "nationality": "Tunisia",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/810096-1699715578.jpg?lm=1"
+      },
+      {
+        "name": "Samuel Essende",
+        "position": "Centre-Forward",
+        "nationality": "DR Congo",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/395522-1755201898.jpg?lm=1"
+      },
+      {
+        "name": "Rodrigo Ribeiro",
+        "position": "Centre-Forward",
+        "nationality": "Portugal",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/726701-1666100589.jpg?lm=1"
+      },
+      {
+        "name": "Michael Gregoritsch",
+        "position": "Centre-Forward",
+        "nationality": "Austria",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/120205-1658413549.jpg?lm=1"
+      },
+      {
+        "name": "Uchenna Ogundu",
+        "position": "Centre-Forward",
+        "nationality": "Nigeria",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1309324-1761655883.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "Hamburger SV",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/hamburger-sv/startseite/verein/41/saison_id/2025",
+    "players": [
+      {
+        "name": "Sander Tangvik",
+        "position": "Goalkeeper",
+        "nationality": "Norway",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/549378-1768895607.jpg?lm=1"
+      },
+      {
+        "name": "Daniel Heuer Fernandes",
+        "position": "Goalkeeper",
+        "nationality": "Portugal",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/84993-1758189215.jpg?lm=1"
+      },
+      {
+        "name": "Hannes Hermann",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€150k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/894692-1758189810.jpg?lm=1"
+      },
+      {
+        "name": "Fernando Dickes",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1048715-1758187968.jpg?lm=1"
+      },
+      {
+        "name": "Luka Vuskovic",
+        "position": "Centre-Back",
+        "nationality": "Croatia",
+        "marketValue": "€40.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/892160-1758187820.jpg?lm=1"
+      },
+      {
+        "name": "Jordan Torunarigha",
+        "position": "Centre-Back",
+        "nationality": "Nigeria",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/227110-1758188233.jpg?lm=1"
+      },
+      {
+        "name": "Daniel Elfadli",
+        "position": "Centre-Back",
+        "nationality": "Libya",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/529895-1758189409.jpg?lm=1"
+      },
+      {
+        "name": "Warmed Omari",
+        "position": "Centre-Back",
+        "nationality": "Comoros",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/711996-1758188768.jpg?lm=1"
+      },
+      {
+        "name": "Shafiq Nandja",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€175k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1125079-1753988106.jpeg?lm=1"
+      },
+      {
+        "name": "Miro Muheim",
+        "position": "Left-Back",
+        "nationality": "Switzerland",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/298603-1728395082.jpg?lm=1"
+      },
+      {
+        "name": "Noah Katterbach",
+        "position": "Left-Back",
+        "nationality": "Germany",
+        "marketValue": "€600k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/469949-1758189251.jpg?lm=1"
+      },
+      {
+        "name": "Louis Lemke",
+        "position": "Left-Back",
+        "nationality": "Germany",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1294853-1770112080.jpg?lm=1"
+      },
+      {
+        "name": "Giorgi Gocholeishvili",
+        "position": "Right-Back",
+        "nationality": "Georgia",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/540056-1758188821.jpg?lm=1"
+      },
+      {
+        "name": "William Mikelbrencis",
+        "position": "Right-Back",
+        "nationality": "France",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/743500-1758189301.jpg?lm=1"
+      },
+      {
+        "name": "Nicolai Remberg",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/592534-1758188560.jpg?lm=1"
+      },
+      {
+        "name": "Albert Sambi Lokonga",
+        "position": "Central Midfield",
+        "nationality": "Belgium",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/381967-1758189027.jpg?lm=1"
+      },
+      {
+        "name": "Nicolás Capaldo",
+        "position": "Central Midfield",
+        "nationality": "Argentina",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/649672-1758188433.jpg?lm=1"
+      },
+      {
+        "name": "Fábio Vieira",
+        "position": "Attacking Midfield",
+        "nationality": "Portugal",
+        "marketValue": "€18.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/537598-1758188654.jpg?lm=1"
+      },
+      {
+        "name": "Albert Grønbaek",
+        "position": "Attacking Midfield",
+        "nationality": "Denmark",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/503866-1729079861.jpg?lm=1"
+      },
+      {
+        "name": "Omar Megeed",
+        "position": "Attacking Midfield",
+        "nationality": "Egypt",
+        "marketValue": "€150k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/910582-1753989029.jpeg?lm=1"
+      },
+      {
+        "name": "Philip Otele",
+        "position": "Left Winger",
+        "nationality": "Nigeria",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/678655-1689769630.jpg?lm=1"
+      },
+      {
+        "name": "Alexander Røssing-Lelesiit",
+        "position": "Left Winger",
+        "nationality": "Norway",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1213681-1758188019.jpg?lm=1"
+      },
+      {
+        "name": "Jean-Luc Dompé",
+        "position": "Left Winger",
+        "nationality": "France",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/291222-1758189349.jpg?lm=1"
+      },
+      {
+        "name": "Fábio Baldé",
+        "position": "Left Winger",
+        "nationality": "Portugal",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/910541-1758189846.jpg?lm=1"
+      },
+      {
+        "name": "Rayan Philippe",
+        "position": "Right Winger",
+        "nationality": "France",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/694507-1758188945.jpg?lm=1"
+      },
+      {
+        "name": "Bakery Jatta",
+        "position": "Right Winger",
+        "nationality": "The Gambia",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/415194-1758189571.jpg?lm=1"
+      },
+      {
+        "name": "Damion Downs",
+        "position": "Centre-Forward",
+        "nationality": "United States",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/820241-1721139459.jpg?lm=1"
+      },
+      {
+        "name": "Ransford Königsdörffer",
+        "position": "Centre-Forward",
+        "nationality": "Ghana",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/470038-1758189531.jpg?lm=1"
+      },
+      {
+        "name": "Otto Stange",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1058520-1728399688.jpg?lm=1"
+      },
+      {
+        "name": "Robert Glatzel",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/196139-1758189940.jpg?lm=1"
+      },
+      {
+        "name": "Yussuf Poulsen",
+        "position": "Centre-Forward",
+        "nationality": "Denmark",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/157635-1758188866.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "1.FSV Mainz 05",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/1-fsv-mainz-05/startseite/verein/39/saison_id/2025",
+    "players": [
+      {
+        "name": "Robin Zentner",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/160963-1676499369.jpg?lm=1"
+      },
+      {
+        "name": "Lasse Rieß",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/490609-1752587621.jpg?lm=1"
+      },
+      {
+        "name": "Daniel Batz",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/90317-1722886526.jpg?lm=1"
+      },
+      {
+        "name": "Stefan Posch",
+        "position": "Centre-Back",
+        "nationality": "Austria",
+        "marketValue": "€5.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/223974-1725531246.jpg?lm=1"
+      },
+      {
+        "name": "Andreas Hanche-Olsen",
+        "position": "Centre-Back",
+        "nationality": "Norway",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/370683-1692000124.jpg?lm=1"
+      },
+      {
+        "name": "Kacper Potulski",
+        "position": "Centre-Back",
+        "nationality": "Poland",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1073748-1765043272.jpg?lm=1"
+      },
+      {
+        "name": "Dominik Kohr",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/118847-1722886760.jpg?lm=1"
+      },
+      {
+        "name": "Maxim Leitsch",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/334207-1676499456.jpg?lm=1"
+      },
+      {
+        "name": "Danny da Costa",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/85906-1752588257.jpg?lm=1"
+      },
+      {
+        "name": "Stefan Bell",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€600k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/82350-1657706740.jpg?lm=1"
+      },
+      {
+        "name": "Maxim Dal",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€150k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/934317-1722886472.jpg?lm=1"
+      },
+      {
+        "name": "Phillipp Mwene",
+        "position": "Left-Back",
+        "nationality": "Austria",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/127573-1722886402.jpg?lm=1"
+      },
+      {
+        "name": "Kasey Bos",
+        "position": "Left-Back",
+        "nationality": "Australia",
+        "marketValue": "€450k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1154876-1752587953.jpg?lm=1"
+      },
+      {
+        "name": "Anthony Caci",
+        "position": "Right-Back",
+        "nationality": "France",
+        "marketValue": "€10.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/453016-1657706767.jpg?lm=1"
+      },
+      {
+        "name": "Nikolas Veratschnig",
+        "position": "Right-Back",
+        "nationality": "Austria",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/601143-1722885901.jpg?lm=1"
+      },
+      {
+        "name": "Silvan Widmer",
+        "position": "Right-Back",
+        "nationality": "Switzerland",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/168989-1629202510.jpg?lm=1"
+      },
+      {
+        "name": "Kaishu Sano",
+        "position": "Defensive Midfield",
+        "nationality": "Japan",
+        "marketValue": "€25.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/643574-1752587688.jpg?lm=1"
+      },
+      {
+        "name": "Lennard Maloney",
+        "position": "Defensive Midfield",
+        "nationality": "United States",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/392710-1752587852.jpg?lm=1"
+      },
+      {
+        "name": "Sota Kawasaki",
+        "position": "Defensive Midfield",
+        "nationality": "Japan",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/733371-1752588052.jpg?lm=1"
+      },
+      {
+        "name": "Niklas Tauer",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€350k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/470815-1657707191.jpg?lm=1"
+      },
+      {
+        "name": "Nadiem Amiri",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€17.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/232454-1722885996.jpg?lm=1"
+      },
+      {
+        "name": "Daniel Gleiber",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/906969-1752588202.jpg?lm=1"
+      },
+      {
+        "name": "Paul Nebel",
+        "position": "Attacking Midfield",
+        "nationality": "Germany",
+        "marketValue": "€18.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/503160-1722886613.jpg?lm=1"
+      },
+      {
+        "name": "Jae-sung Lee",
+        "position": "Attacking Midfield",
+        "nationality": "Korea, South",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/314398-1668504727.jpg?lm=1"
+      },
+      {
+        "name": "Sheraldo Becker",
+        "position": "Left Winger",
+        "nationality": "Suriname",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/188888-1692707512.jpg?lm=1"
+      },
+      {
+        "name": "Silas",
+        "position": "Right Winger",
+        "nationality": "DR Congo",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/612826-1657181986.png?lm=1"
+      },
+      {
+        "name": "Armindo Sieb",
+        "position": "Second Striker",
+        "nationality": "Germany",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/569033-1722886149.jpg?lm=1"
+      },
+      {
+        "name": "Nelson Weiper",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/796213-1692000176.jpg?lm=1"
+      },
+      {
+        "name": "Benedict Hollerbach",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€10.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/453870-1752587912.jpg?lm=1"
+      },
+      {
+        "name": "William Bøving",
+        "position": "Centre-Forward",
+        "nationality": "Denmark",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/610400-1736777118.jpg?lm=1"
+      },
+      {
+        "name": "Phillip Tietz",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/288340-1755201829.jpg?lm=1"
+      },
+      {
+        "name": "Fabio Moreno Fell",
+        "position": "Centre-Forward",
+        "nationality": "Spain",
+        "marketValue": "€300k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/445606-1765043052.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "1.FC Köln",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/1-fc-koln/startseite/verein/3/saison_id/2025",
+    "players": [
+      {
+        "name": "Marvin Schwäbe",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/160929-1721140634.jpg?lm=1"
+      },
+      {
+        "name": "Ron-Robert Zieler",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/21327-1752743213.jpg?lm=1"
+      },
+      {
+        "name": "Matthias Köbbing",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/227089-1752743707.jpg?lm=1"
+      },
+      {
+        "name": "Rav van den Berg",
+        "position": "Centre-Back",
+        "nationality": "Netherlands",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/640556-1752483569.jpg?lm=1"
+      },
+      {
+        "name": "Jahmai Simpson-Pusey",
+        "position": "Centre-Back",
+        "nationality": "England",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/942497-1699384753.jpg?lm=1"
+      },
+      {
+        "name": "Joël Schmied",
+        "position": "Centre-Back",
+        "nationality": "Switzerland",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/322517-1752737253.jpg?lm=1"
+      },
+      {
+        "name": "Timo Hübers",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/236981-1721140491.jpg?lm=1"
+      },
+      {
+        "name": "Cenk Özkacar",
+        "position": "Centre-Back",
+        "nationality": "Türkiye",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/615350-1641457298.jpg?lm=1"
+      },
+      {
+        "name": "Dominique Heintz",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€700k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/110036-1721140583.jpg?lm=1"
+      },
+      {
+        "name": "Luca Kilian",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/384553-1691252067.jpg?lm=1"
+      },
+      {
+        "name": "Kristoffer Lund",
+        "position": "Left-Back",
+        "nationality": "United States",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/623773-1671206846.jpg?lm=1"
+      },
+      {
+        "name": "Sebastian Sebulonsen",
+        "position": "Right-Back",
+        "nationality": "Norway",
+        "marketValue": "€5.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/592387-1752841294.jpg?lm=1"
+      },
+      {
+        "name": "Eric Martel",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/597000-1657110079.jpg?lm=1"
+      },
+      {
+        "name": "Tom Krauß",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/405687-1752739063.jpg?lm=1"
+      },
+      {
+        "name": "Fayssal Harchaoui",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€200k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/890532-1752743471.jpg?lm=1"
+      },
+      {
+        "name": "Ísak Jóhannesson",
+        "position": "Central Midfield",
+        "nationality": "Iceland",
+        "marketValue": "€10.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/579565-1722890599.jpg?lm=1"
+      },
+      {
+        "name": "Denis Huseinbasic",
+        "position": "Central Midfield",
+        "nationality": "Bosnia-Herzegovina",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/678479-1721140225.jpg?lm=1"
+      },
+      {
+        "name": "Felipe Chávez",
+        "position": "Central Midfield",
+        "nationality": "Peru",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1009441-1758891246.jpg?lm=1"
+      },
+      {
+        "name": "Alessio Castro-Montes",
+        "position": "Right Midfield",
+        "nationality": "Belgium",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/340166-1714468225.png?lm=1"
+      },
+      {
+        "name": "Florian Kainz",
+        "position": "Attacking Midfield",
+        "nationality": "Austria",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/106270-1721140143.jpg?lm=1"
+      },
+      {
+        "name": "Said El Mala",
+        "position": "Left Winger",
+        "nationality": "Germany",
+        "marketValue": "€40.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1168219-1761497362.jpg?lm=1"
+      },
+      {
+        "name": "Jakub Kaminski",
+        "position": "Left Winger",
+        "nationality": "Poland",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/407098-1752743041.jpg?lm=1"
+      },
+      {
+        "name": "Linton Maina",
+        "position": "Left Winger",
+        "nationality": "Germany",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/335103-1721139567.jpg?lm=1"
+      },
+      {
+        "name": "Marius Bülter",
+        "position": "Left Winger",
+        "nationality": "Germany",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/116088-1691269482.jpg?lm=1"
+      },
+      {
+        "name": "Jan Thielmann",
+        "position": "Right Winger",
+        "nationality": "Germany",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/472249-1721139731.jpg?lm=1"
+      },
+      {
+        "name": "Youssoupha Niang",
+        "position": "Right Winger",
+        "nationality": "Germany",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/944331-1752743597.jpg?lm=1"
+      },
+      {
+        "name": "Ragnar Ache",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/416380-1752742777.jpg?lm=1"
+      },
+      {
+        "name": "Luca Waldschmidt",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/196095-1721140192.jpg?lm=1"
+      },
+      {
+        "name": "Fynn Schenten",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1118293-1767000491.jpg?lm=1"
+      },
+      {
+        "name": "Malek El Mala",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1168222-1761496702.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "1.FC Union Berlin",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/1-fc-union-berlin/startseite/verein/89/saison_id/2025",
+    "players": [
+      {
+        "name": "Frederik Rönnow",
+        "position": "Goalkeeper",
+        "nationality": "Denmark",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/107775-1692707378.jpg?lm=1"
+      },
+      {
+        "name": "Matheo Raab",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€600k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/386685-1755624725.jpg?lm=1"
+      },
+      {
+        "name": "Carl Klaus",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€350k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/161057-1755624992.jpg?lm=1"
+      },
+      {
+        "name": "Leopold Querfeld",
+        "position": "Centre-Back",
+        "nationality": "Austria",
+        "marketValue": "€18.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/597432-1726351317.jpg?lm=1"
+      },
+      {
+        "name": "Danilho Doekhi",
+        "position": "Centre-Back",
+        "nationality": "Netherlands",
+        "marketValue": "€13.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/387047-1692707468.jpg?lm=1"
+      },
+      {
+        "name": "Diogo Leite",
+        "position": "Centre-Back",
+        "nationality": "Portugal",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/357156-1691999912.jpg?lm=1"
+      },
+      {
+        "name": "Stanley Nsoki",
+        "position": "Centre-Back",
+        "nationality": "France",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/371141-1755624516.jpg?lm=1"
+      },
+      {
+        "name": "Tom Rothe",
+        "position": "Left-Back",
+        "nationality": "Germany",
+        "marketValue": "€10.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/798043-1755624376.jpg?lm=1"
+      },
+      {
+        "name": "Derrick Köhn",
+        "position": "Left-Back",
+        "nationality": "Ghana",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/391780-1707464358.png?lm=1"
+      },
+      {
+        "name": "Andrik Markgraf",
+        "position": "Left-Back",
+        "nationality": "Germany",
+        "marketValue": "-",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1027870-1755624329.jpg?lm=1"
+      },
+      {
+        "name": "Josip Juranovic",
+        "position": "Right-Back",
+        "nationality": "Croatia",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/362977-1691614466.jpg?lm=1"
+      },
+      {
+        "name": "Christopher Trimmel",
+        "position": "Right-Back",
+        "nationality": "Austria",
+        "marketValue": "€600k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/75921-1692707564.jpg?lm=1"
+      },
+      {
+        "name": "Aljoscha Kemlein",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€9.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/692737-1691614020.jpg?lm=1"
+      },
+      {
+        "name": "Rani Khedira",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/124410-1692707430.jpg?lm=1"
+      },
+      {
+        "name": "András Schäfer",
+        "position": "Central Midfield",
+        "nationality": "Hungary",
+        "marketValue": "€4.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/454863-1726351222.jpg?lm=1"
+      },
+      {
+        "name": "Alex Král",
+        "position": "Central Midfield",
+        "nationality": "Czech Republic",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/337333-1691614545.jpg?lm=1"
+      },
+      {
+        "name": "Janik Haberer",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/177779-1692707721.jpg?lm=1"
+      },
+      {
+        "name": "Robert Skov",
+        "position": "Left Midfield",
+        "nationality": "Denmark",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/270393-1726350741.jpg?lm=1"
+      },
+      {
+        "name": "Woo-yeong Jeong",
+        "position": "Attacking Midfield",
+        "nationality": "Korea, South",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/297583-1723707463.jpg?lm=1"
+      },
+      {
+        "name": "Livan Burcu",
+        "position": "Left Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/519872-1691615485.jpg?lm=1"
+      },
+      {
+        "name": "David Preu",
+        "position": "Left Winger",
+        "nationality": "Germany",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/745075-1726351060.jpg?lm=1"
+      },
+      {
+        "name": "Ilyas Ansah",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€12.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1035765-1755624476.jpg?lm=1"
+      },
+      {
+        "name": "Andrej Ilic",
+        "position": "Centre-Forward",
+        "nationality": "Serbia",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/583699-1726350811.jpg?lm=1"
+      },
+      {
+        "name": "Oliver Burke",
+        "position": "Centre-Forward",
+        "nationality": "Scotland",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/341317-1755624913.jpg?lm=1"
+      },
+      {
+        "name": "Tim Skarke",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/287920-1747224742.jpg?lm=1"
+      },
+      {
+        "name": "Dmytro Bogdanov",
+        "position": "Centre-Forward",
+        "nationality": "Ukraine",
+        "marketValue": "€600k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1045446-1755624207.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "FC St. Pauli",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/fc-st-pauli/startseite/verein/35/saison_id/2025",
+    "players": [
+      {
+        "name": "Nikola Vasilj",
+        "position": "Goalkeeper",
+        "nationality": "Bosnia-Herzegovina",
+        "marketValue": "€4.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/248454-1755032189.jpg?lm=1"
+      },
+      {
+        "name": "Ben Voll",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/453742-1755032245.jpg?lm=1"
+      },
+      {
+        "name": "Simon Spari",
+        "position": "Goalkeeper",
+        "nationality": "Austria",
+        "marketValue": "€350k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/527597-1755032304.jpg?lm=1"
+      },
+      {
+        "name": "Emil Gazdov",
+        "position": "Goalkeeper",
+        "nationality": "Canada",
+        "marketValue": "€175k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/790733-1714921637.jpg?lm=1"
+      },
+      {
+        "name": "Eric Smith",
+        "position": "Centre-Back",
+        "nationality": "Sweden",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/292534-1755032356.jpg?lm=1"
+      },
+      {
+        "name": "David Nemeth",
+        "position": "Centre-Back",
+        "nationality": "Austria",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/451906-1755032414.jpg?lm=1"
+      },
+      {
+        "name": "Hauke Wahl",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/154147-1755032459.jpg?lm=1"
+      },
+      {
+        "name": "Tomoya Ando",
+        "position": "Centre-Back",
+        "nationality": "Japan",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/610795-1760491841.jpg?lm=1"
+      },
+      {
+        "name": "Adam Dzwigala",
+        "position": "Centre-Back",
+        "nationality": "Poland",
+        "marketValue": "€900k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/236966-1755032561.jpg?lm=1"
+      },
+      {
+        "name": "Karol Mets",
+        "position": "Centre-Back",
+        "nationality": "Estonia",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/139304-1755032511.jpg?lm=1"
+      },
+      {
+        "name": "Jannik Robatsch",
+        "position": "Centre-Back",
+        "nationality": "Austria",
+        "marketValue": "€600k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/909860-1755032608.jpg?lm=1"
+      },
+      {
+        "name": "Louis Oppie",
+        "position": "Left-Back",
+        "nationality": "Germany",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/605265-1755032713.jpg?lm=1"
+      },
+      {
+        "name": "Lars Ritzka",
+        "position": "Left-Back",
+        "nationality": "Germany",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/333903-1755032658.jpg?lm=1"
+      },
+      {
+        "name": "Arkadiusz Pyrka",
+        "position": "Right-Back",
+        "nationality": "Poland",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/599733-1755032127.jpg?lm=1"
+      },
+      {
+        "name": "Manolis Saliakas",
+        "position": "Right-Back",
+        "nationality": "Greece",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/242661-1755032759.jpg?lm=1"
+      },
+      {
+        "name": "Fin Stevens",
+        "position": "Right-Back",
+        "nationality": "Wales",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/587019-1755032806.jpg?lm=1"
+      },
+      {
+        "name": "James Sands",
+        "position": "Defensive Midfield",
+        "nationality": "United States",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/393321-1755032856.jpg?lm=1"
+      },
+      {
+        "name": "Marwin Schmitz",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€200k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1003534-1755032903.jpg?lm=1"
+      },
+      {
+        "name": "Joel Chima Fujita",
+        "position": "Central Midfield",
+        "nationality": "Japan",
+        "marketValue": "€8.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/697277-1755032962.jpg?lm=1"
+      },
+      {
+        "name": "Mathias Rasmussen",
+        "position": "Central Midfield",
+        "nationality": "Norway",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/268327-1714468559.png?lm=1"
+      },
+      {
+        "name": "Connor Metcalfe",
+        "position": "Central Midfield",
+        "nationality": "Australia",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/522223-1755033011.jpg?lm=1"
+      },
+      {
+        "name": "Jackson Irvine",
+        "position": "Central Midfield",
+        "nationality": "Australia",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/192557-1755032060.jpg?lm=1"
+      },
+      {
+        "name": "Nick Schmidt",
+        "position": "Central Midfield",
+        "nationality": "Japan",
+        "marketValue": "€125k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1152232-1757681443.jpg?lm=1"
+      },
+      {
+        "name": "Danel Sinani",
+        "position": "Attacking Midfield",
+        "nationality": "Luxembourg",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/346499-1755033100.jpg?lm=1"
+      },
+      {
+        "name": "Mathias Pereira Lage",
+        "position": "Left Winger",
+        "nationality": "Portugal",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/424072-1755031981.jpg?lm=1"
+      },
+      {
+        "name": "Andréas Hountondji",
+        "position": "Centre-Forward",
+        "nationality": "Benin",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/704155-1755031911.jpg?lm=1"
+      },
+      {
+        "name": "Martijn Kaars",
+        "position": "Centre-Forward",
+        "nationality": "Netherlands",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/377729-1752826377.jpg?lm=1"
+      },
+      {
+        "name": "Taichi Hara",
+        "position": "Centre-Forward",
+        "nationality": "Japan",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/495752-1769616700.jpg?lm=1"
+      },
+      {
+        "name": "Ricky-Jade Jones",
+        "position": "Centre-Forward",
+        "nationality": "England",
+        "marketValue": "€900k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/677935-1755033236.jpg?lm=1"
+      },
+      {
+        "name": "Abdoulie Ceesay",
+        "position": "Centre-Forward",
+        "nationality": "The Gambia",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1280281-1755033280.jpg?lm=1"
+      }
+    ]
+  },
+  {
+    "teamName": "1.FC Heidenheim 1846",
+    "teamLogo": "https://tmssl.akamaized.net/images/tm_logo.png",
+    "url": "https://www.transfermarkt.com/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2025",
+    "players": [
+      {
+        "name": "Diant Ramaj",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€7.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/448705-1755088320.jpg?lm=1"
+      },
+      {
+        "name": "Frank Feller",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/806948-1690186659.jpg?lm=1"
+      },
+      {
+        "name": "Paul Tschernuth",
+        "position": "Goalkeeper",
+        "nationality": "Austria",
+        "marketValue": "€100k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/519035-1657874664.jpg?lm=1"
+      },
+      {
+        "name": "Tim Siersleben",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/337092-1755087413.jpg?lm=1"
+      },
+      {
+        "name": "Benedikt Gimber",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/227084-1755087520.jpg?lm=1"
+      },
+      {
+        "name": "Patrick Mainka",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€2.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/133731-1755087959.jpg?lm=1"
+      },
+      {
+        "name": "Adam Kölle",
+        "position": "Centre-Back",
+        "nationality": "Germany",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/921431-1755088906.jpg?lm=1"
+      },
+      {
+        "name": "Jonas Föhrenbach",
+        "position": "Left-Back",
+        "nationality": "Germany",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/192169-1755087596.jpg?lm=1"
+      },
+      {
+        "name": "Leart Paçarada",
+        "position": "Left-Back",
+        "nationality": "Kosovo",
+        "marketValue": "€1.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/107219-1691252013.jpg?lm=1"
+      },
+      {
+        "name": "Hennes Behrens",
+        "position": "Left-Back",
+        "nationality": "Germany",
+        "marketValue": "€400k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/829838-1755089974.jpg?lm=1"
+      },
+      {
+        "name": "Leonidas Stergiou",
+        "position": "Right-Back",
+        "nationality": "Switzerland",
+        "marketValue": "€3.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/507345-1723707260.jpg?lm=1"
+      },
+      {
+        "name": "Omar Traoré",
+        "position": "Right-Back",
+        "nationality": "Germany",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/388294-1690186175.jpg?lm=1"
+      },
+      {
+        "name": "Marnon Busch",
+        "position": "Right-Back",
+        "nationality": "Germany",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/117478-1755087683.jpg?lm=1"
+      },
+      {
+        "name": "Niklas Dorsch",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€3.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/251302-1755087869.jpg?lm=1"
+      },
+      {
+        "name": "Julian Niehues",
+        "position": "Defensive Midfield",
+        "nationality": "Germany",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/530173-1721852705.jpg?lm=1"
+      },
+      {
+        "name": "Jan Schöppner",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€4.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/581357-1721852254.jpg?lm=1"
+      },
+      {
+        "name": "Luca Kerber",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/809498-1721852758.jpg?lm=1"
+      },
+      {
+        "name": "Nick Rothweiler",
+        "position": "Central Midfield",
+        "nationality": "Germany",
+        "marketValue": "€250k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1052350-1755089302.jpg?lm=1"
+      },
+      {
+        "name": "Arijon Ibrahimovic",
+        "position": "Attacking Midfield",
+        "nationality": "Germany",
+        "marketValue": "€5.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/744728-1755088466.jpg?lm=1"
+      },
+      {
+        "name": "Adrian Beck",
+        "position": "Attacking Midfield",
+        "nationality": "Germany",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/273669-1721852328.jpg?lm=1"
+      },
+      {
+        "name": "Mathias Honsak",
+        "position": "Left Winger",
+        "nationality": "Austria",
+        "marketValue": "€2.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/283497-1721852632.jpg?lm=1"
+      },
+      {
+        "name": "Yannik Wagner",
+        "position": "Left Winger",
+        "nationality": "Germany",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/1153628-1755088844.jpg?lm=1"
+      },
+      {
+        "name": "Eren Dinkçi",
+        "position": "Right Winger",
+        "nationality": "Türkiye",
+        "marketValue": "€6.00m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/645774-1753984116.jpg?lm=1"
+      },
+      {
+        "name": "Sirlord Conteh",
+        "position": "Right Winger",
+        "nationality": "Germany",
+        "marketValue": "€1.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/307183-1721852922.jpg?lm=1"
+      },
+      {
+        "name": "Christian Conteh",
+        "position": "Right Winger",
+        "nationality": "Germany",
+        "marketValue": "€800k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/530298-1722892107.jpg?lm=1"
+      },
+      {
+        "name": "Marvin Pieringer",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€4.50m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/471055-1755088557.jpg?lm=1"
+      },
+      {
+        "name": "Mikkel Kaufmann",
+        "position": "Centre-Forward",
+        "nationality": "Denmark",
+        "marketValue": "€1.80m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/545332-1755087336.jpg?lm=1"
+      },
+      {
+        "name": "Budu Zivzivadze",
+        "position": "Centre-Forward",
+        "nationality": "Georgia",
+        "marketValue": "€1.20m",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/187097-1755088727.jpg?lm=1"
+      },
+      {
+        "name": "Stefan Schimmer",
+        "position": "Centre-Forward",
+        "nationality": "Germany",
+        "marketValue": "€500k",
+        "photo": "https://img.a.transfermarkt.technology/portrait/medium/394033-1721852150.jpg?lm=1"
+      }
+    ]
+  }
+]

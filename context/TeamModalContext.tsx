@@ -1,12 +1,12 @@
 "use client";
 
 import { createContext, useContext, useState, ReactNode } from "react";
-import { Team } from "@/lib/mock-data";
+import { FirestoreTeam } from "@/lib/teams-firestore";
 
 interface TeamModalContextType {
     isOpen: boolean;
-    selectedTeam: Team | null;
-    openModal: (team: Team) => void;
+    selectedTeam: FirestoreTeam | null;
+    openModal: (team: FirestoreTeam) => void;
     closeModal: () => void;
 }
 
@@ -14,9 +14,9 @@ const TeamModalContext = createContext<TeamModalContextType | undefined>(undefin
 
 export function TeamModalProvider({ children }: { children: ReactNode }) {
     const [isOpen, setIsOpen] = useState(false);
-    const [selectedTeam, setSelectedTeam] = useState<Team | null>(null);
+    const [selectedTeam, setSelectedTeam] = useState<FirestoreTeam | null>(null);
 
-    const openModal = (team: Team) => {
+    const openModal = (team: FirestoreTeam) => {
         setSelectedTeam(team);
         setIsOpen(true);
     };

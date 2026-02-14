@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """
-Multi-Platform Social Media Scraper
-Scrapes Instagram (Playwright) and TikTok (requests) follower counts
-Updates Firestore with latest data
+Enhanced Multi-Platform Social Media Scraper
+- Retry logic with exponential backoff
+- Better error handling and logging
+- Rate limiting protection
+- Progress tracking
 """
 
 from playwright.sync_api import sync_playwright
@@ -12,6 +14,7 @@ import re
 import os
 import time
 from datetime import datetime
+from typing import Dict, Tuple
 
 # Firebase Admin SDK
 try:
@@ -20,117 +23,14 @@ try:
     FIREBASE_AVAILABLE = True
 except ImportError:
     FIREBASE_AVAILABLE = False
-    print("⚠️ firebase-admin not installed")
+    print("⚠️  firebase-admin not installed")
 
-# All teams with social media usernames (96 teams across 5 leagues)
-ALL_TEAMS = {
-    "Premier League": [
-        {"id": "arsenal", "name": "Arsenal", "instagram": "arsenal", "tiktok": "arsenal"},
-        {"id": "manchester-city", "name": "Manchester City", "instagram": "mancity", "tiktok": "mancity"},
-        {"id": "aston-villa", "name": "Aston Villa", "instagram": "avfcofficial", "tiktok": "avfcofficial"},
-        {"id": "chelsea", "name": "Chelsea", "instagram": "chelseafc", "tiktok": "chelseafc"},
-        {"id": "liverpool", "name": "Liverpool", "instagram": "liverpoolfc", "tiktok": "liverpoolfc"},
-        {"id": "sunderland", "name": "Sunderland", "instagram": "sunderlandafc", "tiktok": "sunderlandafc"},
-        {"id": "manchester-united", "name": "Manchester United", "instagram": "manchesterunited", "tiktok": "manutd"},
-        {"id": "crystal-palace", "name": "Crystal Palace", "instagram": "cpfc", "tiktok": "cpfc"},
-        {"id": "brighton", "name": "Brighton", "instagram": "officialbhafc", "tiktok": "officialbhafc"},
-        {"id": "everton", "name": "Everton", "instagram": "everton", "tiktok": "everton"},
-        {"id": "newcastle-united", "name": "Newcastle", "instagram": "nufc", "tiktok": "nufc"},
-        {"id": "brentford", "name": "Brentford", "instagram": "brentfordfc", "tiktok": "brentfordfc"},
-        {"id": "tottenham-hotspur", "name": "Tottenham", "instagram": "spursofficial", "tiktok": "spursofficial"},
-        {"id": "bournemouth", "name": "Bournemouth", "instagram": "afcbournemouth", "tiktok": "afcb"},
-        {"id": "fulham", "name": "Fulham", "instagram": "fulhamfc", "tiktok": "fulhamfc"},
-        {"id": "leeds-united", "name": "Leeds United", "instagram": "leedsunited", "tiktok": "leedsunited"},
-        {"id": "nottingham-forest", "name": "Nottingham Forest", "instagram": "nottinghamforest", "tiktok": "nffc"},
-        {"id": "west-ham-united", "name": "West Ham", "instagram": "westham", "tiktok": "westham"},
-        {"id": "burnley", "name": "Burnley", "instagram": "burnleyofficial", "tiktok": "burnleyofficial"},
-        {"id": "wolverhampton", "name": "Wolves", "instagram": "wolves", "tiktok": "wolves"},
-    ],
-    "La Liga": [
-        {"id": "barcelona", "name": "Barcelona", "instagram": "fcbarcelona", "tiktok": "fcbarcelona"},
-        {"id": "real-madrid", "name": "Real Madrid", "instagram": "realmadrid", "tiktok": "realmadrid"},
-        {"id": "atletico-madrid", "name": "Atlético Madrid", "instagram": "atleticodemadrid", "tiktok": "atleticodemadrid"},
-        {"id": "villarreal", "name": "Villarreal", "instagram": "villarrealcf", "tiktok": "villarrealcf"},
-        {"id": "espanyol", "name": "Espanyol", "instagram": "rcdespanyol", "tiktok": "rcdespanyol"},
-        {"id": "real-betis", "name": "Real Betis", "instagram": "realbetisbalompie", "tiktok": "realbetisbalompie"},
-        {"id": "celta-vigo", "name": "Celta Vigo", "instagram": "rccelta", "tiktok": "rccelta"},
-        {"id": "athletic-bilbao", "name": "Athletic Bilbao", "instagram": "athleticclub", "tiktok": "athleticclub"},
-        {"id": "elche", "name": "Elche", "instagram": "elchecfoficial", "tiktok": "elchecfoficial"},
-        {"id": "sevilla", "name": "Sevilla", "instagram": "sevillafc", "tiktok": "sevillafc"},
-        {"id": "getafe", "name": "Getafe", "instagram": "getafecf", "tiktok": "getafecf"},
-        {"id": "osasuna", "name": "Osasuna", "instagram": "caosasuna", "tiktok": "caosasuna"},
-        {"id": "mallorca", "name": "Mallorca", "instagram": "rcdmallorca", "tiktok": "rcdmallorca"},
-        {"id": "alaves", "name": "Alavés", "instagram": "deportivoalaves", "tiktok": "deportivoalaves"},
-        {"id": "rayo-vallecano", "name": "Rayo Vallecano", "instagram": "rayovallecano", "tiktok": "rayovallecano"},
-        {"id": "real-sociedad", "name": "Real Sociedad", "instagram": "realsociedad", "tiktok": "realsociedad"},
-        {"id": "valencia", "name": "Valencia", "instagram": "valenciacf", "tiktok": "valenciacf"},
-        {"id": "girona", "name": "Girona", "instagram": "gironafc", "tiktok": "gironafc"},
-        {"id": "oviedo", "name": "Real Oviedo", "instagram": "realoviedo", "tiktok": "realoviedo"},
-        {"id": "levante", "name": "Levante", "instagram": "levanteud", "tiktok": "levanteud"},
-    ],
-    "Serie A": [
-        {"id": "inter-milan", "name": "Inter Milan", "instagram": "inter", "tiktok": "inter"},
-        {"id": "ac-milan", "name": "AC Milan", "instagram": "acmilan", "tiktok": "acmilan"},
-        {"id": "napoli", "name": "Napoli", "instagram": "officialsscnapoli", "tiktok": "officialsscnapoli"},
-        {"id": "as-roma", "name": "AS Roma", "instagram": "asroma", "tiktok": "asroma"},
-        {"id": "juventus", "name": "Juventus", "instagram": "juventus", "tiktok": "juventus"},
-        {"id": "bologna", "name": "Bologna", "instagram": "bolognafc1909", "tiktok": "bolognafc1909"},
-        {"id": "como", "name": "Como", "instagram": "comocalcio", "tiktok": "comocalcio"},
-        {"id": "lazio", "name": "Lazio", "instagram": "officialsslazio", "tiktok": "officialsslazio"},
-        {"id": "atalanta", "name": "Atalanta", "instagram": "atalantabc", "tiktok": "atalantabc"},
-        {"id": "sassuolo", "name": "Sassuolo", "instagram": "sassuolocalcio", "tiktok": "sassuolocalcio"},
-        {"id": "cremonese", "name": "Cremonese", "instagram": "uscremonese", "tiktok": "uscremonese"},
-        {"id": "udinese", "name": "Udinese", "instagram": "udinesecalcio", "tiktok": "udinesecalcio"},
-        {"id": "torino", "name": "Torino", "instagram": "torinofc_1906", "tiktok": "torinofc1906"},
-        {"id": "lecce", "name": "Lecce", "instagram": "uslecce", "tiktok": "uslecce"},
-        {"id": "cagliari", "name": "Cagliari", "instagram": "cagliaricalcio", "tiktok": "cagliaricalcio"},
-        {"id": "parma", "name": "Parma", "instagram": "parmacalcio1913", "tiktok": "parmacalcio1913"},
-        {"id": "genoa", "name": "Genoa", "instagram": "genoacfc", "tiktok": "genoacfc"},
-        {"id": "verona", "name": "Hellas Verona", "instagram": "hellasveronafcofficial", "tiktok": "hellasveronafcofficial"},
-        {"id": "pisa", "name": "Pisa", "instagram": "pisasportingclub", "tiktok": "pisasporting"},
-        {"id": "fiorentina", "name": "Fiorentina", "instagram": "acffiorentina", "tiktok": "acffiorentina"},
-    ],
-    "Ligue 1": [
-        {"id": "lens", "name": "RC Lens", "instagram": "rclens", "tiktok": "rclens"},
-        {"id": "psg", "name": "PSG", "instagram": "psg", "tiktok": "psg"},
-        {"id": "marseille", "name": "Marseille", "instagram": "olympiquedemarseille", "tiktok": "om"},
-        {"id": "lille", "name": "Lille", "instagram": "loscofficiel", "tiktok": "loscofficiel"},
-        {"id": "lyon", "name": "Lyon", "instagram": "ol", "tiktok": "ol"},
-        {"id": "rennes", "name": "Rennes", "instagram": "staderennaisfc", "tiktok": "staderennaisfc"},
-        {"id": "strasbourg", "name": "Strasbourg", "instagram": "rcsa", "tiktok": "rcstrasbourgalsace"},
-        {"id": "toulouse", "name": "Toulouse", "instagram": "toulousefc", "tiktok": "toulousefc"},
-        {"id": "monaco", "name": "Monaco", "instagram": "asmonaco", "tiktok": "asmonaco"},
-        {"id": "angers", "name": "Angers", "instagram": "angersscofficiel", "tiktok": "angersscofficiel"},
-        {"id": "brest", "name": "Brest", "instagram": "sb29", "tiktok": "sb29official"},
-        {"id": "lorient", "name": "Lorient", "instagram": "fclorient", "tiktok": "fclorient"},
-        {"id": "nice", "name": "Nice", "instagram": "ogcnice", "tiktok": "ogcnice"},
-        {"id": "paris-fc", "name": "Paris FC", "instagram": "parisfcofficial", "tiktok": "parisfc"},
-        {"id": "le-havre", "name": "Le Havre", "instagram": "hac_officiel", "tiktok": "lehavreac"},
-        {"id": "auxerre", "name": "Auxerre", "instagram": "ajauxerre", "tiktok": "ajauxerre"},
-        {"id": "nantes", "name": "Nantes", "instagram": "fcnantes", "tiktok": "fcnantes"},
-        {"id": "metz", "name": "Metz", "instagram": "fcmetz", "tiktok": "fcmetz"},
-    ],
-    "Süper Lig": [
-        {"id": "galatasaray", "name": "Galatasaray", "instagram": "galatasaray", "tiktok": "galatasaray"},
-        {"id": "fenerbahce", "name": "Fenerbahçe", "instagram": "fenerbahce", "tiktok": "fenerbahce"},
-        {"id": "trabzonspor", "name": "Trabzonspor", "instagram": "trabzonspor", "tiktok": "trabzonspor"},
-        {"id": "goztepe", "name": "Göztepe", "instagram": "goztepeskresmi", "tiktok": "goztepeskresmi"},
-        {"id": "besiktas", "name": "Beşiktaş", "instagram": "besiktas", "tiktok": "bjk"},
-        {"id": "samsunspor", "name": "Samsunspor", "instagram": "samsunspor", "tiktok": "samsunspor"},
-        {"id": "basaksehir", "name": "Başakşehir", "instagram": "ibfk2014", "tiktok": "basaksehir"},
-        {"id": "kocaelispor", "name": "Kocaelispor", "instagram": "kocaelisporkulubu", "tiktok": "kocaelisporkulubu"},
-        {"id": "gaziantep", "name": "Gaziantep FK", "instagram": "gaziantepfk", "tiktok": "gaziantepfk"},
-        {"id": "alanyaspor", "name": "Alanyaspor", "instagram": "alanyaspor", "tiktok": "alanyaspor"},
-        {"id": "genclerbirligi", "name": "Gençlerbirliği", "instagram": "genclerbirligi", "tiktok": "genclerbirligiresmi"},
-        {"id": "rizespor", "name": "Rizespor", "instagram": "caykurrizespor", "tiktok": "caykurrizespor"},
-        {"id": "konyaspor", "name": "Konyaspor", "instagram": "konyaspor", "tiktok": "konyaspor"},
-        {"id": "kasimpasa", "name": "Kasımpaşa", "instagram": "kasimpasask", "tiktok": "kasimpasa"},
-        {"id": "antalyaspor", "name": "Antalyaspor", "instagram": "antalyaspor", "tiktok": "antalyaspor"},
-        {"id": "kayserispor", "name": "Kayserispor", "instagram": "kayserispor", "tiktok": "kayserispor"},
-        {"id": "eyupspor", "name": "Eyüpspor", "instagram": "eyupspor", "tiktok": "eyupspor1925"},
-        {"id": "karagumruk", "name": "Karagümrük", "instagram": "karagumruksk", "tiktok": "karagumruksk"},
-    ],
-}
+# Configuration
+MAX_RETRIES = 3
+INITIAL_DELAY = 2
+BACKOFF_FACTOR = 2
+INSTAGRAM_DELAY = 3  # seconds between Instagram requests
+TIKTOK_DELAY = 1     # seconds between TikTok requests
 
 def parse_follower_count(text: str) -> int:
     """Parse follower count from text (handles K, M, B suffixes)"""
@@ -148,12 +48,37 @@ def parse_follower_count(text: str) -> int:
     except:
         return 0
 
+def retry_with_backoff(func, *args, max_retries=MAX_RETRIES, **kwargs):
+    """
+    Retry a function with exponential backoff
+    Returns: (success: bool, result: any, error: str)
+    """
+    for attempt in range(max_retries):
+        try:
+            result = func(*args, **kwargs)
+            if result > 0:  # Success if we got followers
+                return True, result, None
+            elif attempt < max_retries - 1:
+                delay = INITIAL_DELAY * (BACKOFF_FACTOR ** attempt)
+                print(f"         ⏳ Retry {attempt + 1}/{max_retries} in {delay}s...")
+                time.sleep(delay)
+        except Exception as e:
+            error_msg = str(e)
+            if attempt < max_retries - 1:
+                delay = INITIAL_DELAY * (BACKOFF_FACTOR ** attempt)
+                print(f"         ⚠️  Error: {error_msg[:50]}... Retrying in {delay}s")
+                time.sleep(delay)
+            else:
+                return False, 0, error_msg
+    
+    return False, 0, "Max retries reached"
+
 def scrape_instagram_playwright(page, username: str) -> int:
     """Scrape Instagram follower count using Playwright"""
     try:
         url = f"https://www.instagram.com/{username}/"
         page.goto(url, wait_until="networkidle", timeout=30000)
-        time.sleep(3)
+        time.sleep(INSTAGRAM_DELAY)
         
         page_content = page.content()
         
@@ -175,8 +100,7 @@ def scrape_instagram_playwright(page, username: str) -> int:
         
         return 0
     except Exception as e:
-        print(f"      ❌ Instagram error: {e}")
-        return 0
+        raise Exception(f"Instagram scrape failed: {str(e)[:100]}")
 
 def scrape_tiktok_requests(username: str) -> int:
     """Scrape TikTok follower count using requests"""
@@ -198,60 +122,56 @@ def scrape_tiktok_requests(username: str) -> int:
         
         return 0
     except Exception as e:
-        print(f"      ❌ TikTok error: {e}")
-        return 0
+        raise Exception(f"TikTok scrape failed: {str(e)[:100]}")
 
-def update_firestore(team_id: str, instagram: int, tiktok: int, db):
+def update_firestore(team_id: str, instagram: int, tiktok: int, db) -> Tuple[bool, str]:
     """
     Update team's social media followers in Firestore
-    Only updates platforms where scraping succeeded (followers > 0)
-    Preserves existing data for failed scrapes
+    Returns: (success: bool, message: str)
     """
     try:
         doc_ref = db.collection('teams').document(team_id)
         doc = doc_ref.get()
         
-        if doc.exists:
-            current_data = doc.to_dict()
-            socials = current_data.get('socials', {})
-            
-            # Only update Instagram if we got data (> 0)
-            if instagram > 0:
-                if 'instagram' in socials:
-                    socials['instagram']['followers'] = instagram
-                else:
-                    socials['instagram'] = {'username': '', 'followers': instagram}
-            # If scraping failed but data exists, keep existing value
-            elif 'instagram' not in socials:
-                socials['instagram'] = {'username': '', 'followers': 0}
-            
-            # Only update TikTok if we got data (> 0)
-            if tiktok > 0:
-                if 'tiktok' in socials:
-                    socials['tiktok']['followers'] = tiktok
-                else:
-                    socials['tiktok'] = {'username': '', 'followers': tiktok}
-            # If scraping failed but data exists, keep existing value
-            elif 'tiktok' not in socials:
-                socials['tiktok'] = {'username': '', 'followers': 0}
-            
-            # Recalculate total from all platforms
-            total = (
-                socials.get('instagram', {}).get('followers', 0) +
-                socials.get('twitter', {}).get('followers', 0) +
-                socials.get('tiktok', {}).get('followers', 0)
-            )
-            
-            doc_ref.update({
-                'socials': socials,
-                'totalFollowers': total,
-                'updatedAt': firestore.SERVER_TIMESTAMP
-            })
-            return True
-        return False
+        if not doc.exists:
+            return False, "Team not found in Firestore"
+        
+        current_data = doc.to_dict()
+        socials = current_data.get('socials', {})
+        
+        # Only update Instagram if we got data (> 0)
+        if instagram > 0:
+            if 'instagram' in socials:
+                socials['instagram']['followers'] = instagram
+            else:
+                socials['instagram'] = {'username': '', 'followers': instagram}
+        elif 'instagram' not in socials:
+            socials['instagram'] = {'username': '', 'followers': 0}
+        
+        # Only update TikTok if we got data (> 0)
+        if tiktok > 0:
+            if 'tiktok' in socials:
+                socials['tiktok']['followers'] = tiktok
+            else:
+                socials['tiktok'] = {'username': '', 'followers': tiktok}
+        elif 'tiktok' not in socials:
+            socials['tiktok'] = {'username': '', 'followers': 0}
+        
+        # Recalculate total from all platforms
+        total = (
+            socials.get('instagram', {}).get('followers', 0) +
+            socials.get('twitter', {}).get('followers', 0) +
+            socials.get('tiktok', {}).get('followers', 0)
+        )
+        
+        doc_ref.update({
+            'socials': socials,
+            'totalFollowers': total,
+            'updatedAt': firestore.SERVER_TIMESTAMP
+        })
+        return True, "Updated successfully"
     except Exception as e:
-        print(f"      ❌ Firestore error: {e}")
-        return False
+        return False, f"Firestore error: {str(e)[:100]}"
 
 def init_firebase():
     """Initialize Firebase"""
@@ -270,22 +190,63 @@ def init_firebase():
             cred = credentials.Certificate('service-account.json')
             firebase_admin.initialize_app(cred)
         else:
-            print("⚠️ No Firebase credentials")
+            print("⚠️  No Firebase credentials")
             return None
     
     return firestore.client()
 
+def load_teams_from_firestore(db) -> Dict:
+    """Load all teams from Firestore"""
+    teams_dict = {}
+    try:
+        teams_ref = db.collection('teams')
+        teams = teams_ref.stream()
+        
+        for team in teams:
+            data = team.to_dict()
+            league = data.get('league', 'Unknown')
+            
+            if league not in teams_dict:
+                teams_dict[league] = []
+            
+            teams_dict[league].append({
+                'id': team.id,
+                'name': data.get('name', 'Unknown'),
+                'instagram': data.get('socials', {}).get('instagram', {}).get('username', ''),
+                'tiktok': data.get('socials', {}).get('tiktok', {}).get('username', '')
+            })
+        
+        return teams_dict
+    except Exception as e:
+        print(f"❌ Error loading teams from Firestore: {e}")
+        return {}
+
 def main():
     print("=" * 70)
-    print("🌐 Multi-Platform Social Media Scraper")
+    print("🌐 Enhanced Multi-Platform Social Media Scraper")
     print(f"📅 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 70)
     print()
     
     db = init_firebase()
+    if not db:
+        print("❌ Cannot proceed without Firebase connection")
+        return
+    
+    # Load teams from Firestore
+    print("📥 Loading teams from Firestore...")
+    ALL_TEAMS = load_teams_from_firestore(db)
+    total_teams = sum(len(teams) for teams in ALL_TEAMS.values())
+    print(f"✅ Loaded {total_teams} teams across {len(ALL_TEAMS)} leagues\n")
+    
     all_results = []
-    total_success = 0
-    total_fail = 0
+    stats = {
+        'instagram_success': 0,
+        'instagram_fail': 0,
+        'tiktok_success': 0,
+        'tiktok_fail': 0,
+        'firestore_updates': 0
+    }
     
     with sync_playwright() as p:
         print("🚀 Launching browser...")
@@ -300,37 +261,55 @@ def main():
         )
         page = context.new_page()
         
+        team_counter = 0
         for league, teams in ALL_TEAMS.items():
             print(f"\n🏆 {league} ({len(teams)} teams)")
             print("-" * 50)
             
             for team in teams:
-                print(f"\n   📊 {team['name']}")
+                team_counter += 1
+                print(f"\n   [{team_counter}/{total_teams}] 📊 {team['name']}")
                 
-                # Scrape Instagram
-                instagram_followers = scrape_instagram_playwright(page, team['instagram'])
-                if instagram_followers > 0:
-                    print(f"      📸 Instagram: {instagram_followers:,}")
-                    total_success += 1
+                # Scrape Instagram with retry
+                if team.get('instagram'):
+                    success, instagram_followers, error = retry_with_backoff(
+                        scrape_instagram_playwright, page, team['instagram']
+                    )
+                    if success:
+                        print(f"      📸 Instagram: {instagram_followers:,} ✅")
+                        stats['instagram_success'] += 1
+                    else:
+                        print(f"      📸 Instagram: Failed ❌")
+                        stats['instagram_fail'] += 1
                 else:
-                    print(f"      📸 Instagram: Failed")
-                    total_fail += 1
+                    instagram_followers = 0
+                    print(f"      📸 Instagram: No username")
                 
-                time.sleep(2)
+                time.sleep(INSTAGRAM_DELAY)
                 
-                # Scrape TikTok
-                tiktok_followers = scrape_tiktok_requests(team['tiktok'])
-                if tiktok_followers > 0:
-                    print(f"      🎵 TikTok: {tiktok_followers:,}")
-                    total_success += 1
+                # Scrape TikTok with retry
+                if team.get('tiktok'):
+                    success, tiktok_followers, error = retry_with_backoff(
+                        scrape_tiktok_requests, team['tiktok']
+                    )
+                    if success:
+                        print(f"      🎵 TikTok: {tiktok_followers:,} ✅")
+                        stats['tiktok_success'] += 1
+                    else:
+                        print(f"      🎵 TikTok: Failed ❌")
+                        stats['tiktok_fail'] += 1
                 else:
-                    print(f"      🎵 TikTok: Failed")
-                    total_fail += 1
+                    tiktok_followers = 0
+                    print(f"      🎵 TikTok: No username")
                 
                 # Update Firestore
-                if db and (instagram_followers > 0 or tiktok_followers > 0):
-                    if update_firestore(team['id'], instagram_followers, tiktok_followers, db):
-                        print(f"      💾 Firestore updated")
+                if instagram_followers > 0 or tiktok_followers > 0:
+                    success, message = update_firestore(team['id'], instagram_followers, tiktok_followers, db)
+                    if success:
+                        print(f"      💾 Firestore: Updated ✅")
+                        stats['firestore_updates'] += 1
+                    else:
+                        print(f"      💾 Firestore: {message} ❌")
                 
                 all_results.append({
                     "id": team['id'],
@@ -341,31 +320,34 @@ def main():
                     "scraped_at": datetime.now().isoformat()
                 })
                 
-                time.sleep(1)
+                time.sleep(TIKTOK_DELAY)
         
         browser.close()
     
     # Summary
-    total_attempts = total_success + total_fail
+    total_attempts = stats['instagram_success'] + stats['instagram_fail'] + stats['tiktok_success'] + stats['tiktok_fail']
+    total_success = stats['instagram_success'] + stats['tiktok_success']
+    
     print("\n" + "=" * 70)
     print("📊 SUMMARY")
     print("=" * 70)
-    print(f"✅ Success: {total_success}/{total_attempts}")
-    print(f"❌ Failed: {total_fail}/{total_attempts}")
-    print(f"📈 Success Rate: {(total_success/total_attempts)*100:.1f}%")
+    print(f"📸 Instagram: {stats['instagram_success']}/{stats['instagram_success'] + stats['instagram_fail']} successful")
+    print(f"🎵 TikTok: {stats['tiktok_success']}/{stats['tiktok_success'] + stats['tiktok_fail']} successful")
+    print(f"💾 Firestore: {stats['firestore_updates']} teams updated")
+    print(f"📈 Overall Success Rate: {(total_success/total_attempts)*100:.1f}%")
     
     # Save results
     output_file = "multi_platform_results.json"
     with open(output_file, 'w') as f:
         json.dump({
             "scraped_at": datetime.now().isoformat(),
-            "total_attempts": total_attempts,
-            "success_count": total_success,
-            "fail_count": total_fail,
+            "stats": stats,
+            "total_teams": total_teams,
             "results": all_results
         }, f, indent=2)
     
     print(f"📁 Results saved to {output_file}")
+    print("=" * 70)
 
 if __name__ == "__main__":
     main()

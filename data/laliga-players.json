@@ -1,0 +1,3672 @@
+[
+  {
+    "teamName": "FC Barcelona",
+    "players": [
+      {
+        "name": "Joan García",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 4,
+        "marketValue": "€30.00m"
+      },
+      {
+        "name": "Wojciech Szczęsny",
+        "position": "GK",
+        "nationality": "Poland",
+        "age": 18,
+        "marketValue": "€900k"
+      },
+      {
+        "name": "Diego Kochen",
+        "position": "GK",
+        "nationality": "United States",
+        "age": 19,
+        "marketValue": "€500k"
+      },
+      {
+        "name": "Pau Cubarsí",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 22,
+        "marketValue": "€80.00m"
+      },
+      {
+        "name": "Eric García",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 9,
+        "marketValue": "€30.00m"
+      },
+      {
+        "name": "Ronald Araujo",
+        "position": "CB",
+        "nationality": "Uruguay",
+        "age": 7,
+        "marketValue": "€25.00m"
+      },
+      {
+        "name": "Andreas Christensen",
+        "position": "CB",
+        "nationality": "Denmark",
+        "age": 10,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Alejandro Balde",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 18,
+        "marketValue": "€60.00m"
+      },
+      {
+        "name": "Gerard Martín",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 26,
+        "marketValue": "€20.00m"
+      },
+      {
+        "name": "Jules Koundé",
+        "position": "RB",
+        "nationality": "France",
+        "age": 12,
+        "marketValue": "€65.00m"
+      },
+      {
+        "name": "João Cancelo",
+        "position": "RB",
+        "nationality": "Portugal",
+        "age": 27,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Marc Casadó",
+        "position": "DM",
+        "nationality": "Spain",
+        "age": 14,
+        "marketValue": "€25.00m"
+      },
+      {
+        "name": "Marc Bernal",
+        "position": "DM",
+        "nationality": "Spain",
+        "age": 26,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Pedri",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 25,
+        "marketValue": "€140.00m"
+      },
+      {
+        "name": "Frenkie de Jong",
+        "position": "CM",
+        "nationality": "Netherlands",
+        "age": 12,
+        "marketValue": "€45.00m"
+      },
+      {
+        "name": "Gavi",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 5,
+        "marketValue": "€40.00m"
+      },
+      {
+        "name": "Fermín López",
+        "position": "AM",
+        "nationality": "Spain",
+        "age": 11,
+        "marketValue": "€70.00m"
+      },
+      {
+        "name": "Dani Olmo",
+        "position": "AM",
+        "nationality": "Spain",
+        "age": 7,
+        "marketValue": "€60.00m"
+      },
+      {
+        "name": "Raphinha",
+        "position": "LW",
+        "nationality": "Brazil",
+        "age": 14,
+        "marketValue": "€80.00m"
+      },
+      {
+        "name": "Marcus Rashford",
+        "position": "LW",
+        "nationality": "England",
+        "age": 31,
+        "marketValue": "€40.00m"
+      },
+      {
+        "name": "Lamine Yamal",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 13,
+        "marketValue": "€200.00m"
+      },
+      {
+        "name": "Roony Bardghji",
+        "position": "RW",
+        "nationality": "Sweden",
+        "age": 15,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Ferran Torres",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 29,
+        "marketValue": "€50.00m"
+      },
+      {
+        "name": "Robert Lewandowski",
+        "position": "CF",
+        "nationality": "Poland",
+        "age": 21,
+        "marketValue": "€9.00m"
+      }
+    ]
+  },
+  {
+    "teamName": "Real Madrid",
+    "players": [
+      {
+        "name": "Thibaut Courtois",
+        "position": "GK",
+        "nationality": "Belgium",
+        "age": 11,
+        "marketValue": "€18.00m"
+      },
+      {
+        "name": "Andriy Lunin",
+        "position": "GK",
+        "nationality": "Ukraine",
+        "age": 11,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Fran González",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 24,
+        "marketValue": "€1.00m"
+      },
+      {
+        "name": "Dean Huijsen",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 14,
+        "marketValue": "€70.00m"
+      },
+      {
+        "name": "Éder Militão",
+        "position": "CB",
+        "nationality": "Brazil",
+        "age": 18,
+        "marketValue": "€30.00m"
+      },
+      {
+        "name": "Raúl Asencio",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 13,
+        "marketValue": "€30.00m"
+      },
+      {
+        "name": "Antonio Rüdiger",
+        "position": "CB",
+        "nationality": "Germany",
+        "age": 3,
+        "marketValue": "€12.00m"
+      },
+      {
+        "name": "David Alaba",
+        "position": "CB",
+        "nationality": "Austria",
+        "age": 24,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Álvaro Carreras",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 23,
+        "marketValue": "€60.00m"
+      },
+      {
+        "name": "Fran García",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 14,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Ferland Mendy",
+        "position": "LB",
+        "nationality": "France",
+        "age": 8,
+        "marketValue": "€8.00m"
+      },
+      {
+        "name": "Trent Alexander-Arnold",
+        "position": "RB",
+        "nationality": "England",
+        "age": 7,
+        "marketValue": "€70.00m"
+      },
+      {
+        "name": "Daniel Carvajal",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 11,
+        "marketValue": "€7.00m"
+      },
+      {
+        "name": "Aurélien Tchouaméni",
+        "position": "DM",
+        "nationality": "France",
+        "age": 27,
+        "marketValue": "€75.00m"
+      },
+      {
+        "name": "Federico Valverde",
+        "position": "CM",
+        "nationality": "Uruguay",
+        "age": 22,
+        "marketValue": "€120.00m"
+      },
+      {
+        "name": "Eduardo Camavinga",
+        "position": "CM",
+        "nationality": "France",
+        "age": 10,
+        "marketValue": "€50.00m"
+      },
+      {
+        "name": "Dani Ceballos",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 7,
+        "marketValue": "€8.00m"
+      },
+      {
+        "name": "Jude Bellingham",
+        "position": "AM",
+        "nationality": "England",
+        "age": 29,
+        "marketValue": "€160.00m"
+      },
+      {
+        "name": "Arda Güler",
+        "position": "AM",
+        "nationality": "Türkiye",
+        "age": 25,
+        "marketValue": "€90.00m"
+      },
+      {
+        "name": "Vinicius Junior",
+        "position": "LW",
+        "nationality": "Brazil",
+        "age": 12,
+        "marketValue": "€150.00m"
+      },
+      {
+        "name": "Rodrygo",
+        "position": "RW",
+        "nationality": "Brazil",
+        "age": 9,
+        "marketValue": "€60.00m"
+      },
+      {
+        "name": "Franco Mastantuono",
+        "position": "RW",
+        "nationality": "Argentina",
+        "age": 14,
+        "marketValue": "€50.00m"
+      },
+      {
+        "name": "Brahim Díaz",
+        "position": "RW",
+        "nationality": "Morocco",
+        "age": 3,
+        "marketValue": "€35.00m"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "position": "CF",
+        "nationality": "France",
+        "age": 20,
+        "marketValue": "€200.00m"
+      },
+      {
+        "name": "Gonzalo García",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 24,
+        "marketValue": "€15.00m"
+      }
+    ]
+  },
+  {
+    "teamName": "Atletico Madrid",
+    "players": [
+      {
+        "name": "Jan Oblak",
+        "position": "GK",
+        "nationality": "Slovenia",
+        "age": 7,
+        "marketValue": "€17.00m"
+      },
+      {
+        "name": "Juan Musso",
+        "position": "GK",
+        "nationality": "Argentina",
+        "age": 6,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Dávid Hancko",
+        "position": "CB",
+        "nationality": "Slovakia",
+        "age": 13,
+        "marketValue": "€30.00m"
+      },
+      {
+        "name": "Robin Le Normand",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 11,
+        "marketValue": "€30.00m"
+      },
+      {
+        "name": "Marc Pubill",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 20,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "José María Giménez",
+        "position": "CB",
+        "nationality": "Uruguay",
+        "age": 20,
+        "marketValue": "€14.00m"
+      },
+      {
+        "name": "Clément Lenglet",
+        "position": "CB",
+        "nationality": "France",
+        "age": 17,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Matteo Ruggeri",
+        "position": "LB",
+        "nationality": "Italy",
+        "age": 11,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Marcos Llorente",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 30,
+        "marketValue": "€22.00m"
+      },
+      {
+        "name": "Nahuel Molina",
+        "position": "RB",
+        "nationality": "Argentina",
+        "age": 6,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Johnny Cardoso",
+        "position": "DM",
+        "nationality": "United States",
+        "age": 20,
+        "marketValue": "€22.00m"
+      },
+      {
+        "name": "Pablo Barrios",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 15,
+        "marketValue": "€60.00m"
+      },
+      {
+        "name": "Rodrigo Mendoza",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 15,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Obed Vargas",
+        "position": "CM",
+        "nationality": "Mexico",
+        "age": 5,
+        "marketValue": "€8.00m"
+      },
+      {
+        "name": "Koke",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 8,
+        "marketValue": "€7.00m"
+      },
+      {
+        "name": "Álex Baena",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 20,
+        "marketValue": "€55.00m"
+      },
+      {
+        "name": "Nico González",
+        "position": "LW",
+        "nationality": "Argentina",
+        "age": 6,
+        "marketValue": "€24.00m"
+      },
+      {
+        "name": "Thiago Almada",
+        "position": "LW",
+        "nationality": "Argentina",
+        "age": 26,
+        "marketValue": "€20.00m"
+      },
+      {
+        "name": "Giuliano Simeone",
+        "position": "RW",
+        "nationality": "Argentina",
+        "age": 18,
+        "marketValue": "€40.00m"
+      },
+      {
+        "name": "Ademola Lookman",
+        "position": "SS",
+        "nationality": "Nigeria",
+        "age": 20,
+        "marketValue": "€35.00m"
+      },
+      {
+        "name": "Antoine Griezmann",
+        "position": "SS",
+        "nationality": "France",
+        "age": 21,
+        "marketValue": "€11.00m"
+      },
+      {
+        "name": "Julián Alvarez",
+        "position": "CF",
+        "nationality": "Argentina",
+        "age": 31,
+        "marketValue": "€100.00m"
+      },
+      {
+        "name": "Alexander Sørloth",
+        "position": "CF",
+        "nationality": "Norway",
+        "age": 5,
+        "marketValue": "€20.00m"
+      }
+    ]
+  },
+  {
+    "teamName": "Villarreal",
+    "players": [
+      {
+        "name": "Luiz Júnior",
+        "position": "GK",
+        "nationality": "Brazil",
+        "age": 14,
+        "marketValue": "€12.00m"
+      },
+      {
+        "name": "Diego Conde",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 28,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Arnau Tenas",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 30,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Renato Veiga",
+        "position": "CB",
+        "nationality": "Portugal",
+        "age": 29,
+        "marketValue": "€25.00m"
+      },
+      {
+        "name": "Logan Costa",
+        "position": "CB",
+        "nationality": "Cape Verde",
+        "age": 1,
+        "marketValue": "€18.00m"
+      },
+      {
+        "name": "Juan Foyth",
+        "position": "CB",
+        "nationality": "Argentina",
+        "age": 12,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Rafa Marín",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 19,
+        "marketValue": "€12.00m"
+      },
+      {
+        "name": "Willy Kambwala",
+        "position": "CB",
+        "nationality": "France",
+        "age": 25,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Sergi Cardona",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 8,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Alfonso Pedraza",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 9,
+        "marketValue": "€2.50m"
+      },
+      {
+        "name": "Santiago Mouriño",
+        "position": "RB",
+        "nationality": "Uruguay",
+        "age": 13,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Pau Navarro",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 25,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Alex Freeman",
+        "position": "RB",
+        "nationality": "United States",
+        "age": 9,
+        "marketValue": "€3.50m"
+      },
+      {
+        "name": "Thomas Partey",
+        "position": "DM",
+        "nationality": "Ghana",
+        "age": 13,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Pape Gueye",
+        "position": "CM",
+        "nationality": "Senegal",
+        "age": 24,
+        "marketValue": "€20.00m"
+      },
+      {
+        "name": "Santi Comesaña",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 5,
+        "marketValue": "€8.00m"
+      },
+      {
+        "name": "Dani Parejo",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 16,
+        "marketValue": "€1.20m"
+      },
+      {
+        "name": "Carlos Macià",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 1,
+        "marketValue": "€1.00m"
+      },
+      {
+        "name": "Alberto Moleiro",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 30,
+        "marketValue": "€30.00m"
+      },
+      {
+        "name": "Alfon González",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 4,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Tajon Buchanan",
+        "position": "RW",
+        "nationality": "Canada",
+        "age": 8,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Nicolas Pépé",
+        "position": "RW",
+        "nationality": "Cote d'Ivoire",
+        "age": 29,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Georges Mikautadze",
+        "position": "CF",
+        "nationality": "Georgia",
+        "age": 31,
+        "marketValue": "€28.00m"
+      },
+      {
+        "name": "Tani Oluwaseyi",
+        "position": "CF",
+        "nationality": "Canada",
+        "age": 15,
+        "marketValue": "€8.00m"
+      },
+      {
+        "name": "Ayoze Pérez",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 29,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Gerard Moreno",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 7,
+        "marketValue": "€2.80m"
+      },
+      {
+        "name": "Pau Cabanes",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 17,
+        "marketValue": "€800k"
+      }
+    ]
+  },
+  {
+    "teamName": "Espanyol",
+    "players": [
+      {
+        "name": "Marko Dmitrovic",
+        "position": "GK",
+        "nationality": "Serbia",
+        "age": 24,
+        "marketValue": "€800k"
+      },
+      {
+        "name": "Ángel Fortuño",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 5,
+        "marketValue": "€300k"
+      },
+      {
+        "name": "Clemens Riedel",
+        "position": "CB",
+        "nationality": "Germany",
+        "age": 19,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Fernando Calero",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 14,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Miguel Rubio",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 11,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Leandro Cabrera",
+        "position": "CB",
+        "nationality": "Uruguay",
+        "age": 17,
+        "marketValue": "€1.00m"
+      },
+      {
+        "name": "Carlos Romero",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 29,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "José Salinas",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 30,
+        "marketValue": "€2.80m"
+      },
+      {
+        "name": "Omar El Hilali",
+        "position": "RB",
+        "nationality": "Morocco",
+        "age": 12,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Rubén Sánchez",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 4,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Urko González de Zárate",
+        "position": "DM",
+        "nationality": "Spain",
+        "age": 20,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Charles Pickel",
+        "position": "DM",
+        "nationality": "DR Congo",
+        "age": 15,
+        "marketValue": "€2.50m"
+      },
+      {
+        "name": "Pol Lozano",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 6,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Edu Expósito",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 1,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Ramón Terrats",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 18,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Javi Puado",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 25,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Pere Milla",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 23,
+        "marketValue": "€1.20m"
+      },
+      {
+        "name": "Tyrhys Dolan",
+        "position": "RW",
+        "nationality": "England",
+        "age": 28,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Cyril Ngonge",
+        "position": "RW",
+        "nationality": "Belgium",
+        "age": 26,
+        "marketValue": "€8.00m"
+      },
+      {
+        "name": "Jofre Carreras",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 17,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Antoniu Roca",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 5,
+        "marketValue": "€1.80m"
+      },
+      {
+        "name": "Roberto Fernández",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 3,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Kike García",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 25,
+        "marketValue": "€800k"
+      }
+    ]
+  },
+  {
+    "teamName": "Real Betis",
+    "players": [
+      {
+        "name": "Álvaro Valles",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 25,
+        "marketValue": "€2.50m"
+      },
+      {
+        "name": "Pau López",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 13,
+        "marketValue": "€2.50m"
+      },
+      {
+        "name": "Adrián",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 3,
+        "marketValue": "€400k"
+      },
+      {
+        "name": "Natan",
+        "position": "CB",
+        "nationality": "Brazil",
+        "age": 6,
+        "marketValue": "€20.00m"
+      },
+      {
+        "name": "Valentín Gómez",
+        "position": "CB",
+        "nationality": "Argentina",
+        "age": 26,
+        "marketValue": "€12.00m"
+      },
+      {
+        "name": "Diego Llorente",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 16,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Marc Bartra",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 15,
+        "marketValue": "€1.00m"
+      },
+      {
+        "name": "Junior Firpo",
+        "position": "LB",
+        "nationality": "Dominican Republic",
+        "age": 22,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Ricardo Rodríguez",
+        "position": "LB",
+        "nationality": "Switzerland",
+        "age": 25,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Ángel Ortiz",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 25,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Héctor Bellerín",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 19,
+        "marketValue": "€2.50m"
+      },
+      {
+        "name": "Sofyan Amrabat",
+        "position": "DM",
+        "nationality": "Morocco",
+        "age": 21,
+        "marketValue": "€12.00m"
+      },
+      {
+        "name": "Marc Roca",
+        "position": "DM",
+        "nationality": "Spain",
+        "age": 26,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Sergi Altimira",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 25,
+        "marketValue": "€20.00m"
+      },
+      {
+        "name": "Nelson Deossa",
+        "position": "CM",
+        "nationality": "Colombia",
+        "age": 6,
+        "marketValue": "€9.00m"
+      },
+      {
+        "name": "Álvaro Fidalgo",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 9,
+        "marketValue": "€8.50m"
+      },
+      {
+        "name": "Pablo Fornals",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 22,
+        "marketValue": "€8.00m"
+      },
+      {
+        "name": "Giovani Lo Celso",
+        "position": "AM",
+        "nationality": "Argentina",
+        "age": 9,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Isco",
+        "position": "AM",
+        "nationality": "Spain",
+        "age": 21,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Abde Ezzalzouli",
+        "position": "LW",
+        "nationality": "Morocco",
+        "age": 17,
+        "marketValue": "€20.00m"
+      },
+      {
+        "name": "Rodrigo Riquelme",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 2,
+        "marketValue": "€8.00m"
+      },
+      {
+        "name": "Antony",
+        "position": "RW",
+        "nationality": "Brazil",
+        "age": 24,
+        "marketValue": "€30.00m"
+      },
+      {
+        "name": "Pablo García",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 13,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Aitor Ruibal",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 22,
+        "marketValue": "€3.50m"
+      },
+      {
+        "name": "Cucho Hernández",
+        "position": "CF",
+        "nationality": "Colombia",
+        "age": 20,
+        "marketValue": "€18.00m"
+      },
+      {
+        "name": "Chimy Ávila",
+        "position": "CF",
+        "nationality": "Argentina",
+        "age": 6,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Cédric Bakambu",
+        "position": "CF",
+        "nationality": "DR Congo",
+        "age": 11,
+        "marketValue": "€1.40m"
+      }
+    ]
+  },
+  {
+    "teamName": "Celta Vigo",
+    "players": [
+      {
+        "name": "Ionuț Radu",
+        "position": "GK",
+        "nationality": "Romania",
+        "age": 28,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Iván Villar",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 9,
+        "marketValue": "€900k"
+      },
+      {
+        "name": "Marc Vidal",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 14,
+        "marketValue": "€300k"
+      },
+      {
+        "name": "Javi Rodríguez",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 27,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Carl Starfelt",
+        "position": "CB",
+        "nationality": "Sweden",
+        "age": 1,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Carlos Domínguez",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 11,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Yoel Lago",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 25,
+        "marketValue": "€2.50m"
+      },
+      {
+        "name": "Manu Fernández",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 23,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Marcos Alonso",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 28,
+        "marketValue": "€1.40m"
+      },
+      {
+        "name": "Joseph Aidoo",
+        "position": "CB",
+        "nationality": "Ghana",
+        "age": 29,
+        "marketValue": "€1.00m"
+      },
+      {
+        "name": "Mihailo Ristic",
+        "position": "LB",
+        "nationality": "Serbia",
+        "age": 31,
+        "marketValue": "€800k"
+      },
+      {
+        "name": "Óscar Mingueza",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 13,
+        "marketValue": "€18.00m"
+      },
+      {
+        "name": "Sergio Carreira",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 13,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Álvaro Núñez",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 7,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Javi Rueda",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 8,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Ilaix Moriba",
+        "position": "CM",
+        "nationality": "Guinea",
+        "age": 19,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Hugo Sotelo",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 19,
+        "marketValue": "€9.00m"
+      },
+      {
+        "name": "Miguel Román",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 26,
+        "marketValue": "€2.50m"
+      },
+      {
+        "name": "Matías Vecino",
+        "position": "CM",
+        "nationality": "Uruguay",
+        "age": 24,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Fer López",
+        "position": "AM",
+        "nationality": "Spain",
+        "age": 24,
+        "marketValue": "€16.00m"
+      },
+      {
+        "name": "Williot Swedberg",
+        "position": "LW",
+        "nationality": "Sweden",
+        "age": 1,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Hugo Álvarez",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 2,
+        "marketValue": "€8.00m"
+      },
+      {
+        "name": "Franco Cervi",
+        "position": "LW",
+        "nationality": "Argentina",
+        "age": 26,
+        "marketValue": "€700k"
+      },
+      {
+        "name": "Jones El-Abdellaoui",
+        "position": "RW",
+        "nationality": "Morocco",
+        "age": 12,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Ferran Jutglà",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 1,
+        "marketValue": "€7.00m"
+      },
+      {
+        "name": "Pablo Durán",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 25,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Borja Iglesias",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 17,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Iago Aspas",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 1,
+        "marketValue": "€1.80m"
+      }
+    ]
+  },
+  {
+    "teamName": "Athletic Bilbao",
+    "players": [
+      {
+        "name": "Unai Simón",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 11,
+        "marketValue": "€25.00m"
+      },
+      {
+        "name": "Álex Padilla",
+        "position": "GK",
+        "nationality": "Mexico",
+        "age": 1,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Dani Vivian",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 5,
+        "marketValue": "€30.00m"
+      },
+      {
+        "name": "Aitor Paredes",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 29,
+        "marketValue": "€18.00m"
+      },
+      {
+        "name": "Aymeric Laporte",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 27,
+        "marketValue": "€9.00m"
+      },
+      {
+        "name": "Yeray Álvarez",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 24,
+        "marketValue": "€1.00m"
+      },
+      {
+        "name": "Unai Egiluz",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 19,
+        "marketValue": "€600k"
+      },
+      {
+        "name": "Adama Boiro",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 22,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Yuri Berchiche",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 10,
+        "marketValue": "€1.20m"
+      },
+      {
+        "name": "Jesús Areso",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 2,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Andoni Gorosabel",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 4,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Iñigo Lekue",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 4,
+        "marketValue": "€1.20m"
+      },
+      {
+        "name": "Mikel Vesga",
+        "position": "DM",
+        "nationality": "Spain",
+        "age": 8,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Mikel Jauregizar",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 13,
+        "marketValue": "€30.00m"
+      },
+      {
+        "name": "Beñat Prados",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 8,
+        "marketValue": "€18.00m"
+      },
+      {
+        "name": "Alejandro Rego",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 11,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Selton Sánchez",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 20,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Iñigo Ruiz de Galarreta",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 6,
+        "marketValue": "€2.50m"
+      },
+      {
+        "name": "Oihan Sancet",
+        "position": "AM",
+        "nationality": "Spain",
+        "age": 25,
+        "marketValue": "€40.00m"
+      },
+      {
+        "name": "Unai Gómez",
+        "position": "AM",
+        "nationality": "Spain",
+        "age": 25,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Nico Williams",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 12,
+        "marketValue": "€60.00m"
+      },
+      {
+        "name": "Álex Berenguer",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 4,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Nico Serrano",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 5,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Iñaki Williams",
+        "position": "RW",
+        "nationality": "Ghana",
+        "age": 15,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Robert Navarro",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 12,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Gorka Guruzeta",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 12,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Maroan Sannadi",
+        "position": "CF",
+        "nationality": "Morocco",
+        "age": 1,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Urko Izeta",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 29,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Asier Hierro",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 6,
+        "marketValue": "€1.00m"
+      }
+    ]
+  },
+  {
+    "teamName": "Elche",
+    "players": [
+      {
+        "name": "Iñaki Peña",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 2,
+        "marketValue": "€8.00m"
+      },
+      {
+        "name": "Alejandro Iturbe",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 2,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Matías Dituro",
+        "position": "GK",
+        "nationality": "Argentina",
+        "age": 8,
+        "marketValue": "€200k"
+      },
+      {
+        "name": "David Affengruber",
+        "position": "CB",
+        "nationality": "Austria",
+        "age": 19,
+        "marketValue": "€9.00m"
+      },
+      {
+        "name": "Víctor Chust",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 5,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "John Donald",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 25,
+        "marketValue": "€1.00m"
+      },
+      {
+        "name": "Pedro Bigas",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 15,
+        "marketValue": "€400k"
+      },
+      {
+        "name": "Adrià Pedrosa",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 13,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Léo Pétrot",
+        "position": "LB",
+        "nationality": "France",
+        "age": 15,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Héctor Fort",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 2,
+        "marketValue": "€12.00m"
+      },
+      {
+        "name": "Buba Sangaré",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 6,
+        "marketValue": "€1.00m"
+      },
+      {
+        "name": "Federico Redondo",
+        "position": "DM",
+        "nationality": "Argentina",
+        "age": 18,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Marc Aguado",
+        "position": "DM",
+        "nationality": "Spain",
+        "age": 22,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Martim Neto",
+        "position": "CM",
+        "nationality": "Portugal",
+        "age": 14,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Aleix Febas",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 2,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Gonzalo Villar",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 23,
+        "marketValue": "€1.80m"
+      },
+      {
+        "name": "Germán Valera",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 16,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Lucas Cepeda",
+        "position": "LW",
+        "nationality": "Chile",
+        "age": 31,
+        "marketValue": "€3.20m"
+      },
+      {
+        "name": "Tete Morente",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 4,
+        "marketValue": "€1.80m"
+      },
+      {
+        "name": "Yago Santiago",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 15,
+        "marketValue": "€800k"
+      },
+      {
+        "name": "Grady Diangana",
+        "position": "RW",
+        "nationality": "DR Congo",
+        "age": 19,
+        "marketValue": "€3.50m"
+      },
+      {
+        "name": "Josan",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 3,
+        "marketValue": "€100k"
+      },
+      {
+        "name": "Adam Boayar",
+        "position": "SS",
+        "nationality": "Morocco",
+        "age": 13,
+        "marketValue": "€500k"
+      },
+      {
+        "name": "Rafa Mir",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 18,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Álvaro Rodríguez",
+        "position": "CF",
+        "nationality": "Uruguay",
+        "age": 14,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "André Silva",
+        "position": "CF",
+        "nationality": "Portugal",
+        "age": 6,
+        "marketValue": "€3.00m"
+      }
+    ]
+  },
+  {
+    "teamName": "Sevilla",
+    "players": [
+      {
+        "name": "Odysseas Vlachodimos",
+        "position": "GK",
+        "nationality": "Greece",
+        "age": 26,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Ørjan Nyland",
+        "position": "GK",
+        "nationality": "Norway",
+        "age": 10,
+        "marketValue": "€900k"
+      },
+      {
+        "name": "Kike Salas",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 23,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Fábio Cardoso",
+        "position": "CB",
+        "nationality": "Portugal",
+        "age": 19,
+        "marketValue": "€2.50m"
+      },
+      {
+        "name": "Marcão",
+        "position": "CB",
+        "nationality": "Brazil",
+        "age": 5,
+        "marketValue": "€2.50m"
+      },
+      {
+        "name": "Andrés Castrín",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 26,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Tanguy Nianzou",
+        "position": "CB",
+        "nationality": "France",
+        "age": 7,
+        "marketValue": "€1.40m"
+      },
+      {
+        "name": "César Azpilicueta",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 28,
+        "marketValue": "€1.20m"
+      },
+      {
+        "name": "Federico Gattoni",
+        "position": "CB",
+        "nationality": "Argentina",
+        "age": 16,
+        "marketValue": "€1.00m"
+      },
+      {
+        "name": "Gabriel Suazo",
+        "position": "LB",
+        "nationality": "Chile",
+        "age": 9,
+        "marketValue": "€7.00m"
+      },
+      {
+        "name": "Oso",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 9,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Juanlu Sánchez",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 15,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "José Ángel Carmona",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 29,
+        "marketValue": "€12.00m"
+      },
+      {
+        "name": "Lucien Agoumé",
+        "position": "DM",
+        "nationality": "France",
+        "age": 9,
+        "marketValue": "€12.00m"
+      },
+      {
+        "name": "Batista Mendy",
+        "position": "DM",
+        "nationality": "France",
+        "age": 12,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Nemanja Gudelj",
+        "position": "DM",
+        "nationality": "Serbia",
+        "age": 16,
+        "marketValue": "€2.50m"
+      },
+      {
+        "name": "Djibril Sow",
+        "position": "CM",
+        "nationality": "Switzerland",
+        "age": 6,
+        "marketValue": "€7.50m"
+      },
+      {
+        "name": "Joan Jordán",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 6,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Manu Bueno",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 27,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Rubén Vargas",
+        "position": "LW",
+        "nationality": "Switzerland",
+        "age": 5,
+        "marketValue": "€12.00m"
+      },
+      {
+        "name": "Chidera Ejuke",
+        "position": "LW",
+        "nationality": "Nigeria",
+        "age": 2,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Adnan Januzaj",
+        "position": "RW",
+        "nationality": "Belgium",
+        "age": 5,
+        "marketValue": "€1.20m"
+      },
+      {
+        "name": "Peque Fernández",
+        "position": "SS",
+        "nationality": "Spain",
+        "age": 4,
+        "marketValue": "€3.50m"
+      },
+      {
+        "name": "Akor Adams",
+        "position": "CF",
+        "nationality": "Nigeria",
+        "age": 29,
+        "marketValue": "€7.00m"
+      },
+      {
+        "name": "Isaac Romero",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 18,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Neal Maupay",
+        "position": "CF",
+        "nationality": "France",
+        "age": 14,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Alexis Sánchez",
+        "position": "CF",
+        "nationality": "Chile",
+        "age": 19,
+        "marketValue": "€1.40m"
+      }
+    ]
+  },
+  {
+    "teamName": "Getafe",
+    "players": [
+      {
+        "name": "David Soria",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 4,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Jiri Letacek",
+        "position": "GK",
+        "nationality": "Czech Republic",
+        "age": 9,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Abdel Abqar",
+        "position": "CB",
+        "nationality": "Morocco",
+        "age": 10,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Sebastián Boselli",
+        "position": "CB",
+        "nationality": "Uruguay",
+        "age": 4,
+        "marketValue": "€2.80m"
+      },
+      {
+        "name": "Zaid Romero",
+        "position": "CB",
+        "nationality": "Argentina",
+        "age": 15,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Dakonam Djené",
+        "position": "CB",
+        "nationality": "Togo",
+        "age": 31,
+        "marketValue": "€1.60m"
+      },
+      {
+        "name": "Domingos Duarte",
+        "position": "CB",
+        "nationality": "Portugal",
+        "age": 10,
+        "marketValue": "€800k"
+      },
+      {
+        "name": "Diego Rico",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 23,
+        "marketValue": "€1.20m"
+      },
+      {
+        "name": "Davinchi",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 16,
+        "marketValue": "€1.00m"
+      },
+      {
+        "name": "Juan Iglesias",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 3,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Kiko Femenía",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 2,
+        "marketValue": "€800k"
+      },
+      {
+        "name": "Ismael Bekhoucha",
+        "position": "RB",
+        "nationality": "Morocco",
+        "age": 20,
+        "marketValue": "€300k"
+      },
+      {
+        "name": "Allan Nyom",
+        "position": "RB",
+        "nationality": "Cameroon",
+        "age": 10,
+        "marketValue": "€200k"
+      },
+      {
+        "name": "Mario Martín",
+        "position": "DM",
+        "nationality": "Spain",
+        "age": 5,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Mauro Arambarri",
+        "position": "CM",
+        "nationality": "Uruguay",
+        "age": 30,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Luis Milla",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 7,
+        "marketValue": "€3.50m"
+      },
+      {
+        "name": "Javi Muñoz",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 28,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Adrián Liso",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 2,
+        "marketValue": "€8.00m"
+      },
+      {
+        "name": "Veljko Birmancevic",
+        "position": "LW",
+        "nationality": "Serbia",
+        "age": 5,
+        "marketValue": "€4.50m"
+      },
+      {
+        "name": "Juanmi",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 20,
+        "marketValue": "€1.20m"
+      },
+      {
+        "name": "Abu Kamara",
+        "position": "RW",
+        "nationality": "England",
+        "age": 21,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Álex Sancris",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 18,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Borja Mayoral",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 5,
+        "marketValue": "€7.50m"
+      },
+      {
+        "name": "Martín Satriano",
+        "position": "CF",
+        "nationality": "Uruguay",
+        "age": 20,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Luis Vázquez",
+        "position": "CF",
+        "nationality": "Argentina",
+        "age": 24,
+        "marketValue": "€2.00m"
+      }
+    ]
+  },
+  {
+    "teamName": "Osasuna",
+    "players": [
+      {
+        "name": "Sergio Herrera",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 5,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Aitor Fernández",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 3,
+        "marketValue": "€600k"
+      },
+      {
+        "name": "Enzo Boyomo",
+        "position": "CB",
+        "nationality": "Cameroon",
+        "age": 7,
+        "marketValue": "€20.00m"
+      },
+      {
+        "name": "Jorge Herrando",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 28,
+        "marketValue": "€3.50m"
+      },
+      {
+        "name": "Alejandro Catena",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 28,
+        "marketValue": "€2.80m"
+      },
+      {
+        "name": "Abel Bretones",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 21,
+        "marketValue": "€4.50m"
+      },
+      {
+        "name": "Javi Galán",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 19,
+        "marketValue": "€3.50m"
+      },
+      {
+        "name": "Juan Cruz",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 28,
+        "marketValue": "€1.20m"
+      },
+      {
+        "name": "Valentin Rosier",
+        "position": "RB",
+        "nationality": "France",
+        "age": 19,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Iñigo Arguibide",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 19,
+        "marketValue": "€500k"
+      },
+      {
+        "name": "Lucas Torró",
+        "position": "DM",
+        "nationality": "Spain",
+        "age": 19,
+        "marketValue": "€2.80m"
+      },
+      {
+        "name": "Iker Muñoz",
+        "position": "DM",
+        "nationality": "Spain",
+        "age": 5,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Jon Moncayola",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 13,
+        "marketValue": "€7.00m"
+      },
+      {
+        "name": "Asier Osambela",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 30,
+        "marketValue": "€1.00m"
+      },
+      {
+        "name": "Aimar Oroz",
+        "position": "AM",
+        "nationality": "Spain",
+        "age": 27,
+        "marketValue": "€9.00m"
+      },
+      {
+        "name": "Moi Gómez",
+        "position": "AM",
+        "nationality": "Spain",
+        "age": 23,
+        "marketValue": "€1.80m"
+      },
+      {
+        "name": "Víctor Muñoz",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 13,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Raúl Moro",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 5,
+        "marketValue": "€7.00m"
+      },
+      {
+        "name": "Rubén García",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 14,
+        "marketValue": "€1.80m"
+      },
+      {
+        "name": "Iker Benito",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 10,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Kike Barja",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 1,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Raúl García",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 3,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Ante Budimir",
+        "position": "CF",
+        "nationality": "Croatia",
+        "age": 22,
+        "marketValue": "€3.00m"
+      }
+    ]
+  },
+  {
+    "teamName": "RCD Mallorca",
+    "players": [
+      {
+        "name": "Leo Román",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 6,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Lucas Bergström",
+        "position": "GK",
+        "nationality": "Finland",
+        "age": 5,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Iván Cuéllar",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 27,
+        "marketValue": "€100k"
+      },
+      {
+        "name": "Marash Kumbulla",
+        "position": "CB",
+        "nationality": "Albania",
+        "age": 8,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Martin Valjent",
+        "position": "CB",
+        "nationality": "Slovakia",
+        "age": 11,
+        "marketValue": "€4.50m"
+      },
+      {
+        "name": "Antonio Raíllo",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 8,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "David López",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 3,
+        "marketValue": "€600k"
+      },
+      {
+        "name": "Johan Mojica",
+        "position": "LB",
+        "nationality": "Colombia",
+        "age": 21,
+        "marketValue": "€1.80m"
+      },
+      {
+        "name": "Toni Lato",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 21,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Pablo Maffeo",
+        "position": "RB",
+        "nationality": "Argentina",
+        "age": 12,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Mateu Morey",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 2,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Samú Costa",
+        "position": "DM",
+        "nationality": "Portugal",
+        "age": 27,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Omar Mascarell",
+        "position": "DM",
+        "nationality": "Equatorial Guinea",
+        "age": 2,
+        "marketValue": "€800k"
+      },
+      {
+        "name": "Sergi Darder",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 22,
+        "marketValue": "€3.50m"
+      },
+      {
+        "name": "Antonio Sánchez",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 22,
+        "marketValue": "€2.40m"
+      },
+      {
+        "name": "Manu Morlanes",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 12,
+        "marketValue": "€2.40m"
+      },
+      {
+        "name": "Jan Salas",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 10,
+        "marketValue": "€500k"
+      },
+      {
+        "name": "Pablo Torre",
+        "position": "AM",
+        "nationality": "Spain",
+        "age": 3,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Jan Virgili",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 26,
+        "marketValue": "€12.00m"
+      },
+      {
+        "name": "Javi Llabrés",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 11,
+        "marketValue": "€800k"
+      },
+      {
+        "name": "Takuma Asano",
+        "position": "RW",
+        "nationality": "Japan",
+        "age": 10,
+        "marketValue": "€1.80m"
+      },
+      {
+        "name": "Justin Kalumba",
+        "position": "RW",
+        "nationality": "France",
+        "age": 25,
+        "marketValue": "€800k"
+      },
+      {
+        "name": "Vedat Muriqi",
+        "position": "CF",
+        "nationality": "Kosovo",
+        "age": 24,
+        "marketValue": "€4.50m"
+      },
+      {
+        "name": "Zito Luvumbo",
+        "position": "CF",
+        "nationality": "Angola",
+        "age": 9,
+        "marketValue": "€3.50m"
+      },
+      {
+        "name": "Mateo Joseph",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 19,
+        "marketValue": "€3.50m"
+      },
+      {
+        "name": "Abdón Prats",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 7,
+        "marketValue": "€900k"
+      }
+    ]
+  },
+  {
+    "teamName": "Deportivo Alaves",
+    "players": [
+      {
+        "name": "Antonio Sivera",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 11,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Raúl Fernández",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 13,
+        "marketValue": "€200k"
+      },
+      {
+        "name": "Jon Pacheco",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 8,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Ville Koski",
+        "position": "CB",
+        "nationality": "Finland",
+        "age": 27,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Facundo Garcés",
+        "position": "CB",
+        "nationality": "Malaysia",
+        "age": 5,
+        "marketValue": "-"
+      },
+      {
+        "name": "Youssef Enríquez",
+        "position": "LB",
+        "nationality": "Morocco",
+        "age": 7,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Victor Parada",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 4,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Nahuel Tenaglia",
+        "position": "RB",
+        "nationality": "Argentina",
+        "age": 21,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Jonny Otto",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 3,
+        "marketValue": "€2.50m"
+      },
+      {
+        "name": "Antonio Blanco",
+        "position": "DM",
+        "nationality": "Spain",
+        "age": 23,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Carlos Protesoni",
+        "position": "DM",
+        "nationality": "Uruguay",
+        "age": 30,
+        "marketValue": "€1.00m"
+      },
+      {
+        "name": "Ander Guevara",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 7,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Carles Aleñá",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 5,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Pablo Ibáñez",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 20,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Jon Guridi",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 28,
+        "marketValue": "€2.50m"
+      },
+      {
+        "name": "Calebe",
+        "position": "AM",
+        "nationality": "Brazil",
+        "age": 30,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Denis Suárez",
+        "position": "AM",
+        "nationality": "Spain",
+        "age": 6,
+        "marketValue": "€1.20m"
+      },
+      {
+        "name": "Abde Rebbach",
+        "position": "LW",
+        "nationality": "Algeria",
+        "age": 11,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Ángel Pérez",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 8,
+        "marketValue": "€600k"
+      },
+      {
+        "name": "Lucas Boyé",
+        "position": "CF",
+        "nationality": "Argentina",
+        "age": 28,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Toni Martínez",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 30,
+        "marketValue": "€3.50m"
+      },
+      {
+        "name": "Ibrahim Diabate",
+        "position": "CF",
+        "nationality": "Cote d'Ivoire",
+        "age": 17,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Mariano Díaz",
+        "position": "CF",
+        "nationality": "Dominican Republic",
+        "age": 1,
+        "marketValue": "€800k"
+      },
+      {
+        "name": "Aitor Mañas",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 5,
+        "marketValue": "€200k"
+      }
+    ]
+  },
+  {
+    "teamName": "Rayo Vallecano",
+    "players": [
+      {
+        "name": "Augusto Batalla",
+        "position": "GK",
+        "nationality": "Argentina",
+        "age": 30,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Dani Cárdenas",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 28,
+        "marketValue": "€1.80m"
+      },
+      {
+        "name": "Nobel Mendy",
+        "position": "CB",
+        "nationality": "Senegal",
+        "age": 3,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Abdul Mumin",
+        "position": "CB",
+        "nationality": "Ghana",
+        "age": 6,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Luiz Felipe",
+        "position": "CB",
+        "nationality": "Italy",
+        "age": 22,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Jozhua Vertrouwd",
+        "position": "CB",
+        "nationality": "Netherlands",
+        "age": 21,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Florian Lejeune",
+        "position": "CB",
+        "nationality": "France",
+        "age": 20,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Pep Chavarría",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 10,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Alfonso Espino",
+        "position": "LB",
+        "nationality": "Uruguay",
+        "age": 5,
+        "marketValue": "€1.00m"
+      },
+      {
+        "name": "Andrei Rațiu",
+        "position": "RB",
+        "nationality": "Romania",
+        "age": 20,
+        "marketValue": "€18.00m"
+      },
+      {
+        "name": "Iván Balliu",
+        "position": "RB",
+        "nationality": "Albania",
+        "age": 1,
+        "marketValue": "€1.20m"
+      },
+      {
+        "name": "Gerard Gumbau",
+        "position": "DM",
+        "nationality": "Spain",
+        "age": 18,
+        "marketValue": "€1.40m"
+      },
+      {
+        "name": "Pedro Díaz",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 5,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Unai López",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 30,
+        "marketValue": "€2.50m"
+      },
+      {
+        "name": "Óscar Valentín",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 20,
+        "marketValue": "€2.20m"
+      },
+      {
+        "name": "Pathé Ciss",
+        "position": "CM",
+        "nationality": "Senegal",
+        "age": 16,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Samu Becerra",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 1,
+        "marketValue": "€300k"
+      },
+      {
+        "name": "Randy Nteka",
+        "position": "AM",
+        "nationality": "Angola",
+        "age": 6,
+        "marketValue": "€1.20m"
+      },
+      {
+        "name": "Óscar Trejo",
+        "position": "AM",
+        "nationality": "Argentina",
+        "age": 26,
+        "marketValue": "€400k"
+      },
+      {
+        "name": "Carlos Martín",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 22,
+        "marketValue": "€2.50m"
+      },
+      {
+        "name": "Álvaro García",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 27,
+        "marketValue": "€1.80m"
+      },
+      {
+        "name": "Ilias Akhomach",
+        "position": "RW",
+        "nationality": "Morocco",
+        "age": 16,
+        "marketValue": "€12.00m"
+      },
+      {
+        "name": "Jorge de Frutos",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 20,
+        "marketValue": "€12.00m"
+      },
+      {
+        "name": "Fran Pérez",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 9,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Isi Palazón",
+        "position": "SS",
+        "nationality": "Spain",
+        "age": 27,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Alemão",
+        "position": "CF",
+        "nationality": "Brazil",
+        "age": 1,
+        "marketValue": "€3.50m"
+      },
+      {
+        "name": "Sergio Camello",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 10,
+        "marketValue": "€2.00m"
+      }
+    ]
+  },
+  {
+    "teamName": "Real Sociedad",
+    "players": [
+      {
+        "name": "Álex Remiro",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 24,
+        "marketValue": "€14.00m"
+      },
+      {
+        "name": "Unai Marrero",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 9,
+        "marketValue": "€600k"
+      },
+      {
+        "name": "Jon Martín",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 23,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Igor Zubeldia",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 30,
+        "marketValue": "€9.00m"
+      },
+      {
+        "name": "Duje Caleta-Car",
+        "position": "CB",
+        "nationality": "Croatia",
+        "age": 17,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Aritz Elustondo",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 28,
+        "marketValue": "€1.80m"
+      },
+      {
+        "name": "Sergio Gómez",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 4,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Aihen Muñoz",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 16,
+        "marketValue": "€3.50m"
+      },
+      {
+        "name": "Jon Aramburu",
+        "position": "RB",
+        "nationality": "Venezuela",
+        "age": 23,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Álvaro Odriozola",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 14,
+        "marketValue": "€800k"
+      },
+      {
+        "name": "Jon Gorrotxategi",
+        "position": "DM",
+        "nationality": "Spain",
+        "age": 2,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Luka Sucic",
+        "position": "CM",
+        "nationality": "Croatia",
+        "age": 8,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Yangel Herrera",
+        "position": "CM",
+        "nationality": "Venezuela",
+        "age": 7,
+        "marketValue": "€9.00m"
+      },
+      {
+        "name": "Beñat Turrientes",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 31,
+        "marketValue": "€8.00m"
+      },
+      {
+        "name": "Carlos Soler",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 2,
+        "marketValue": "€8.00m"
+      },
+      {
+        "name": "Brais Méndez",
+        "position": "AM",
+        "nationality": "Spain",
+        "age": 7,
+        "marketValue": "€12.00m"
+      },
+      {
+        "name": "Pablo Marín",
+        "position": "AM",
+        "nationality": "Spain",
+        "age": 3,
+        "marketValue": "€8.00m"
+      },
+      {
+        "name": "Arsen Zakharyan",
+        "position": "AM",
+        "nationality": "Russia",
+        "age": 26,
+        "marketValue": "€7.50m"
+      },
+      {
+        "name": "Ander Barrenetxea",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 27,
+        "marketValue": "€20.00m"
+      },
+      {
+        "name": "Gonçalo Guedes",
+        "position": "LW",
+        "nationality": "Portugal",
+        "age": 29,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Wesley",
+        "position": "LW",
+        "nationality": "Brazil",
+        "age": 5,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Takefusa Kubo",
+        "position": "RW",
+        "nationality": "Japan",
+        "age": 4,
+        "marketValue": "€30.00m"
+      },
+      {
+        "name": "Mikel Oyarzabal",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 21,
+        "marketValue": "€25.00m"
+      },
+      {
+        "name": "Orri Óskarsson",
+        "position": "CF",
+        "nationality": "Iceland",
+        "age": 29,
+        "marketValue": "€12.00m"
+      },
+      {
+        "name": "Jon Karrikaburu",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 19,
+        "marketValue": "€2.00m"
+      }
+    ]
+  },
+  {
+    "teamName": "Valencia",
+    "players": [
+      {
+        "name": "Julen Agirrezabala",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 26,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Stole Dimitrievski",
+        "position": "GK",
+        "nationality": "North Macedonia",
+        "age": 25,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Cristian Rivero",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 21,
+        "marketValue": "€100k"
+      },
+      {
+        "name": "César Tárrega",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 26,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "José Copete",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 10,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Unai Núñez",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 30,
+        "marketValue": "€3.50m"
+      },
+      {
+        "name": "Mouctar Diakhaby",
+        "position": "CB",
+        "nationality": "Guinea",
+        "age": 19,
+        "marketValue": "€2.80m"
+      },
+      {
+        "name": "Eray Cömert",
+        "position": "CB",
+        "nationality": "Switzerland",
+        "age": 4,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "José Gayà",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 25,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Jesús Vázquez",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 2,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Thierry Correia",
+        "position": "RB",
+        "nationality": "Portugal",
+        "age": 9,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Dimitri Foulquier",
+        "position": "RB",
+        "nationality": "Guadeloupe",
+        "age": 23,
+        "marketValue": "€1.20m"
+      },
+      {
+        "name": "Pepelu",
+        "position": "DM",
+        "nationality": "Spain",
+        "age": 11,
+        "marketValue": "€9.00m"
+      },
+      {
+        "name": "Guido Rodríguez",
+        "position": "DM",
+        "nationality": "Argentina",
+        "age": 12,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Baptiste Santamaria",
+        "position": "DM",
+        "nationality": "France",
+        "age": 9,
+        "marketValue": "€4.50m"
+      },
+      {
+        "name": "Javi Guerra",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 13,
+        "marketValue": "€25.00m"
+      },
+      {
+        "name": "Filip Ugrinic",
+        "position": "CM",
+        "nationality": "Switzerland",
+        "age": 5,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "André Almeida",
+        "position": "AM",
+        "nationality": "Portugal",
+        "age": 30,
+        "marketValue": "€9.00m"
+      },
+      {
+        "name": "Largie Ramazani",
+        "position": "LW",
+        "nationality": "Belgium",
+        "age": 27,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Arnaut Danjuma",
+        "position": "LW",
+        "nationality": "Netherlands",
+        "age": 31,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Luis Rioja",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 16,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Diego López",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 13,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Dani Raba",
+        "position": "SS",
+        "nationality": "Spain",
+        "age": 29,
+        "marketValue": "€2.40m"
+      },
+      {
+        "name": "Hugo Duro",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 10,
+        "marketValue": "€12.00m"
+      },
+      {
+        "name": "Lucas Beltrán",
+        "position": "CF",
+        "nationality": "Argentina",
+        "age": 29,
+        "marketValue": "€8.00m"
+      },
+      {
+        "name": "Umar Sadiq",
+        "position": "CF",
+        "nationality": "Nigeria",
+        "age": 2,
+        "marketValue": "€4.00m"
+      }
+    ]
+  },
+  {
+    "teamName": "Girona",
+    "players": [
+      {
+        "name": "Marc-André ter Stegen",
+        "position": "GK",
+        "nationality": "Germany",
+        "age": 30,
+        "marketValue": "€7.00m"
+      },
+      {
+        "name": "Paulo Gazzaniga",
+        "position": "GK",
+        "nationality": "Argentina",
+        "age": 2,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Vladyslav Krapyvtsov",
+        "position": "GK",
+        "nationality": "Ukraine",
+        "age": 25,
+        "marketValue": "€400k"
+      },
+      {
+        "name": "Juan Carlos",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 20,
+        "marketValue": "€100k"
+      },
+      {
+        "name": "Vitor Reis",
+        "position": "CB",
+        "nationality": "Brazil",
+        "age": 12,
+        "marketValue": "€30.00m"
+      },
+      {
+        "name": "Alejandro Francés",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 1,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Daley Blind",
+        "position": "CB",
+        "nationality": "Netherlands",
+        "age": 9,
+        "marketValue": "€1.40m"
+      },
+      {
+        "name": "David López",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 9,
+        "marketValue": "€800k"
+      },
+      {
+        "name": "Álex Moreno",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 8,
+        "marketValue": "€3.50m"
+      },
+      {
+        "name": "Arnau Martínez",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 25,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Hugo Rincón",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 27,
+        "marketValue": "€2.50m"
+      },
+      {
+        "name": "Axel Witsel",
+        "position": "DM",
+        "nationality": "Belgium",
+        "age": 12,
+        "marketValue": "€1.40m"
+      },
+      {
+        "name": "Azzedine Ounahi",
+        "position": "CM",
+        "nationality": "Morocco",
+        "age": 19,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Fran Beltrán",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 3,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Donny van de Beek",
+        "position": "CM",
+        "nationality": "Netherlands",
+        "age": 18,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Lass Kourouma",
+        "position": "CM",
+        "nationality": "Guinea",
+        "age": 30,
+        "marketValue": "€500k"
+      },
+      {
+        "name": "Claudio Echeverri",
+        "position": "AM",
+        "nationality": "Argentina",
+        "age": 2,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Iván Martín",
+        "position": "AM",
+        "nationality": "Spain",
+        "age": 14,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Thomas Lemar",
+        "position": "AM",
+        "nationality": "France",
+        "age": 12,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Bryan Gil",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 11,
+        "marketValue": "€12.00m"
+      },
+      {
+        "name": "Joel Roca",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 7,
+        "marketValue": "€5.00m"
+      },
+      {
+        "name": "Viktor Tsygankov",
+        "position": "RW",
+        "nationality": "Ukraine",
+        "age": 15,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Portu",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 21,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Vladyslav Vanat",
+        "position": "CF",
+        "nationality": "Ukraine",
+        "age": 4,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Abel Ruiz",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 28,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Cristhian Stuani",
+        "position": "CF",
+        "nationality": "Uruguay",
+        "age": 12,
+        "marketValue": "€900k"
+      }
+    ]
+  },
+  {
+    "teamName": "Real Oviedo",
+    "players": [
+      {
+        "name": "Sergio Herrera",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 5,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Aitor Fernández",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 3,
+        "marketValue": "€600k"
+      },
+      {
+        "name": "Enzo Boyomo",
+        "position": "CB",
+        "nationality": "Cameroon",
+        "age": 7,
+        "marketValue": "€20.00m"
+      },
+      {
+        "name": "Jorge Herrando",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 28,
+        "marketValue": "€3.50m"
+      },
+      {
+        "name": "Alejandro Catena",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 28,
+        "marketValue": "€2.80m"
+      },
+      {
+        "name": "Abel Bretones",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 21,
+        "marketValue": "€4.50m"
+      },
+      {
+        "name": "Javi Galán",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 19,
+        "marketValue": "€3.50m"
+      },
+      {
+        "name": "Juan Cruz",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 28,
+        "marketValue": "€1.20m"
+      },
+      {
+        "name": "Valentin Rosier",
+        "position": "RB",
+        "nationality": "France",
+        "age": 19,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Iñigo Arguibide",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 19,
+        "marketValue": "€500k"
+      },
+      {
+        "name": "Lucas Torró",
+        "position": "DM",
+        "nationality": "Spain",
+        "age": 19,
+        "marketValue": "€2.80m"
+      },
+      {
+        "name": "Iker Muñoz",
+        "position": "DM",
+        "nationality": "Spain",
+        "age": 5,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Jon Moncayola",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 13,
+        "marketValue": "€7.00m"
+      },
+      {
+        "name": "Asier Osambela",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 30,
+        "marketValue": "€1.00m"
+      },
+      {
+        "name": "Aimar Oroz",
+        "position": "AM",
+        "nationality": "Spain",
+        "age": 27,
+        "marketValue": "€9.00m"
+      },
+      {
+        "name": "Moi Gómez",
+        "position": "AM",
+        "nationality": "Spain",
+        "age": 23,
+        "marketValue": "€1.80m"
+      },
+      {
+        "name": "Víctor Muñoz",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 13,
+        "marketValue": "€10.00m"
+      },
+      {
+        "name": "Raúl Moro",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 5,
+        "marketValue": "€7.00m"
+      },
+      {
+        "name": "Rubén García",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 14,
+        "marketValue": "€1.80m"
+      },
+      {
+        "name": "Iker Benito",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 10,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Kike Barja",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 1,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Raúl García",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 3,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Ante Budimir",
+        "position": "CF",
+        "nationality": "Croatia",
+        "age": 22,
+        "marketValue": "€3.00m"
+      }
+    ]
+  },
+  {
+    "teamName": "Levante",
+    "players": [
+      {
+        "name": "Mathew Ryan",
+        "position": "GK",
+        "nationality": "Australia",
+        "age": 8,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Pablo Campos",
+        "position": "GK",
+        "nationality": "Spain",
+        "age": 28,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Matías Moreno",
+        "position": "CB",
+        "nationality": "Argentina",
+        "age": 24,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Alan Matturro",
+        "position": "CB",
+        "nationality": "Uruguay",
+        "age": 11,
+        "marketValue": "€4.00m"
+      },
+      {
+        "name": "Adrián Dela",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 26,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Unai Elgezabal",
+        "position": "CB",
+        "nationality": "Spain",
+        "age": 25,
+        "marketValue": "€600k"
+      },
+      {
+        "name": "Manu Sánchez",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 24,
+        "marketValue": "€6.00m"
+      },
+      {
+        "name": "Diego Pampín",
+        "position": "LB",
+        "nationality": "Spain",
+        "age": 15,
+        "marketValue": "€1.20m"
+      },
+      {
+        "name": "Jeremy Toljan",
+        "position": "RB",
+        "nationality": "Germany",
+        "age": 8,
+        "marketValue": "€2.20m"
+      },
+      {
+        "name": "Víctor García",
+        "position": "RB",
+        "nationality": "Spain",
+        "age": 16,
+        "marketValue": "€1.00m"
+      },
+      {
+        "name": "Ugo Raghouber",
+        "position": "DM",
+        "nationality": "France",
+        "age": 13,
+        "marketValue": "€3.00m"
+      },
+      {
+        "name": "Oriol Rey",
+        "position": "DM",
+        "nationality": "Spain",
+        "age": 25,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Kervin Arriaga",
+        "position": "DM",
+        "nationality": "Honduras",
+        "age": 5,
+        "marketValue": "€1.50m"
+      },
+      {
+        "name": "Pablo Martínez",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 22,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Unai Vencedor",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 15,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Jon Ander Olasagasti",
+        "position": "CM",
+        "nationality": "Spain",
+        "age": 16,
+        "marketValue": "€1.80m"
+      },
+      {
+        "name": "Roger Brugué",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 4,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "Paco Cortés",
+        "position": "LW",
+        "nationality": "Spain",
+        "age": 11,
+        "marketValue": "€300k"
+      },
+      {
+        "name": "Carlos Álvarez",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 6,
+        "marketValue": "€15.00m"
+      },
+      {
+        "name": "Tay Abed",
+        "position": "RW",
+        "nationality": "Israel",
+        "age": 3,
+        "marketValue": "€750k"
+      },
+      {
+        "name": "Kareem Tunde",
+        "position": "RW",
+        "nationality": "Spain",
+        "age": 19,
+        "marketValue": "€500k"
+      },
+      {
+        "name": "Iker Losada",
+        "position": "SS",
+        "nationality": "Spain",
+        "age": 1,
+        "marketValue": "€1.40m"
+      },
+      {
+        "name": "Karl Etta Eyong",
+        "position": "CF",
+        "nationality": "Cameroon",
+        "age": 14,
+        "marketValue": "€20.00m"
+      },
+      {
+        "name": "Iván Romero",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 10,
+        "marketValue": "€7.50m"
+      },
+      {
+        "name": "Carlos Espí",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 24,
+        "marketValue": "€2.00m"
+      },
+      {
+        "name": "José Luis Morales",
+        "position": "CF",
+        "nationality": "Spain",
+        "age": 23,
+        "marketValue": "€400k"
+      }
+    ]
+  }
+]

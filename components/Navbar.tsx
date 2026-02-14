@@ -49,6 +49,9 @@ export default function Navbar() {
                     <Link href="/compare" className="text-sm font-medium text-gray-300 transition-colors hover:text-white">
                         Karşılaştır
                     </Link>
+                    <Link href="/players" className="text-sm font-medium text-gray-300 transition-colors hover:text-white">
+                        Oyuncular
+                    </Link>
                     {user && (
                         <>
                             <Link href="/admin" className="text-sm font-medium text-yellow-400 transition-colors hover:text-yellow-300">
@@ -93,6 +96,9 @@ export default function Navbar() {
                         </Link>
                         <Link href="/compare" className="text-base font-medium text-gray-300 hover:text-white">
                             Karşılaştır
+                        </Link>
+                        <Link href="/players" className="text-base font-medium text-gray-300 hover:text-white">
+                            Oyuncular
                         </Link>
                         {user && (
                             <>
